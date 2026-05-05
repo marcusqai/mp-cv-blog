@@ -1,15 +1,11 @@
 ---
 title: "Curriculum Vitae"
-description: "Professional experience and qualifications"
+description: "APAC Supplier Quality & Operations Leader with expertise in sustainable supplier management, manufacturing transfer, and quality transformation"
 ---
 
-## Professional Profile
+## Profile
 
 **APAC Supplier Quality & Operations Leader**
-
----
-
-## Core Expertise
 
 Experienced in driving end-to-end supplier quality transformation and manufacturing relocation across the APAC region. Proven track record of establishing sustainable supplier management systems and elevating partner capabilities through systematic development programs, new product qualification processes, and localized testing infrastructure.
 
@@ -18,26 +14,22 @@ Experienced in driving end-to-end supplier quality transformation and manufactur
 ## Core Competencies
 
 ### Supplier Excellence
-
 - Spearheaded supplier quality improvement programs, achieving sustainable quality enhancement across APAC supplier base
 - Established comprehensive supplier qualification and audit frameworks
 - Implemented rigorous incoming inspection and process control systems
 - Built full sustainable supplier management systems from ground up
 
 ### Transfer & Localization
-
 - Led multiple manufacturing transfer projects from China to alternative APAC countries
 - Successfully relocated production to Thailand, Vietnam, and Cambodia while maintaining quality standards
 - Managed risk mitigation strategies throughout transition phases
 
 ### Product Development
-
 - Designed and implemented new product development process tailored for APAC suppliers
 - Set up local testing laboratory for product qualification, reducing time-to-market significantly
 - Established engineering validation and approval protocols
 
 ### Team & Organization
-
 - Built and managed high-performance quality teams across Thailand, Vietnam, and Cambodia
 - Developed regional quality organization structure in multinational environment
 - Cultivated local talent and created sustainable knowledge transfer mechanisms
@@ -52,7 +44,7 @@ I bring a systematic approach to quality transformation—combining rigorous met
 
 ## Industry Focus
 
-Specialized in premium outdoor electronic and electrical appliances and gas appliances for leading consumer brands, operating within MNC environments where compliance, quality, and high warranty expectations are critical.
+Premium outdoor electronic and electrical appliances, gas appliances | MNC environments | Compliance, quality, and high warranty expectations
 
 ---
 
