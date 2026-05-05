@@ -5,7 +5,7 @@ description: "Professional experience and qualifications"
 
 ## Summary
 
-Results-driven **Quality Engineer** with 8+ years of experience in supplier management, quality assurance, and continuous improvement within the automotive and manufacturing industries. Proven expertise in developing supplier quality programs, conducting audits, and driving corrective actions that reduce defect rates and improve overall supply chain performance.
+Results-driven **Quality Professional** with 8+ years of experience in supplier management, quality assurance, and continuous improvement within the automotive and manufacturing industries across Asia-Pacific (APAC) regions. Proven expertise in developing supplier quality programs, conducting audits, and driving corrective actions that reduce defect rates and improve overall supply chain performance.
 
 ---
 
@@ -24,18 +24,18 @@ Results-driven **Quality Engineer** with 8+ years of experience in supplier mana
 
 ## Professional Experience
 
-### Senior Quality Engineer — Supplier Quality
-**Global Manufacturing Corp.** | *Munich, Germany* | *Jan 2021 – Present*
+### Senior Quality Professional — Supplier Quality
+**Global Manufacturing Corp.** | *Singapore* | *Jan 2021 – Present*
 
-- Manage quality performance for a portfolio of **45+ Tier 1 and Tier 2 suppliers** across Europe and Asia
+- Manage quality performance for a portfolio of **45+ Tier 1 and Tier 2 suppliers** across Asia-Pacific
 - Led supplier audits resulting in a **32% reduction** in incoming defect rates over two years
 - Developed and implemented a supplier scorecard system, improving on-time quality reporting from 68% to 95%
 - Coordinated cross-functional teams to resolve critical supplier quality issues, reducing average resolution time by 40%
 - Conducted **20+ on-site supplier audits** annually, ensuring compliance with IATF 16949 and customer-specific requirements
-- Mentored junior engineers and supplier quality representatives, building a team of 5 direct reports
+- Mentored junior professionals and supplier quality representatives, building a team of 5 direct reports
 
-### Quality Engineer
-**Automotive Systems GmbH** | *Stuttgart, Germany* | *Mar 2018 – Dec 2020*
+### Quality Professional
+**Automotive Systems GmbH** | *Singapore* | *Mar 2018 – Dec 2020*
 
 - Supported launch of 12 new product programs, ensuring all PPAP submissions met customer requirements
 - Reduced warranty claims by **28%** through proactive supplier development and process improvements
@@ -44,7 +44,7 @@ Results-driven **Quality Engineer** with 8+ years of experience in supplier mana
 - Implemented SPC monitoring for key manufacturing processes, reducing process variation by 15%
 
 ### Junior Quality Technician
-**Precision Parts Ltd.** | *Birmingham, UK* | *Sep 2015 – Feb 2018*
+**Precision Parts Ltd.** | *Singapore* | *Sep 2015 – Feb 2018*
 
 - Performed incoming, in-process, and final inspections using CMM, calipers, and optical measurement systems
 - Assisted in ISO 9001 certification audit preparation, contributing to successful certification with zero major findings
@@ -89,8 +89,9 @@ Results-driven **Quality Engineer** with 8+ years of experience in supplier mana
 | Language | Proficiency |
 |----------|-------------|
 | English | Native |
+| Mandarin | Business Fluent |
 | German | C1 (Business Fluent) |
-| Spanish | B1 (Intermediate) |
+| Japanese | B1 (Intermediate) |
 
 ---
 

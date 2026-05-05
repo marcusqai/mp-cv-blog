@@ -1,6 +1,6 @@
 baseURL = "https://cv.marcuspoon.eu.org/"
 languageCode = "en-us"
-title = "Marcus Poon | Quality Engineer"
+title = "Marcus Poon | Quality Professional"
 theme = "PaperMod"
 pagination.pagerSize = 5
 enableRobotsTXT = true
@@ -8,7 +8,7 @@ enableEmoji = true
 
 [params]
   author = "Marcus Poon"
-  description = "Quality Engineer & Supplier Management Professional"
+  description = "Quality Professional | Supplier Management Specialist | APAC Region"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -21,7 +21,7 @@ enableEmoji = true
   [params.profileMode]
     enabled = true
     title = "Marcus Poon"
-    subtitle = "Quality Engineer & Supplier Management Professional"
+    subtitle = "Quality Professional | Supplier Management | APAC"
     imageUrl = "https://ui-avatars.com/api/?name=Marcus+Poon&size=200&background=1a1a2e&color=ffffff&bold=true"
     imageWidth = 150
     imageHeight = 150
