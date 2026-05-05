@@ -25,7 +25,7 @@ Results-driven **Quality Professional** with 8+ years of experience in supplier 
 ## Professional Experience
 
 ### Senior Quality Professional — Supplier Quality
-**Global Manufacturing Corp.** | *Singapore* | *Jan 2021 – Present*
+**Global Manufacturing Corp.** | *Mainland China / Hong Kong* | *Jan 2021 – Present*
 
 - Manage quality performance for a portfolio of **45+ Tier 1 and Tier 2 suppliers** across Asia-Pacific
 - Led supplier audits resulting in a **32% reduction** in incoming defect rates over two years
@@ -35,7 +35,7 @@ Results-driven **Quality Professional** with 8+ years of experience in supplier 
 - Mentored junior professionals and supplier quality representatives, building a team of 5 direct reports
 
 ### Quality Professional
-**Automotive Systems GmbH** | *Singapore* | *Mar 2018 – Dec 2020*
+**Automotive Systems GmbH** | *Mainland China / Hong Kong* | *Mar 2018 – Dec 2020*
 
 - Supported launch of 12 new product programs, ensuring all PPAP submissions met customer requirements
 - Reduced warranty claims by **28%** through proactive supplier development and process improvements
@@ -44,7 +44,7 @@ Results-driven **Quality Professional** with 8+ years of experience in supplier 
 - Implemented SPC monitoring for key manufacturing processes, reducing process variation by 15%
 
 ### Junior Quality Technician
-**Precision Parts Ltd.** | *Singapore* | *Sep 2015 – Feb 2018*
+**Precision Parts Ltd.** | *Mainland China / Hong Kong* | *Sep 2015 – Feb 2018*
 
 - Performed incoming, in-process, and final inspections using CMM, calipers, and optical measurement systems
 - Assisted in ISO 9001 certification audit preparation, contributing to successful certification with zero major findings
@@ -89,9 +89,8 @@ Results-driven **Quality Professional** with 8+ years of experience in supplier 
 | Language | Proficiency |
 |----------|-------------|
 | English | Native |
-| Mandarin | Business Fluent |
-| German | C1 (Business Fluent) |
-| Japanese | B1 (Intermediate) |
+| Cantonese | Native |
+| Mandarin | Native |
 
 ---
 
