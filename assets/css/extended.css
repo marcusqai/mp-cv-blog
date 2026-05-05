@@ -408,33 +408,57 @@ nav a:hover {
         transform: none !important;
     }
     
-    /* Simplify menu icons on mobile */
-    #menu li a span {
-        padding: 6px 8px;
-        font-size: 0.9rem;
-    }
-    
+    /* Mobile layout fix - increase spacing between logo and menu */
     .header-nav {
-        flex-wrap: nowrap;
-        gap: 10px;
+        justify-content: space-between;
+        gap: 20px;
     }
     
     .logo {
-        flex-shrink: 0;
+        flex-shrink: 1;
         gap: 8px;
+        margin-right: 16px;
+        min-width: 0;
+    }
+    
+    .logo a {
+        font-size: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     
     .logo-switches {
-        margin-left: 8px;
+        flex-shrink: 0;
     }
     
     #menu {
         gap: 4px;
-        margin-left: auto;
+        flex-shrink: 0;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
     }
     
-    .theme-toggle {
-        margin-left: 4px;
+    #menu::-webkit-scrollbar {
+        display: none;
+    }
+    
+    #menu li a {
+        padding: 4px 6px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
+/* Very small screens - hide emojis */
+@media screen and (max-width: 480px) {
+    #menu li a span {
+        font-size: 13px;
+    }
+    
+    .logo a {
+        font-size: 16px;
     }
 }
 
