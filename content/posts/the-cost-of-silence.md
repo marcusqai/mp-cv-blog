@@ -1,12 +1,13 @@
 ---
-title: "The Traffic Light Story"
+title: "The Cost of Silence: Ford's Traffic Light System"
 date: 2026-05-05T08:00:00+02:00
 draft: false
 tags:
   - leadership
   - management
   - organizational-culture
-summary: "How Alan Mulally's traffic light system saved Ford and what it teaches us about building a culture of honesty."
+  - quality
+summary: "How Alan Mulally's traffic light system at Ford Motor Company reveals the power of psychological safety in building honest quality cultures."
 ---
 
 In 2006, Ford Motor Company was on the brink of bankruptcy. At his first executive meeting, new CEO Alan Mulally placed a red traffic light on the conference table.
