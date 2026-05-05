@@ -1,7 +1,10 @@
 baseURL = "https://cv.marcuspoon.eu.org/"
 languageCode = "en-us"
-title = "Marcus Poon"
+title = "Marcus Poon | Quality Engineer"
 theme = "PaperMod"
+pagination.pagerSize = 5
+enableRobotsTXT = true
+enableEmoji = true
 
 [params]
   author = "Marcus Poon"
@@ -12,22 +15,33 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowToc = true
+  ShowToc = false
   env = "production"
 
-[params.homeInfoParams]
-  Title = "Hi there \U0001F44B"
-  Content = """
-    Welcome to my personal website. I'm a **Quality Engineer** specializing in **Supplier Management** and continuous improvement.
-    
-    I write about quality engineering, supplier development, process optimization, and lessons learned from the field.
-    """
+  [params.profileMode]
+    enabled = true
+    title = "Marcus Poon"
+    subtitle = "Quality Engineer & Supplier Management Professional"
+    imageUrl = "https://ui-avatars.com/api/?name=Marcus+Poon&size=200&background=1a1a2e&color=ffffff&bold=true"
+    imageWidth = 150
+    imageHeight = 150
+    buttons = [
+      { name = "View CV", url = "/cv/" },
+      { name = "Read Blog", url = "/posts/" }
+    ]
 
-[[params.socialIcons]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/marcuspoon/"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/marcuspoon/"
+    icon = "linkedin"
+    iconHeight = 24
 
 [menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 0
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
