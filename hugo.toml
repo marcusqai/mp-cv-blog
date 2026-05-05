@@ -43,12 +43,17 @@ enableEmoji = true
     identifier = "blog"
     name = "Blog"
     url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about-work"
+    name = "About Work"
+    url = "/about-work/"
     weight = 1
   [[menu.main]]
     identifier = "cv"
     name = "CV"
     url = "/cv/"
-    weight = 2
+    weight = 3
 
 [taxonomies]
   tag = "tags"
