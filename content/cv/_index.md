@@ -11,7 +11,7 @@ description: "Professional experience and qualifications"
 
 ## Core Expertise
 
-Experienced in driving end-to-end supplier quality transformation and manufacturing relocation across the APAC region. Proven track record of elevating supplier performance standards by 4x through systematic development programs, new product qualification processes, and localized testing infrastructure.
+Experienced in driving end-to-end supplier quality transformation and manufacturing relocation across the APAC region. Proven track record of establishing sustainable supplier management systems and elevating partner capabilities through systematic development programs, new product qualification processes, and localized testing infrastructure.
 
 ---
 
@@ -19,9 +19,10 @@ Experienced in driving end-to-end supplier quality transformation and manufactur
 
 ### Supplier Excellence
 
-- Spearheaded supplier quality improvement programs, achieving 4x quality enhancement across APAC supplier base
+- Spearheaded supplier quality improvement programs, achieving sustainable quality enhancement across APAC supplier base
 - Established comprehensive supplier qualification and audit frameworks
 - Implemented rigorous incoming inspection and process control systems
+- Built full sustainable supplier management systems from ground up
 
 ### Transfer & Localization
 
