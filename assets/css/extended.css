@@ -363,23 +363,21 @@ nav a:hover {
     border-radius: 12px;
     padding: 8px 12px;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background 0.2s ease, border-color 0.2s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 10;
 }
 
 .theme-toggle:hover {
     background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
     border-color: var(--accent-color);
     box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
-    transform: scale(1.05);
 }
 
 .theme-toggle svg {
-    transition: all 0.3s ease;
-}
-
-.theme-toggle:hover svg {
-    transform: rotate(15deg);
+    transition: all 0.2s ease;
 }
 
 [data-theme="dark"] .theme-toggle {
@@ -390,6 +388,38 @@ nav a:hover {
 [data-theme="dark"] .theme-toggle:hover {
     background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
     border-color: var(--accent-color);
+}
+
+/* Mobile fixes for theme toggle */
+@media screen and (max-width: 768px) {
+    .theme-toggle {
+        padding: 10px 14px;
+        min-width: 44px;
+        min-height: 44px;
+        border-radius: 10px;
+        transform: none !important;
+    }
+    
+    .theme-toggle:hover {
+        transform: none !important;
+    }
+    
+    .theme-toggle:hover svg {
+        transform: none !important;
+    }
+    
+    /* Simplify menu icons on mobile */
+    #menu li a span {
+        padding: 6px 10px;
+    }
+    
+    .header-nav {
+        flex-wrap: nowrap;
+    }
+    
+    .logo {
+        flex-shrink: 0;
+    }
 }
 
 /* Social icons styling */
