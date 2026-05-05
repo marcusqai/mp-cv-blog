@@ -1,63 +1,32 @@
 ---
-title: "Getting Started with Supplier Quality Management"
-date: 2026-05-05T10:00:00+02:00
+title: "The Traffic Light Story"
+date: 2026-05-05T08:00:00+02:00
 draft: false
 tags:
-  - supplier-quality
-  - quality-engineering
-  - best-practices
-summary: "A practical introduction to building effective supplier quality programs from the ground up."
+  - leadership
+  - management
+  - organizational-culture
+summary: "How Alan Mulally's traffic light system saved Ford and what it teaches us about building a culture of honesty."
 ---
 
-## Introduction
+In 2006, Ford Motor Company was on the brink of bankruptcy. At his first executive meeting, new CEO Alan Mulally placed a red traffic light on the conference table.
 
-Supplier quality management is one of the most impactful yet underappreciated disciplines in modern manufacturing. As supply chains grow increasingly global and complex, the ability to ensure consistent quality from external partners becomes a critical competitive advantage.
+Every executive's face went pale.
 
-In this post, I'll share the foundational principles I've learned over the years for building supplier quality programs that actually work.
+Mulally said calmly: "I want you to tell me the bad news — not to tell me that everything is fine."
 
-## Start with Clear Expectations
+He established a red-yellow-green marking system. Initially all projects were green — despite the company losing billions, no one dared to mark anything red.
 
-The single most common root cause of supplier quality issues is **ambiguous requirements**. Before a supplier ever produces a single part, ensure that:
+Until one executive finally marked an airbag project as red. The entire room fell silent, waiting for punishment. Mulally clapped and said: "Excellent! We finally know where the problem is."
 
-1. **Technical specifications** are complete, unambiguous, and version-controlled
-2. **Critical-to-quality (CTQ) characteristics** are clearly identified and communicated
-3. **Acceptance criteria** are defined with measurable thresholds
-4. **Communication channels** are established with defined escalation paths
+Three years later, Ford became the only American automaker that didn't require a government bailout.
 
-## Build Relationships, Not Just Contracts
+## Key Takeaways
 
-A supplier quality program built solely on audits and penalties will always be reactive. The most effective programs I've seen invest in:
+- **Build psychological safety** — Let employees speak the truth
+- **Simplicity beats complexity** — A traffic light system anyone can understand
+- **Embrace bad news** — The earlier you find it, the lower the cost to fix it
 
-- **Regular technical exchanges** between your engineers and theirs
-- **Joint improvement projects** that benefit both parties
-- **Transparent sharing** of performance data and expectations
-- **Early involvement** of suppliers in the product development phase (APQP)
+> "A truly excellent leader is not a person without problems, but the one who discovers problems earliest."
 
-## Measure What Matters
-
-Tracking defect rates alone gives you a rear-view mirror perspective. A mature supplier quality program should monitor:
-
-| Metric | Purpose |
-|--------|---------|
-| PPM Defect Rate | Baseline quality performance |
-| On-Time Delivery | Supply chain reliability |
-| Corrective Action Cycle Time | Responsiveness to issues |
-| Audit Score Trends | Systemic improvement trajectory |
-| First-Pass Yield | Process capability |
-
-## The Power of Prevention
-
-Every dollar spent on prevention saves approximately $10 on correction and $100 on failure (the classic "1-10-100 rule"). Invest in:
-
-- **Supplier process audits** (VDA 6.3 or equivalent)
-- **Statistical process capability studies** before PPAP approval
-- **Error-proofing (Poka-Yoke)** implementation at the source
-- **Layered process audits** to sustain improvements
-
-## Closing Thoughts
-
-Supplier quality management is not a destination — it's a continuous journey of improvement. The organizations that excel are those that treat their suppliers as true partners in quality, rather than adversaries to be policed.
-
-In future posts, I'll dive deeper into specific topics like FMEA best practices, effective 8D problem solving, and building data-driven supplier scorecards.
-
-Stay tuned.
+This story from Ford illustrates a fundamental truth about organizational culture. The real danger was never the red light itself — it was the silence that came before it.
