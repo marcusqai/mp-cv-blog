@@ -1,0 +1,22 @@
+# Hugo
+public/
+resources/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (if using npm for assets)
+node_modules/
+
+# Debug
+npm-debug.log*
+
+# Hugo server draft
+.hugo_build.lock

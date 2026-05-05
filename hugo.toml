@@ -1,0 +1,57 @@
+baseURL = "https://marcusqai.github.io/mp-cv-blog/"
+languageCode = "en-us"
+title = "Marcus Poon"
+theme = "PaperMod"
+
+[params]
+  author = "Marcus Poon"
+  description = "Quality Engineer & Supplier Management Professional"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  env = "production"
+
+[params.homeInfoParams]
+  Title = "Hi there \U0001F44B"
+  Content = """
+    Welcome to my personal website. I'm a **Quality Engineer** specializing in **Supplier Management** and continuous improvement.
+    
+    I write about quality engineering, supplier development, process optimization, and lessons learned from the field.
+    """
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/marcuspoon/"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[privacy.vimeo]
+  disabled = true
+[privacy.twitter]
+  disabled = true
+[privacy.youtube]
+  disabled = true
