@@ -1,6 +1,6 @@
 ---
 title: "Building Sustainable Supplier Management Systems"
-date: 2026-05-06T09:00:00+02:00
+date: 2026-05-05T09:00:00+02:00
 draft: false
 tags:
   - supplier-quality
