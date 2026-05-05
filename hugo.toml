@@ -24,6 +24,7 @@ enableEmoji = true
     subtitle = "APAC Supplier Quality & Operations Leader"
     buttons = [
       { name = "📄 View CV", url = "/cv/" },
+      { name = "🔧 About Work", url = "/about-work/" },
       { name = "✍️ Read Blog", url = "/posts/" }
     ]
 
