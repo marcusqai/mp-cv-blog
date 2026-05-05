@@ -1,0 +1,23 @@
+{{- /* Footer custom content area start */ -}}
+
+<!-- Reading Progress Bar -->
+<div id="progress-bar" style="position: fixed; top: 0; left: 0; width: 0%; height: 3px; background: linear-gradient(90deg, #2563eb, #60a5fa); z-index: 9999; transition: width 0.1s ease-out;"></div>
+
+<script>
+(function() {
+    var progressBar = document.getElementById('progress-bar');
+    if (!progressBar) return;
+    
+    function updateProgress() {
+        var scrollTop = window.scrollY || document.documentElement.scrollTop;
+        var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        var progress = (scrollTop / docHeight) * 100;
+        progressBar.style.width = progress + '%';
+    }
+    
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+})();
+</script>
+
+{{- /* Footer custom content area end */ -}}

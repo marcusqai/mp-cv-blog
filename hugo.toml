@@ -29,6 +29,12 @@ enableEmoji = true
     ]
 
   [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/5whys-adblock/AdGuardHome-rules"
+    icon = "github"
+    iconHeight = 24
+
+  [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/marcuspoon/"
     icon = "linkedin"
@@ -37,22 +43,22 @@ enableEmoji = true
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = "Home"
+    name = "🏠 Home"
     url = "/"
     weight = 0
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
-  [[menu.main]]
     identifier = "about-work"
-    name = "About Work"
+    name = "🔧 About Work"
     url = "/about-work/"
     weight = 1
   [[menu.main]]
+    identifier = "blog"
+    name = "✍️ Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
     identifier = "cv"
-    name = "CV"
+    name = "📄 CV"
     url = "/cv/"
     weight = 3
 

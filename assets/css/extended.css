@@ -355,3 +355,114 @@ nav a:hover {
 [data-theme="dark"] .professional-quote {
     background: rgba(37, 99, 235, 0.1);
 }
+
+/* Improved dark mode toggle button */
+.theme-toggle {
+    background: linear-gradient(135deg, #f8fafc 0%, #e5e7eb 100%);
+    border: 2px solid var(--border-light);
+    border-radius: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.theme-toggle:hover {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    transform: scale(1.05);
+}
+
+.theme-toggle svg {
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover svg {
+    transform: rotate(15deg);
+}
+
+[data-theme="dark"] .theme-toggle {
+    background: linear-gradient(135deg, #374151 0%, #4b5563 100%);
+    border-color: #6b7280;
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+    border-color: var(--accent-color);
+}
+
+/* Social icons styling */
+.social-icons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--bg-subtle);
+    border-radius: 10px;
+    border: 1px solid var(--border-light);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons a:hover {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(37, 99, 235, 0.2);
+}
+
+.social-icons a:hover svg {
+    stroke: white;
+}
+
+.social-icons svg {
+    width: 20px;
+    height: 20px;
+    stroke: var(--text-primary);
+    transition: stroke 0.2s ease;
+}
+
+[data-theme="dark"] .social-icons a {
+    background: #374151;
+    border-color: #4b5563;
+}
+
+[data-theme="dark"] .social-icons svg {
+    stroke: #f3f4f6;
+}
+
+/* Menu improvements */
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#menu li a {
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+#menu li a:hover {
+    background: var(--accent-light);
+}
+
+#menu li a span.active {
+    background: var(--accent-color);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+[data-theme="dark"] #menu li a:hover {
+    background: rgba(37, 99, 235, 0.2);
+}
