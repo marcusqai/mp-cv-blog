@@ -47,17 +47,7 @@ Certain high-heat products, such as charcoal grates and burn pots, are manufactu
 
 Because there is no protective layer, the bare steel will naturally and immediately oxidize upon exposure to salt fog. Applying a visual Grade 9 painted-surface standard to functional bare metal is not technically meaningful. These items require qualitative structural integrity verification instead.
 
-## 4. The Scale Problem: Walk-in Chambers vs. Standard Chambers
-
-To test large, fully assembled units, laboratories must use massive 10 to 50 cubic meter walk-in chambers rather than the highly controlled 0.5 to 2 cubic meter standard chambers.
-
-Walk-in chambers suffer from:
-- **Temperature fluctuations** — ±3°C to 5°C variation
-- **Fog settlement variation** — 30% to 50% across different zones
-
-Because of this massive variance, whole-assembly results from a walk-in chamber cannot be accurately or directly compared to standard flat-panel test data.
-
-## 5. Redefining "Rust"
+## 4. Redefining "Rust"
 
 Real-world products contain multiple metals, meaning multiple types of oxidation will appear. ASTM D610 specifically defines true structural failing rust as red iron oxide (Fe₂O₃) on ferrous materials.
 
