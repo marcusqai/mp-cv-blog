@@ -30,7 +30,7 @@ Experienced in driving end-to-end supplier quality transformation and manufactur
 - Established engineering validation and approval protocols
 
 ### Team & Organization
-- Built and managed high-performance quality teams across Thailand, Vietnam, and Cambodia
+- Built and managed high-performance quality teams across Mainland China, Hong Kong, Thailand, Taipei City and Indonesia
 - Developed regional quality organization structure in multinational environment
 - Cultivated local talent and created sustainable knowledge transfer mechanisms
 
