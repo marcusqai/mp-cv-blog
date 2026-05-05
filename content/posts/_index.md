@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-description: "Thoughts, insights, and lessons from the world of Quality Engineering"
+description: "Musings on quality, technology, and everyday life"
 ---
