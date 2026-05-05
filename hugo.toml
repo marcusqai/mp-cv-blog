@@ -8,7 +8,7 @@ enableEmoji = true
 
 [params]
   author = "Marcus Poon"
-  description = "Quality Professional | Supplier Management Specialist | APAC Region"
+  description = "APAC Supplier Quality & Operations Leader | Sustainable Supplier Management | Manufacturing Transfer"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -21,13 +21,10 @@ enableEmoji = true
   [params.profileMode]
     enabled = true
     title = "Marcus Poon"
-    subtitle = "Quality Professional | Supplier Management | APAC"
-    imageUrl = "https://ui-avatars.com/api/?name=Marcus+Poon&size=200&background=1a1a2e&color=ffffff&bold=true"
-    imageWidth = 150
-    imageHeight = 150
+    subtitle = "APAC Supplier Quality & Operations Leader"
     buttons = [
-      { name = "View CV", url = "/cv/" },
-      { name = "Read Blog", url = "/posts/" }
+      { name = "📄 View CV", url = "/cv/" },
+      { name = "✍️ Read Blog", url = "/posts/" }
     ]
 
   [[params.socialIcons]]

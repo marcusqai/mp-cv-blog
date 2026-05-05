@@ -52,7 +52,7 @@ I bring a systematic approach to quality transformation—combining rigorous met
 
 ## Industry Focus
 
-Specialized in premium outdoor electronic and electrical appliances for leading consumer brands, operating within MNC environments where compliance, quality, and time-to-market are critical.
+Specialized in premium outdoor electronic and electrical appliances and gas appliances for leading consumer brands, operating within MNC environments where compliance, quality, and high warranty expectations are critical.
 
 ---
 
