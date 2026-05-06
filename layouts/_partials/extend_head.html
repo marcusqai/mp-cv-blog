@@ -1,71 +1,56 @@
-{{- /* Head custom content area start */ -}}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="alternate icon" href="/favicon.ico">
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
-new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
-"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,"script","dataLayer","GTM-TQ7S39ZG");</script>
-<!-- End Google Tag Manager -->
-
-{{- /* JSON-LD Person Schema — ALL PAGES */ -}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Marcus Poon",
-  "jobTitle": "APAC Supplier Quality & Operations Leader",
-  "url": "https://about.marcuspoon.eu.org{{ .RelPermalink }}",
-  "sameAs": [
-    "https://www.linkedin.com/in/marcuspoon/",
-    "https://github.com/5whys-adblock/AdGuardHome-rules"
-  ],
-  "description": "APAC Supplier Quality & Operations Leader specializing in sustainable supplier management, manufacturing transfer, quality transformation, corrosion testing, and statistical sampling across Mainland China, Hong Kong, Thailand, Vietnam, Cambodia, and Indonesia.",
-  "knowsAbout": [
-    "Supplier Quality Management",
-    "Manufacturing Transfer",
-    "Supplier Development",
-    "Quality Systems",
-    "APAC Operations",
-    "Corrosion Testing",
-    "Statistical Sampling",
-    "New Product Development",
-    "Team Building",
-    "ASTM Standards",
-    "Salt Fog Testing",
-    "Supplier Audit",
-    "ISO 2859",
-    "Quality Control",
-    "Manufacturing Relocation",
-    "China Manufacturing",
-    "Thailand Manufacturing",
-    "Vietnam Manufacturing",
-    "Supplier Qualification",
-    "Incoming Inspection",
-    "Process Control",
-    "Engineering Validation",
-    "Product Qualification",
-    "Testing Laboratory",
-    "Sustainable Supply Chain",
-    "Quality Engineering",
-    "Operations Leadership"
-  ],
-  "worksFor": {
-    "@type": "Organization",
-    "name": "APAC Operations"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressRegion": "Hong Kong"
-  }
+<style>
+/* Mobile header fixes */
+@media screen and (max-width: 768px) {
+    .header-nav {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .logo a {
+        white-space: nowrap;
+        font-size: 1.1rem;
+    }
+    #menu {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 4px;
+        margin: 0 -16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #menu::-webkit-scrollbar {
+        display: none;
+    }
+    #menu li {
+        display: inline-flex;
+    }
+    #menu li a {
+        padding: 8px 10px;
+    }
 }
-</script>
-
-{{- /* Head custom content area end */ -}}
+/* Profile section mobile fixes */
+@media screen and (max-width: 480px) {
+    .profile_inner h1 {
+        font-size: 1.8rem;
+    }
+    .profile_inner span {
+        font-size: 0.95rem;
+    }
+    .buttons {
+        flex-direction: column;
+        gap: 8px !important;
+    }
+    .buttons .button {
+        width: 100%;
+        text-align: center;
+    }
+}
+</style>
