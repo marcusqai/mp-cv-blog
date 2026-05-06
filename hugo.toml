@@ -25,6 +25,7 @@ enableEmoji = true
     buttons = [
       { name = "📄 View CV", url = "/cv/" },
       { name = "🔧 About Work", url = "/about-work/" },
+      { name = "💻 IT", url = "/it/" },
       { name = "✍️ Read Blog", url = "/posts/" }
     ]
 
@@ -52,15 +53,20 @@ enableEmoji = true
     url = "/about-work/"
     weight = 1
   [[menu.main]]
+    identifier = "it"
+    name = "💻 IT"
+    url = "/it/"
+    weight = 2
+  [[menu.main]]
     identifier = "blog"
     name = "✍️ Blog"
     url = "/posts/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "cv"
     name = "📄 CV"
     url = "/cv/"
-    weight = 3
+    weight = 4
 
 [taxonomies]
   tag = "tags"
