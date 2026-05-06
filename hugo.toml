@@ -20,7 +20,8 @@ ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowToc = false
 env = "production"
-images = [ "/images/social-share.svg",]
+images = [ "/images/social-share.svg" ]
+
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/5whys-adblock/AdGuardHome-rules"
@@ -63,42 +64,13 @@ identifier = "tech"
 name = "💻 Tech"
 url = "/tech/"
 weight = 4
-[[menu.main]]
-identifier = "home"
-name = "🏠 Home"
-url = "/"
-weight = 0
-
-[[menu.main]]
-identifier = "about-work"
-name = "🔧 About Work"
-url = "/about-work/"
-weight = 1
-
-[[menu.main]]
-identifier = "tech"
-name = "💻 Tech"
-url = "/tech/"
-weight = 2
-
-[[menu.main]]
-identifier = "blog"
-name = "✍️ Blog"
-url = "/posts/"
-weight = 3
-
-[[menu.main]]
-identifier = "cv"
-name = "📄 CV"
-url = "/cv/"
-weight = 4
 
 [taxonomies]
 tag = "tags"
 category = "categories"
 
 [outputs]
-home = [ "HTML", "RSS", "JSON",]
+home = [ "HTML", "RSS", "JSON" ]
 
 [params.profileMode]
 enabled = true
@@ -112,21 +84,6 @@ url = "/cv/"
 [[params.profileMode.buttons]]
 name = "🔧 About Work"
 url = "/about-work/"
-
-[[params.profileMode.buttons]]
-name = "✍️ Read Blog"
-url = "/posts/"
-[[params.profileMode.buttons]]
-name = "📄 View CV"
-url = "/cv/"
-
-[[params.profileMode.buttons]]
-name = "🔧 About Work"
-url = "/about-work/"
-
-[[params.profileMode.buttons]]
-name = "💻 Tech"
-url = "/tech/"
 
 [[params.profileMode.buttons]]
 name = "✍️ Read Blog"
