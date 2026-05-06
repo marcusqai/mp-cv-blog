@@ -5,11 +5,7 @@ draft: false
 tags:
   - quality
   - manufacturing
-  - history
-  - process-control
   - supply-chain
-  - FQC
-  - PPAP
 summary: "A bilingual journey through the evolution of quality management — from craftsmanship to global supply chain collaboration."
 ---
 
