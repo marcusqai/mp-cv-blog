@@ -2,8 +2,6 @@
 title: "Home"
 ---
 
-📧 [mail@marcuspoon.eu.org](mailto:mail@marcuspoon.eu.org)
-
 <div class="professional-quote">
 "Building sustainable quality systems that deliver consistent results across diverse APAC markets — combining rigorous methodology with practical implementation know-how."
 </div>

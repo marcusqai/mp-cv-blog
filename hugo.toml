@@ -41,6 +41,35 @@ url = "/"
 weight = 0
 
 [[menu.main]]
+identifier = "cv"
+name = "📄 CV"
+url = "/cv/"
+weight = 1
+
+[[menu.main]]
+identifier = "about-work"
+name = "🔧 About Work"
+url = "/about-work/"
+weight = 2
+
+[[menu.main]]
+identifier = "blog"
+name = "✍️ Blog"
+url = "/posts/"
+weight = 3
+
+[[menu.main]]
+identifier = "tech"
+name = "💻 Tech"
+url = "/tech/"
+weight = 4
+[[menu.main]]
+identifier = "home"
+name = "🏠 Home"
+url = "/"
+weight = 0
+
+[[menu.main]]
 identifier = "about-work"
 name = "🔧 About Work"
 url = "/about-work/"
@@ -75,6 +104,18 @@ home = [ "HTML", "RSS", "JSON",]
 enabled = true
 title = "Marcus Poon"
 subtitle = "APAC Supplier Quality & Operations Leader"
+
+[[params.profileMode.buttons]]
+name = "📄 View CV"
+url = "/cv/"
+
+[[params.profileMode.buttons]]
+name = "🔧 About Work"
+url = "/about-work/"
+
+[[params.profileMode.buttons]]
+name = "✍️ Read Blog"
+url = "/posts/"
 [[params.profileMode.buttons]]
 name = "📄 View CV"
 url = "/cv/"
