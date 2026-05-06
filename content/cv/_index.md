@@ -7,50 +7,35 @@ description: "APAC Supplier Quality & Operations Leader with expertise in sustai
 
 **APAC Supplier Quality & Operations Leader**
 
-Over 20 years of experience in management roles, driving end-to-end supplier quality transformation and manufacturing relocation across the APAC region. Proven track record of establishing sustainable supplier management systems and elevating partner capabilities through systematic development programs, new product qualification processes, and localized testing infrastructure.
+Over 20 years of management experience in MNC environments, driving supplier quality transformation and manufacturing relocation across the APAC region. Expertise in building sustainable supplier management systems from the ground up, establishing localized testing infrastructure, and elevating partner capabilities through systematic development programs.
 
 ---
 
 ## Core Competencies
 
 ### Supplier Excellence
-- Spearheaded supplier quality improvement programs, achieving sustainable quality enhancement across APAC supplier base
+- Built sustainable supplier management systems from the ground up
 - Established comprehensive supplier qualification and audit frameworks
-- Implemented rigorous incoming inspection and process control systems
-- Built full sustainable supplier management systems from ground up
+- Spearheaded quality improvement programs across APAC supplier base
 
-### Transfer & Localization
-- Led multiple manufacturing transfer projects from China to alternative APAC countries
-- Successfully relocated production to Thailand, Vietnam, and Cambodia while maintaining quality standards
+### Manufacturing Transfer & Localization
+- Led multiple manufacturing relocations from China to Thailand, Vietnam, and Cambodia
 - Managed risk mitigation strategies throughout transition phases
 
-### Product Development
-- Designed and implemented new product development process tailored for APAC suppliers
-- Set up local testing laboratory for product qualification, reducing time-to-market significantly
-- Established engineering validation and approval protocols
-
-### Team & Organization
-- Built and managed high-performance quality teams across Mainland China, Hong Kong, Thailand, Taipei City and Indonesia
-- Developed regional quality organization structure in multinational environment
-- Cultivated local talent and created sustainable knowledge transfer mechanisms
-
 ### Test Laboratory Development
-- Built a testing center from scratch for a domestic outdoor appliance brand, covering dimensional, chemical, mechanical, metallurgical, electronic, electrical, and reliability testing
+- Built a testing center from scratch covering dimensional, chemical, mechanical, metallurgical, electronic, electrical, and reliability testing
 
-### Automation & Standardization
-- Introduced automation processes for test result consistency; designed custom fixtures and jigs aligned with ASTM standards
-
-### AI-Driven Data Analysis
-- Integrated AI for data analysis and uncertainty research; validated cross-laboratory reliability through round-robin testing
+### Automation, AI & Data Analysis
+- Introduced automation for test consistency and designed custom fixtures/jigs aligned with ASTM standards
+- Integrated AI for data analysis; validated cross-laboratory reliability through round-robin testing
 
 ### Cross-Domain Collaboration & R&D Support
-- Assisted suppliers in establishing witness labs for certification; developed data-driven testing solutions for NPD and technical troubleshooting
+- Assisted suppliers in establishing witness labs for certification
+- Developed data-driven testing solutions for new product development and technical troubleshooting
 
----
-
-## Value Proposition
-
-I bring a systematic approach to quality transformation—combining rigorous methodology with practical implementation know-how. My track record demonstrates the ability to elevate supplier performance, execute complex transfers, and build organizations that deliver consistent results across diverse markets.
+### Team & Organization
+- Built and managed quality teams across Mainland China, Hong Kong, Thailand, Taipei City and Indonesia
+- Developed regional quality organization structure in multinational environment
 
 ---
 
