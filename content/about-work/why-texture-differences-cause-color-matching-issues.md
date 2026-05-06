@@ -18,9 +18,11 @@ The answer is rarely the formula. The answer is almost always **texture**.
 
 Pantone is a printed reference standard, CMYK offset lithography on high-quality white paper. Paint and plastic use pigment dispersion in entirely different media with different optical properties. A direct one-to-one translation is never achievable.
 
-![Pantone Standard vs. Physical Materials](/images/color-matching-infographic-1.jpg)
+![Pantone Standard vs. Physical Materials](/images/color-matching-1.jpg)
 
-But even when we accept this limitation and work with physical material standards, texture creates a fundamental problem: **identical pigment loads produce different visual results depending on surface finish**.
+The infographic above illustrates the fundamental gap: Pantone accuracy is 100 percent on paper, but drops significantly when applied to Acrylic, Paint, and Chrome substrates. The Material Accuracy Leaderboard shows that even with careful formulation, direct translation from Pantone to real-world materials is inherently limited.
+
+The Complexity Map further reveals why: production factors such as surface texture, substrate undertone, manufacturing process, batch inconsistency, and opacity variations all interact to shift the final color outcome.
 
 ## Why Identical Pigment Looks Different
 
@@ -44,9 +46,17 @@ Rough texture equals matte. Smooth texture equals shiny. The same pigment, diffe
 
 A colorimeter is designed to measure color difference, not texture. It takes a fixed-angle measurement and averages the light scattered in all directions simultaneously. The result is one average number that does not represent actual visual perception.
 
-In other words, the colorimeter includes texture as part of color difference. When Delta-E jumps between batches, you may be chasing a formula change when the real issue is process variation.
+![Why Texture Causes Color Issues](/images/color-matching-2.jpg)
 
-![Why Texture Causes Color Issues](/images/color-matching-infographic-2.jpg)
+As shown in the infographic above, surface texture physically alters how light interacts with the coating. Smooth surfaces reflect light uniformly, while textured surfaces create scattered reflection patterns. The colorimeter averages these scattered readings, but the human eye perceives the texture-driven variation as a color difference.
+
+Key factors that cause Delta-E to differ from human perception include:
+
+- **Texture scatters light** - The instrument averages; the eye sees peaks and valleys
+- **Gloss level changes perception** - Same pigment, different look under different lighting
+- **Metamerism** - Colors that match under D65 daylight may look different under 3000K retail lighting
+
+In other words, the colorimeter includes texture as part of color difference. When Delta-E jumps between batches, you may be chasing a formula change when the real issue is process variation.
 
 ## Manufacturing Variables That Destroy Color Consistency
 
