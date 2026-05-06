@@ -17,6 +17,7 @@ enableEmoji = true
   ShowCodeCopyButtons = true
   ShowToc = false
   env = "production"
+  images = ["/images/social-share.svg"]
 
   [params.profileMode]
     enabled = true
