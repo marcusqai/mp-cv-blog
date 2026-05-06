@@ -3,6 +3,8 @@ title: "Curriculum Vitae"
 description: "APAC Supplier Quality & Operations Leader with expertise in sustainable supplier management, manufacturing transfer, and quality transformation"
 ---
 
+📧 [mail@marcuspoon.eu.org](mailto:mail@marcuspoon.eu.org)
+
 ## Profile
 
 **APAC Supplier Quality & Operations Leader**
