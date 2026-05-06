@@ -1,86 +1,62 @@
 ---
 title: "Curriculum Vitae"
-description: "Professional experience and qualifications"
+description: "APAC Supplier Quality & Operations Leader with expertise in sustainable supplier management, manufacturing transfer, and quality transformation"
 ---
 
-## Summary
+## Profile
 
-Results-driven **Quality Engineer** with 8+ years of experience in supplier management, quality assurance, and continuous improvement within the automotive and manufacturing industries. Proven expertise in developing supplier quality programs, conducting audits, and driving corrective actions that reduce defect rates and improve overall supply chain performance.
+**APAC Supplier Quality & Operations Leader**
+
+Over 20 years of experience in management roles, driving end-to-end supplier quality transformation and manufacturing relocation across the APAC region. Proven track record of establishing sustainable supplier management systems and elevating partner capabilities through systematic development programs, new product qualification processes, and localized testing infrastructure.
 
 ---
 
 ## Core Competencies
 
-| Technical Skills | Soft Skills |
-|------------------|-------------|
-| APQP / PPAP | Cross-functional Leadership |
-| FMEA / Control Plans | Supplier Relationship Management |
-| SPC / MSA | Problem Solving (8D, 5 Whys) |
-| ISO 9001 / IATF 16949 | Negotiation & Communication |
-| Six Sigma (Green Belt) | Training & Mentoring |
-| Root Cause Analysis | Strategic Planning |
+### Supplier Excellence
+- Spearheaded supplier quality improvement programs, achieving sustainable quality enhancement across APAC supplier base
+- Established comprehensive supplier qualification and audit frameworks
+- Implemented rigorous incoming inspection and process control systems
+- Built full sustainable supplier management systems from ground up
+
+### Transfer & Localization
+- Led multiple manufacturing transfer projects from China to alternative APAC countries
+- Successfully relocated production to Thailand, Vietnam, and Cambodia while maintaining quality standards
+- Managed risk mitigation strategies throughout transition phases
+
+### Product Development
+- Designed and implemented new product development process tailored for APAC suppliers
+- Set up local testing laboratory for product qualification, reducing time-to-market significantly
+- Established engineering validation and approval protocols
+
+### Team & Organization
+- Built and managed high-performance quality teams across Mainland China, Hong Kong, Thailand, Taipei City and Indonesia
+- Developed regional quality organization structure in multinational environment
+- Cultivated local talent and created sustainable knowledge transfer mechanisms
+
+### Test Laboratory Development
+- Built a testing center from scratch for a domestic outdoor appliance brand, covering dimensional, chemical, mechanical, metallurgical, electronic, electrical, and reliability testing
+
+### Automation & Standardization
+- Introduced automation processes for test result consistency; designed custom fixtures and jigs aligned with ASTM standards
+
+### AI-Driven Data Analysis
+- Integrated AI for data analysis and uncertainty research; validated cross-laboratory reliability through round-robin testing
+
+### Cross-Domain Collaboration & R&D Support
+- Assisted suppliers in establishing witness labs for certification; developed data-driven testing solutions for NPD and technical troubleshooting
 
 ---
 
-## Professional Experience
+## Value Proposition
 
-### Senior Quality Engineer — Supplier Quality
-**Global Manufacturing Corp.** | *Munich, Germany* | *Jan 2021 – Present*
-
-- Manage quality performance for a portfolio of **45+ Tier 1 and Tier 2 suppliers** across Europe and Asia
-- Led supplier audits resulting in a **32% reduction** in incoming defect rates over two years
-- Developed and implemented a supplier scorecard system, improving on-time quality reporting from 68% to 95%
-- Coordinated cross-functional teams to resolve critical supplier quality issues, reducing average resolution time by 40%
-- Conducted **20+ on-site supplier audits** annually, ensuring compliance with IATF 16949 and customer-specific requirements
-- Mentored junior engineers and supplier quality representatives, building a team of 5 direct reports
-
-### Quality Engineer
-**Automotive Systems GmbH** | *Stuttgart, Germany* | *Mar 2018 – Dec 2020*
-
-- Supported launch of 12 new product programs, ensuring all PPAP submissions met customer requirements
-- Reduced warranty claims by **28%** through proactive supplier development and process improvements
-- Created and maintained FMEAs, Control Plans, and inspection documentation for critical components
-- Led 8D problem-solving investigations for customer complaints, achieving a 90% first-time approval rate
-- Implemented SPC monitoring for key manufacturing processes, reducing process variation by 15%
-
-### Junior Quality Technician
-**Precision Parts Ltd.** | *Birmingham, UK* | *Sep 2015 – Feb 2018*
-
-- Performed incoming, in-process, and final inspections using CMM, calipers, and optical measurement systems
-- Assisted in ISO 9001 certification audit preparation, contributing to successful certification with zero major findings
-- Documented non-conformances and supported corrective action implementation
-- Participated in Kaizen events that improved inspection throughput by 20%
+I bring a systematic approach to quality transformation—combining rigorous methodology with practical implementation know-how. My track record demonstrates the ability to elevate supplier performance, execute complex transfers, and build organizations that deliver consistent results across diverse markets.
 
 ---
 
-## Education
+## Industry Focus
 
-**M.Sc. Mechanical Engineering**
-*Technical University of Munich (TUM)* | *2013 – 2015*
-- Thesis: "Statistical Process Optimization in Supplier Manufacturing Networks"
-- GPA: 1.4 (German scale)
-
-**B.Sc. Industrial Engineering**
-*University of Birmingham* | *2010 – 2013*
-- First Class Honours
-
----
-
-## Certifications
-
-- **Six Sigma Green Belt** — ASQ (2019)
-- **Certified Quality Auditor (CQA)** — ASQ (2020)
-- **IATF 16949 Internal Auditor** — TÜV SÜD (2021)
-- **VDA 6.3 Process Auditor** — VDA QMC (2022)
-
----
-
-## Tools & Software
-
-- **Quality Management:** SAP QM, ETQ Reliance, MasterControl
-- **Statistical Analysis:** Minitab, JMP, R
-- **CAD/Engineering:** SolidWorks, AutoCAD, CATIA V5
-- **General:** MS Office (Advanced Excel), Jira, Confluence
+Premium outdoor electronic and electrical appliances, gas appliances | MNC environments | Compliance, quality, and high warranty expectations
 
 ---
 
@@ -89,15 +65,8 @@ Results-driven **Quality Engineer** with 8+ years of experience in supplier mana
 | Language | Proficiency |
 |----------|-------------|
 | English | Native |
-| German | C1 (Business Fluent) |
-| Spanish | B1 (Intermediate) |
-
----
-
-## Publications & Speaking
-
-- *"Building Resilient Supplier Quality Programs in a Global Supply Chain"* — ASQ World Conference on Quality, 2023
-- *"Data-Driven Supplier Development: From Reactive to Proactive"* — Internal Company Tech Talk, 2022
+| Cantonese | Native |
+| Mandarin | Native |
 
 ---
 
