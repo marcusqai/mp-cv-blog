@@ -1,6 +1,9 @@
 <style>
-/* Mobile header fixes */
+/* Desktop: buttons in row - already handled by inline style */
+
+/* Mobile: buttons stack vertically */
 @media screen and (max-width: 768px) {
+    /* Mobile header */
     .header-nav {
         flex-direction: column;
         align-items: stretch;
@@ -35,23 +38,24 @@
     #menu li a {
         padding: 8px 10px;
     }
-}
 
-/* Profile section mobile fixes */
-@media screen and (max-width: 480px) {
+    /* Profile: stack buttons vertically on mobile */
+    .buttons {
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        gap: 8px !important;
+    }
+    .buttons .button {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    /* Profile text adjustments */
     .profile_inner h1 {
         font-size: 1.8rem;
     }
     .profile_inner span {
         font-size: 0.95rem;
-    }
-    .buttons {
-        flex-direction: column;
-        gap: 8px !important;
-    }
-    .buttons .button {
-        width: 100%;
-        text-align: center;
     }
 }
 </style>

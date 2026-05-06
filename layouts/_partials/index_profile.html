@@ -68,9 +68,9 @@
         </div>
 
         {{- with .buttons }}
-        <div class="buttons">
+        <div class="buttons" style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; gap: 12px; max-width: 600px; margin: 0 auto;">
             {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}" style="white-space: nowrap;">
                 <span class="button-inner">
                     {{ .name }}
                     {{- if (findRE "://" .url) }}&nbsp;
