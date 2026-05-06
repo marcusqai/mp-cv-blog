@@ -9,7 +9,7 @@ description: "APAC Supplier Quality & Operations Leader with expertise in sustai
 
 📧 [mail@marcuspoon.eu.org](mailto:Marcus%20Poon%20%3Cmail@marcuspoon.eu.org%3E)
 
-Over 20 years of management experience in MNC environments, driving supplier quality transformation and manufacturing relocation across the APAC region. Expertise in building sustainable supplier management systems from the ground up, establishing localized testing infrastructure, and elevating partner capabilities through systematic development programs.
+Over 20 years of management experience in US-headquartered MNC environments, driving supplier quality transformation and manufacturing relocation across the APAC region. Expertise in building sustainable supplier management systems from the ground up, establishing localized testing infrastructure, and elevating partner capabilities through systematic development programs.
 
 ---
 
@@ -47,7 +47,7 @@ Over 20 years of management experience in MNC environments, driving supplier qua
 
 ## Industry Focus
 
-Premium outdoor electronic & electrical appliances, gas appliances — delivering supplier quality excellence, regulatory compliance, warranty cost reduction, and comprehensive testing lab management in MNC environments across APAC markets.
+Premium outdoor electronic & electrical appliances, gas appliances — delivering supplier quality excellence, regulatory compliance, warranty cost reduction, and comprehensive testing lab management in US-headquartered MNC environments with products sold globally, primarily in US & EMEA markets.
 
 ---
 
