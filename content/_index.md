@@ -6,11 +6,11 @@ title: "Home"
 "Building sustainable quality systems that deliver consistent results across diverse APAC markets — combining rigorous methodology with practical implementation know-how."
 </div>
 
+📧 [mail@marcuspoon.eu.org](mailto:mail@marcuspoon.eu.org)
+
 ## About Me
 
 Driving supplier quality transformation and manufacturing relocation across APAC. Specialized in establishing sustainable supplier management systems, executing complex transfers, and building organizations that deliver consistent results.
-
-📧 **Contact:** [mail@marcuspoon.eu.org](mailto:mail@marcuspoon.eu.org)
 
 ## Key Focus Areas
 
