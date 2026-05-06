@@ -8,10 +8,48 @@
 <link rel="alternate icon" href="/favicon.ico">
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TQ7S39ZG');</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TQ7S39ZG");</script>
 <!-- End Google Tag Manager -->
+
+{{- /* JSON-LD Person Schema — Home and CV Pages */ -}}
+{{- if or .IsHome (eq .Section "cv") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Marcus Poon",
+  "jobTitle": "APAC Supplier Quality & Operations Leader",
+  "url": "https://cv.marcuspoon.eu.org{{ .RelPermalink }}",
+  "sameAs": [
+    "https://www.linkedin.com/in/marcuspoon/",
+    "https://github.com/5whys-adblock/AdGuardHome-rules"
+  ],
+  "description": "Experienced in driving end-to-end supplier quality transformation and manufacturing relocation across the APAC region. Proven track record of establishing sustainable supplier management systems and elevating partner capabilities.",
+  "knowsAbout": [
+    "Supplier Quality Management",
+    "Manufacturing Transfer",
+    "Supplier Development",
+    "Quality Systems",
+    "APAC Operations",
+    "Corrosion Testing",
+    "Statistical Sampling",
+    "New Product Development",
+    "Team Building"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "APAC Operations"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Hong Kong"
+  }
+}
+</script>
+{{- end }}
+
 {{- /* Head custom content area end */ -}}
