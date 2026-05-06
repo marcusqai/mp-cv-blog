@@ -32,21 +32,23 @@
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
-        {{- partial "social_icons.html" -}}
 
-        {{- with site.Params.email }}
-        <a class="social-icons-link" href="mailto:{{ site.Params.email }}" title="Email" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:24px;height:24px">
-                <rect x="2" y="4" width="20" height="16" rx="2"/>
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
-            </svg>
-        </a>
-        {{- end }}
+        <div class="social-icons" style="display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: nowrap;">
+            {{- partial "social_icons.html" -}}
+            {{- with site.Params.email }}
+            <a class="social-icon" href="mailto:{{ site.Params.email }}" title="Email" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 0;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 24px; height: 24px;">
+                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+            </a>
+            {{- end }}
+        </div>
 
         {{- with .buttons }}
-        <div class="buttons">
+        <div class="buttons" style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 12px;">
             {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}" style="white-space: nowrap;">
                 <span class="button-inner">
                     {{ .name }}
                     {{- if (findRE "://" .url) }}&nbsp;
