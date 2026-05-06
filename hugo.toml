@@ -2,86 +2,102 @@ baseURL = "https://about.marcuspoon.eu.org/"
 languageCode = "en-us"
 title = "Marcus Poon | Quality Professional"
 theme = "PaperMod"
-pagination.pagerSize = 5
 enableRobotsTXT = true
 enableEmoji = true
 
+[pagination]
+pagerSize = 5
+
 [params]
-  author = "Marcus Poon"
-  description = "APAC Supplier Quality & Operations Leader | Sustainable Supplier Management | Manufacturing Transfer"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = false
-  env = "production"
-  images = ["/images/social-share.svg"]
+author = "Marcus Poon"
+description = "APAC Supplier Quality & Operations Leader | Sustainable Supplier Management | Manufacturing Transfer"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = false
+env = "production"
+images = [ "/images/social-share.svg",]
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/5whys-adblock/AdGuardHome-rules"
+icon = "github"
+iconHeight = 24
 
-  [params.profileMode]
-    enabled = true
-    title = "Marcus Poon"
-    subtitle = "APAC Supplier Quality & Operations Leader"
-    buttons = [
-      { name = "📄 View CV", url = "/cv/" },
-      { name = "🔧 About Work", url = "/about-work/" },
-      { name = "💻 Tech", url = "/tech/" },
-      { name = "✍️ Read Blog", url = "/posts/" }
-    ]
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/5whys-adblock/AdGuardHome-rules"
-    icon = "github"
-    iconHeight = 24
-
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/marcuspoon/"
-    icon = "linkedin"
-    iconHeight = 24
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/marcuspoon/"
+icon = "linkedin"
+iconHeight = 24
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "🏠 Home"
-    url = "/"
-    weight = 0
-  [[menu.main]]
-    identifier = "about-work"
-    name = "🔧 About Work"
-    url = "/about-work/"
-    weight = 1
-  [[menu.main]]
-    identifier = "tech"
-    name = "💻 Tech"
-    url = "/tech/"
-    weight = 2
-  [[menu.main]]
-    identifier = "blog"
-    name = "✍️ Blog"
-    url = "/posts/"
-    weight = 3
-  [[menu.main]]
-    identifier = "cv"
-    name = "📄 CV"
-    url = "/cv/"
-    weight = 4
+[[menu.main]]
+identifier = "home"
+name = "🏠 Home"
+url = "/"
+weight = 0
+
+[[menu.main]]
+identifier = "about-work"
+name = "🔧 About Work"
+url = "/about-work/"
+weight = 1
+
+[[menu.main]]
+identifier = "tech"
+name = "💻 Tech"
+url = "/tech/"
+weight = 2
+
+[[menu.main]]
+identifier = "blog"
+name = "✍️ Blog"
+url = "/posts/"
+weight = 3
+
+[[menu.main]]
+identifier = "cv"
+name = "📄 CV"
+url = "/cv/"
+weight = 4
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
+tag = "tags"
+category = "categories"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = [ "HTML", "RSS", "JSON",]
 
-[markup.goldmark.renderer]
-  unsafe = true
+[params.profileMode]
+enabled = true
+title = "Marcus Poon"
+subtitle = "APAC Supplier Quality & Operations Leader"
+[[params.profileMode.buttons]]
+name = "📄 View CV"
+url = "/cv/"
+
+[[params.profileMode.buttons]]
+name = "🔧 About Work"
+url = "/about-work/"
+
+[[params.profileMode.buttons]]
+name = "💻 Tech"
+url = "/tech/"
+
+[[params.profileMode.buttons]]
+name = "✍️ Read Blog"
+url = "/posts/"
 
 [privacy.vimeo]
-  disabled = true
+disabled = true
+
 [privacy.twitter]
-  disabled = true
+disabled = true
+
 [privacy.youtube]
-  disabled = true
+disabled = true
+
+[markup.goldmark.renderer]
+unsafe = true
