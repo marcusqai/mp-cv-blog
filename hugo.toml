@@ -11,6 +11,7 @@ pagerSize = 5
 [params]
 author = "Marcus Poon"
 description = "APAC Supplier Quality & Operations Leader | Sustainable Supplier Management | Manufacturing Transfer"
+email = "mail@marcuspoon.eu.org"
 defaultTheme = "auto"
 ShowReadingTime = true
 ShowShareButtons = false
