@@ -10,6 +10,8 @@ title: "Home"
 
 Driving supplier quality transformation and manufacturing relocation across APAC. Specialized in establishing sustainable supplier management systems, executing complex transfers, and building organizations that deliver consistent results.
 
+📧 **Contact:** [mail@marcuspoon.eu.org](mailto:mail@marcuspoon.eu.org)
+
 ## Key Focus Areas
 
 <div class="focus-grid">
