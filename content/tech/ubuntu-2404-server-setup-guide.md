@@ -8,6 +8,7 @@ tags:
   - docker
   - server
 summary: "A ready-to-use bash script for fresh Ubuntu 24.04 LTS servers — timezone, mirrors, SSH, Docker, and essential tools."
+description: "A ready-to-use bash script for fresh Ubuntu 24.04 LTS servers — timezone, mirrors, SSH, Docker, and essential tools."
 ---
 
 ## Overview

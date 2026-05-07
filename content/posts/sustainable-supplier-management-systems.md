@@ -7,6 +7,7 @@ tags:
   - supplier-management
   - apac
 summary: "A structured approach to establishing supplier management systems that deliver consistent, long-term quality excellence across diverse manufacturing regions."
+description: "A structured approach to establishing supplier management systems that deliver consistent, long-term quality excellence across diverse manufacturing reg..."
 ---
 
 ## Introduction

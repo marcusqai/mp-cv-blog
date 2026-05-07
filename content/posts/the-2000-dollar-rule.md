@@ -7,6 +7,7 @@ tags:
   - management
   - hospitality
 summary: "How the Ritz-Carlton's $2,000 empowerment rule proves that trust is the most powerful management tool."
+description: "How the Ritz-Carlton's $2,000 empowerment rule proves that trust is the most powerful management tool."
 ---
 
 🏨 **The Ritz-Carlton's $2,000 Rule**

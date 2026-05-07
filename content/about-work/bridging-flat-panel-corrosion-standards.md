@@ -7,6 +7,7 @@ tags:
   - corrosion-standards
   - astm-standards
 summary: "A technical deep-dive into why ASTM flat-panel corrosion testing standards create fundamental mismatches when applied to complex 3D manufacturing products."
+description: "A technical deep-dive into why ASTM flat-panel corrosion testing standards create fundamental mismatches when applied to complex 3D manufacturing products."
 ---
 
 Recent updates to environmental and corrosion testing protocols across the industry have introduced highly restrictive benchmarks for product quality. Many new standards mandate that metal products must achieve "no visible surface corrosion"—specifically an ASTM D610 Grade 9 rating—after 24 hours of 5% salt fog exposure (ASTM B117) and 24 hours of 95% humidity.

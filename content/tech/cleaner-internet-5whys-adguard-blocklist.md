@@ -8,6 +8,7 @@ tags:
   - privacy
   - china-region
 summary: "A customized AdGuard Home blocklist designed specifically for China region users — daily updated, three tiers of protection, and easy to deploy."
+description: "A customized AdGuard Home blocklist designed specifically for China region users — daily updated, three tiers of protection, and easy to deploy."
 ---
 
 ## The Problem: Ads and Trackers in China Region

@@ -8,6 +8,7 @@ tags:
   - pantone
   - delta-e
 summary: "Why identical pigments look different on textured surfaces, why Delta-E fails to match human perception, and why process control matters more than formula tweaking."
+description: "Why identical pigments look different on textured surfaces, why Delta-E fails to match human perception, and why process control matters more than formu..."
 ---
 
 In manufacturing, one of the most persistent quality challenges is color matching. A customer sends a Pantone chip, the lab formulates a match, the first batch looks perfect, and then batch number three looks completely different. The formula has not changed. The pigment is the same. So what went wrong?

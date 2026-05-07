@@ -7,6 +7,7 @@ tags:
   - ssh
   - security
 summary: "How to set up SSH key pair authentication for passwordless Linux server access."
+description: "How to set up SSH key pair authentication for passwordless Linux server access."
 ---
 
 To log into a Linux server without a password, the safest and most elegant approach is **SSH Key Pair Authentication**. Think of it as an electronic lock for your server — and you hold the only key.

@@ -7,6 +7,7 @@ tags:
   - manufacturing
   - supply-chain
 summary: "A bilingual journey through the evolution of quality management — from craftsmanship to global supply chain collaboration."
+description: "A bilingual journey through the evolution of quality management — from craftsmanship to global supply chain collaboration."
 ---
 
 ## 🎬 Watch the Video | 觀看影片
@@ -24,7 +25,7 @@ summary: "A bilingual journey through the evolution of quality management — fr
 
 歲月如一條靜謐的長河，品質管理的演進，便是一部人類在工業洪流中追求卓越的溫柔史詩。
 
-![品質管理三聯畫：工匠時代 → 檢驗時代 → 數據時代](/images/quality-evolution-triptych.png)
+![品質管理三聯畫：工匠時代 → 檢驗時代 → 數據時代](/images/quality-evolution-triptych.jpg)
 
 ### 工匠時代：品質源於指尖的溫度
 
@@ -60,7 +61,7 @@ summary: "A bilingual journey through the evolution of quality management — fr
 
 Time flows like a tranquil river, and the evolution of quality management is a gentle epic of humanity's pursuit of excellence in the industrial era.
 
-![Quality Management Triptych: Craftsmanship Era → Inspection Era → Data Era](/images/quality-evolution-triptych.png)
+![Quality Management Triptych: Craftsmanship Era → Inspection Era → Data Era](/images/quality-evolution-triptych.jpg)
 
 ### The Craftsmanship Era: Quality from the Warmth of Fingertips
 

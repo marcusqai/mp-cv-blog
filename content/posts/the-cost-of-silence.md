@@ -7,6 +7,7 @@ tags:
   - organizational-culture
   - quality
 summary: "How Alan Mulally's traffic light system at Ford Motor Company reveals the power of psychological safety in building honest quality cultures."
+description: "How Alan Mulally's traffic light system at Ford Motor Company reveals the power of psychological safety in building honest quality cultures."
 ---
 
 In 2006, Ford Motor Company was on the brink of bankruptcy. At his first executive meeting, new CEO Alan Mulally placed a red traffic light on the conference table.

@@ -7,6 +7,7 @@ tags:
   - statistics
   - sampling
 summary: "How to use the Rule of Three to determine appropriate sample sizes when verifying defect rates and validating customer complaints in quality control scenarios."
+description: "How to use the Rule of Three to determine appropriate sample sizes when verifying defect rates and validating customer complaints in quality control sce..."
 ---
 
 ## The Problem: Verifying Customer Complaints

@@ -7,9 +7,10 @@ tags:
   - paf-model
   - supplier-development
 summary: "Understanding how quality costs break down into Prevention, Appraisal, and Failure—and why investing in prevention yields the highest ROI. 理解品質成本如何分解為預防、鑑定與失敗三大類——以及為何預防投資能帶來最高的投資報酬率。"
+description: "Understanding how quality costs break down into Prevention, Appraisal, and Failure—and why investing in prevention yields the highest ROI. 理解品質成本如何分解為預防..."
 ---
 
-![PAF Cost of Quality Framework / PAF 品質成本框架](/images/paf-cost-of-quality.png)
+![PAF Cost of Quality Framework / PAF 品質成本框架](/images/paf-cost-of-quality.jpg)
 
 {{< video src="/videos/paf_quality_cost_en.mp4" >}}
 
