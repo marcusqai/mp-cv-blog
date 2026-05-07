@@ -106,13 +106,27 @@
 </div>
 
 <script>
-function copyPageLink(btn) {
-  const url = btn.getAttribute('data-url');
-  navigator.clipboard.writeText(url).then(function() {
-    btn.classList.add('copied');
-    setTimeout(function() {
-      btn.classList.remove('copied');
-    }, 1500);
-  });
+async function copyPageLink(btn) {
+  var url = btn.getAttribute('data-url');
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    try {
+      await navigator.clipboard.writeText(url);
+      btn.classList.add('copied');
+      setTimeout(function() { btn.classList.remove('copied'); }, 1500);
+      return;
+    } catch (e) {}
+  }
+
+  var ta = document.createElement('textarea');
+  ta.value = url;
+  ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); } catch (e) {}
+  document.body.removeChild(ta);
+
+  btn.classList.add('copied');
+  setTimeout(function() { btn.classList.remove('copied'); }, 1500);
 }
 </script>
