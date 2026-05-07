@@ -94,3 +94,9 @@ disabled = true
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[[menu.main]]
+identifier = "tags"
+name = "🏷️"
+url = "/tags/"
+weight = 5
