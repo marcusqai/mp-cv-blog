@@ -5,10 +5,8 @@ draft: false
 tags:
   - quality
   - color-matching
-  - manufacturing
-  - process-control
-  - Pantone
-  - Delta-E
+  - pantone
+  - delta-e
 summary: "Why identical pigments look different on textured surfaces, why Delta-E fails to match human perception, and why process control matters more than formula tweaking."
 ---
 

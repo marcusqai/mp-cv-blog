@@ -3,11 +3,9 @@ title: "A Cleaner Internet for China Region Users: 5whys AdGuard Home Blocklist"
 date: 2026-05-05T11:00:00+02:00
 draft: false
 tags:
-  - it
+  - tech
   - adguard
   - privacy
-  - adguard
-  - networking
   - china-region
 summary: "A customized AdGuard Home blocklist designed specifically for China region users — daily updated, three tiers of protection, and easy to deploy."
 ---

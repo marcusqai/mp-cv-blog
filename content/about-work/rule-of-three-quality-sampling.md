@@ -3,10 +3,9 @@ title: "The Rule of Three: Statistical Sampling for Quality Verification"
 date: 2026-05-05T12:00:00+02:00
 draft: false
 tags:
+  - quality
   - statistics
-  - quality-engineering
   - sampling
-  - confidence-interval
 summary: "How to use the Rule of Three to determine appropriate sample sizes when verifying defect rates and validating customer complaints in quality control scenarios."
 ---
 

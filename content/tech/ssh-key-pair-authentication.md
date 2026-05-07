@@ -3,10 +3,9 @@ title: "SSH Key Pair Authentication: A Secure and Elegant Way to Login"
 date: 2026-05-07T00:28:00+08:00
 draft: false
 tags:
+  - tech
   - ssh
-  - linux
   - security
-  - server
 summary: "How to set up SSH key pair authentication for passwordless Linux server access."
 ---
 

@@ -3,11 +3,9 @@ title: "Bridging the Gap: Why Flat-Panel Corrosion Standards Fail Real-World Man
 date: 2026-05-05T10:00:00+02:00
 draft: false
 tags:
-  - quality-engineering
-  - corrosion-standards
   - manufacturing
+  - corrosion-standards
   - astm-standards
-  - product-testing
 summary: "A technical deep-dive into why ASTM flat-panel corrosion testing standards create fundamental mismatches when applied to complex 3D manufacturing products."
 ---
 

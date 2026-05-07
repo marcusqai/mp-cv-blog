@@ -3,11 +3,10 @@ title: "Ubuntu 24.04 LTS — One-Click Server Setup Guide"
 date: 2026-05-07T01:35:00+08:00
 draft: false
 tags:
+  - tech
   - ubuntu
-  - linux
   - docker
   - server
-  - setup
 summary: "A ready-to-use bash script for fresh Ubuntu 24.04 LTS servers — timezone, mirrors, SSH, Docker, and essential tools."
 ---
 
