@@ -12,6 +12,8 @@ summary: "Understanding how quality costs break down into Prevention, Appraisal,
 
 ![PAF Cost of Quality Framework / PAF 品質成本框架](/images/paf-cost-of-quality.png)
 
+{{< video src="/videos/paf_quality_cost_en.mp4" >}}
+
 ---
 
 ## 🇺🇸 English Version
@@ -120,12 +122,12 @@ Managers break these costs into three major categories (the PAF model):
 
 ## The Leverage Effect / 槓桿效應
 
-### 🇺🇸 Every $1 Invested in Prevention Saves:
+### 🇺🇸 Every USD 1 Invested in Prevention Saves:
 
 | Category | Savings Ratio |
 |:---|:---|
-| **Appraisal** | $10 |
-| **Failure** | $100 |
+| **Appraisal** | USD 10 |
+| **Failure** | USD 100 |
 
 This is the fundamental ROI equation that shifts management focus from reactive to proactive.
 
@@ -133,7 +135,7 @@ This is the fundamental ROI equation that shifts management focus from reactive 
 
 ### 🇨🇳 在預防上投入的每 1 元，通常能省下：
 
-|類別 | 節省比率 |
+| 類別 | 節省比率 |
 |:---|:---|
 | **鑑定成本** | 10 元 |
 | **失敗成本** | 100 元 |
@@ -146,7 +148,7 @@ This is the fundamental ROI equation that shifts management focus from reactive 
 
 ### 🇺🇸 From "Police" to "Coach"
 
-Applying this model to supply chain transforms the manager's role:
+Applying this model to supply chain transforms the manager role:
 
 | Traditional Approach | Modern Quality Approach |
 |:---|:---|
@@ -171,16 +173,16 @@ Applying this model to supply chain transforms the manager's role:
 
 將此模型應用於供應鏈，管理者的角色會轉變：
 
-| 傳統做法 | 现代品質做法 |
+| 傳統做法 | 現代品質做法 |
 |:---|:---|
-|審核找缺點 |審核找出改善機會 |
+| 審核找缺點 | 審核找出改善機會 |
 | 拒收不合格品 | 協助供應商預防不合格 |
-|著眼於進料檢驗 | 著眼於上游製程能力 |
+| 著眼於進料檢驗 | 著眼於上游製程能力 |
 | 處罰缺陷 | 獎勵品質改善里程碑 |
 | 交易型關係 | 合作夥伴與能力建設 |
 
 **實務供應商開發活動：**
-1.製程能力研究（Cpk 分析）
+1. 製程能力研究（Cpk 分析）
 2. 品質系統建置支援
 3. 技術培訓計畫
 4. 聯合根本原因分析
@@ -198,8 +200,8 @@ Applying this model to supply chain transforms the manager's role:
 |:---|:---|
 | **Management Goal** | Reduce Total Quality Cost, not just purchase price |
 | **Quality Perspective** | Appraisal discovers problems; Prevention eliminates them |
-| **Core Mindset** | Invest more in R&D and training rather than regretting after customer complaints |
-| **Financial Logic** | Prevention $1 → Saves Appraisal $10 → Saves Failure $100 |
+| **Core Mindset** | Invest more in R&D and training rather than regretting after complaints |
+| **Financial Logic** | Prevention USD 1 saves Appraisal USD 10 and Failure USD 100 |
 | **Role Evolution** | From "Police" to "Coach" |
 
 ---
@@ -211,7 +213,7 @@ Applying this model to supply chain transforms the manager's role:
 | **管理目標** | 降低總品質成本，而非單純壓低採購價格 |
 | **品質觀點** | 鑑定只能「發現」問題，唯有預防能「消除」問題 |
 | **核心思維** | 把錢花在刀口上——寧可在研發與培訓時多花一點，也不要在客戶投訴時追悔莫及 |
-| **財務邏輯** | 預防 1 元 → 省下鑑定 10 元 → 省下失敗 100 元 |
+| **財務邏輯** | 預防 1 元省下鑑定 10 元與失敗 100 元 |
 | **角色演進** | 從「警察」到「教練」 |
 
 ---
