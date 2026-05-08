@@ -155,6 +155,24 @@
 
 {{- if (cond ($custom) (in $ShareButtons "weixin") (true)) }}
 <style>
+.share-buttons {
+    background: none !important;
+    border: none !important;
+    justify-content: flex-end !important;
+    padding: 4px 0 !important;
+}
+.share-buttons li {
+    background: none !important;
+}
+.share-buttons a {
+    background: none !important;
+    color: var(--secondary) !important;
+    transition: color 0.2s ease;
+}
+.share-buttons a:hover {
+    color: var(--primary) !important;
+    background: none !important;
+}
 .weixin-share-overlay {
     display: none;
     position: fixed;
