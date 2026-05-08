@@ -101,7 +101,47 @@
         </a>
     </li>
     {{- end }}
-    {{- if (cond ($custom) (in $ShareButtons "zhihu") (true)) }}
+        {{- if (cond ($custom) (in $ShareButtons "weibo") (true)) }}
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on weibo"
+            href="https://service.weibo.com/share/share.php?url={{ $pageurl }}&amp;title={{ $title }}">
+            <svg viewBox="0 0 1024 1024" height="30px" width="30px" fill="currentColor">
+                <path d="M935.6 613.4c-18.4-37.8-62-53.6-102.6-44.4-20.4 4.6-41.2 8.8-61.4 15.4-12.6 4.2-16.2-6-14.6-16.2 2.6-16.6 8.2-32.8 12.8-48.6 2.8-9.6-2.4-14-10.6-14.6-18.2-1.4-36.4-2.4-54.6-2.2-18.2 0.2-36.4 2.6-54.6 5.2-2.2 0.3-4.4 0.2-6.6-0.4-16.2-4.6-32.8-7.4-49.4-9.4-3.2-0.4-6.4-1-9.4-2.4-18.2-8.4-37.2-14-56.8-16.4-4.2-0.5-8.4-0.4-12.6-0.4-14.6 0-29.2 2.4-43.2 7.2-20.2 7-39.6 16.8-58.6 27.2-4.2 2.3-8.2 4.8-12.2 7.4-14.6 9.6-28.4 20.4-41.2 32.2-28.4 26-52.4 56.2-70.2 90.2-8.4 16.2-15.2 33.2-19.4 50.8-4.2 17.2-5.6 34.8-4.2 52.4 2.8 34.6 15.8 66.4 36.6 94.2 20.8 27.8 47.6 49.2 78.8 63.6 31.2 14.4 64.8 21.2 99.4 20.4 34.6-0.8 67.8-9.2 98.4-24.8 30.6-15.6 57.2-37.8 78.6-65.2 21.4-27.4 36.6-58.6 44.8-92.2 4.2-17.2 6.2-34.8 6.2-52.6 0-8.8-0.6-17.6-1.8-26.2-1.2-8.6-3-17.2-5.4-25.6-2.4-8.4-5.4-16.6-9-24.6-3.6-8-7.8-15.8-12.6-23.2-4.8-7.4-10.2-14.4-16.2-21-6-6.6-12.6-12.6-19.6-18.2-7-5.6-14.4-10.6-22.2-15-7.8-4.4-16-8.2-24.4-11.4-8.4-3.2-17-5.8-25.8-7.8-8.8-2-17.8-3.4-26.8-4.2-9-0.8-18-1-27-0.6-9 0.4-18 1.4-26.8 3-8.8 1.6-17.4 3.8-25.8 6.6-8.4 2.8-16.4 6.2-24.2 10.2-7.8 4-15.2 8.6-22.2 13.6-7 5-13.6 10.4-19.6 16.2-6 5.8-11.4 12-16.2 18.6-4.8 6.6-9 13.6-12.6 20.8-3.6 7.2-6.6 14.8-9 22.6-2.4 7.8-4.2 15.8-5.4 24-1.2 8.2-1.8 16.4-1.8 24.8 0 8.4 0.6 16.8 1.8 25 1.2 8.2 3 16.2 5.4 24 2.4 7.8 5.4 15.4 9 22.6 3.6 7.2 7.8 14 12.6 20.6 4.8 6.6 10.2 12.8 16.2 18.6 6 5.8 12.6 11.2 19.6 16.2 7 5 14.4 9.6 22.2 13.6 7.8 4 16 7.4 24.4 10.2 8.4 2.8 17 5 25.8 6.6 8.8 1.6 17.8 2.6 26.8 3 9 0.4 18 0.2 27-0.6 9-0.8 18-2.2 26.8-4.2 8.8-2 17.4-4.6 25.8-7.8 8.4-3.2 16.6-7 24.4-11.4 7.8-4.4 15.2-9.4 22.2-15 7-5.6 13.6-11.6 19.6-18.2 6-6.6 11.4-13.6 16.2-21 4.8-7.4 9-15.2 12.6-23.2 3.6-8 6.6-16.2 9-24.6 2.4-8.4 4.2-17 5.4-25.6 1.2-8.6 1.8-17.4 1.8-26.2 0-17.8-2-35.4-6.2-52.6-4.2-17.6-11-34.6-19.4-50.8-17.8-34-41.8-64.2-70.2-90.2-28.4-26-60.8-46.2-96-60.2-35.2-14-72.6-21.2-110.6-21.2-38 0-75.4 7.2-110.6 21.2-35.2 14-67.6 34.2-96 60.2-28.4 26-52.4 56.2-70.2 90.2-17.8 34-28.6 70.8-32.2 108.8-3.6 38-0.2 76.2 10 113 10.2 36.8 26.8 71.2 49.2 102 22.4 30.8 50.2 57.2 82.4 78.4 32.2 21.2 67.8 36.8 105.6 46.2 37.8 9.4 76.6 12.6 115.2 9.4 38.6-3.2 76.2-12.6 111.4-28.2 35.2-15.6 67.2-37.2 94.8-63.8 27.6-26.6 50.2-58 67-93 16.8-35 27.2-72.6 30.8-111.2 3.6-38.6 0.2-77.4-10-114.8z"/>
+            </svg>
+        </a>
+    </li>
+    {{- end }}
+    {{- if (cond ($custom) (in $ShareButtons "toutiao") (true)) }}
+    <li>
+        <a href="javascript:void(0)" onclick="shareToutiao(this)" data-url="{{ $pageurl }}" data-title="{{ $title }}" aria-label="share {{ $title | plainify }} on toutiao" title="分享到今日头条">
+            <svg viewBox="0 0 1024 1024" height="30px" width="30px" fill="currentColor">
+                <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"/>
+                <path d="M464 336h96v256h-96zM464 672h96v96h-96z"/>
+            </svg>
+        </a>
+    </li>
+    {{- end }}
+    {{- if (cond ($custom) (in $ShareButtons "douyin") (true)) }}
+    <li>
+        <a href="javascript:void(0)" onclick="shareDouyin(this)" data-url="{{ $pageurl }}" data-title="{{ $title }}" aria-label="share {{ $title | plainify }} on douyin" title="分享到抖音 Douyin">
+            <svg viewBox="0 0 1024 1024" height="30px" width="30px" fill="currentColor">
+                <path d="M704 288V448h-96c-53 0-96 43-96 96s43 96 96 96v96c-106 0-192-86-192-192s86-192 192-192V224h96v64z"/>
+                <path d="M832 128h-128v416h-128v256H384c-176.7 0-320 143.3-320 320h128V704c0-35.3 28.7-64 64-64h384V224h192V128z"/>
+            </svg>
+        </a>
+    </li>
+    {{- end }}
+    {{- if (cond ($custom) (in $ShareButtons "bilibili") (true)) }}
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on bilibili"
+            href="https://www.bilibili.com/social/forward?url={{ $pageurl }}&amp;title={{ $title }}">
+            <svg viewBox="0 0 1024 1024" height="30px" width="30px" fill="currentColor">
+                <path d="M777.6 248.2c29.1 12.2 51.9 37.5 61.3 68.6l114.8 379.4c14.4 47.6-11.1 97.4-56.9 111.5-6.6 2-13.4 3.1-20.3 3.1H148c-49.5 0-89.7-40.1-89.7-89.7 0-6.9 1.1-13.7 3.1-20.3l114.8-379.4c9.4-31.1 32.2-56.4 61.3-68.6C247 248.8 257 247 266.7 247h482c9.9 0 19.7 1.8 28.9 5.8zM263.2 340.3c-12.2 0-22.1 9.9-22.1 22.1v88.5c0 12.2 9.9 22.1 22.1 22.1s22.1-9.9 22.1-22.1v-88.5c0-12.2-9.9-22.1-22.1-22.1zm497.6 0c-12.2 0-22.1 9.9-22.1 22.1v88.5c0 12.2 9.9 22.1 22.1 22.1s22.1-9.9 22.1-22.1v-88.5c0-12.2-9.9-22.1-22.1-22.1z"/>
+            </svg>
+        </a>
+    </li>
+    {{- end }}
+{{- if (cond ($custom) (in $ShareButtons "zhihu") (true)) }}
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on zhihu"
             href="https://www.zhihu.com/question/answer/autosubmit?url={{ $pageurl }}&amp;title={{ $title }}">
@@ -215,5 +255,22 @@ function copyWeixinLink(){
     }
 }
 document.addEventListener("keydown",function(e){if(e.key==="Escape")closeWeixinShare();});
+function shareToutiao(el){
+    var url=el.getAttribute("data-url");
+    var title=el.getAttribute("data-title");
+    window.open("https://mp.toutiao.com/profile_v4/graphic/publish?content="+encodeURIComponent(url)+"&title="+encodeURIComponent(title),"_blank");
+}
+function shareDouyin(el){
+    var url=el.getAttribute("data-url");
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+        navigator.clipboard.writeText(url).then(function(){
+            alert("\u94fe\u63a5\u5df2\u590d\u5236\uff01\u8bf7\u6253\u5f00\u6296\u97f3 App \u8fdb\u884c\u5206\u4eab\nLink copied! Open Douyin app to share.");
+        }).catch(function(){
+            prompt("\u590d\u5236\u94fe\u63a5 Copy link:",url);
+        });
+    } else {
+        prompt("\u590d\u5236\u94fe\u63a5 Copy link:",url);
+    }
+}
 </script>
 {{- end }}
