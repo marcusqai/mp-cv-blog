@@ -12,9 +12,9 @@ summary: "A practical guide to fixing the @tencent-weixin/openclaw-weixin plugin
 description: "After reinstalling the Weixin plugin configuration on OpenClaw, the plugin stopped loading. This post walks through the three root causes and the six-step fix that restored full functionality."
 ---
 
-After reinstalling the Weixin plugin configuration on my OpenClaw instance, I hit a wall — the plugin refused to load. The Gateway started with only three plugins, and Weixin was completely invisible.
+After reinstalling the Weixin plugin configuration on my OpenClaw instance, the plugin refused to load. The Gateway started with only three plugins, and Weixin was completely invisible.
 
-This is a practical walkthrough of how I diagnosed and fixed the issue. If you are facing the same problem, this guide should save you a few hours of digging.
+This is a practical walkthrough of how I diagnosed and fixed the issue.
 
 ## Environment
 
@@ -39,7 +39,7 @@ Three independent issues combined to produce this failure.
 
 ### 1. Plugin Version Conflict
 
-I had two copies of the Weixin plugin installed in different locations:
+Two copies of the Weixin plugin were installed in different locations:
 
 | Location | Version |
 |---|---|
@@ -68,7 +68,7 @@ Result: `require("openclaw/plugin-sdk")` fails silently during module resolution
 
 ### Step 1: Restore Configuration from Backup
 
-If you have a working backup, restore `openclaw.json` from it first. This gives you the correct baseline configuration including channel settings and account data.
+Restore `openclaw.json` from a working backup. This gives you the correct baseline configuration including channel settings and account data.
 
 ```bash
 # Example: restore from a tarball backup
@@ -177,6 +177,15 @@ You should see `openclaw-weixin` in the list with status **OK**.
 3. **Version conflicts are silent.** Having the same plugin installed in both `extensions/` and `npm/node_modules/` can cause the plugin to vanish without any error message.
 
 4. **Backups are essential.** A recent `openclaw.json` backup saved hours of manual reconstruction.
+
+## Key Paths Reference
+
+| Path | Purpose |
+|---|---|
+| `~/.openclaw/openclaw.json` | Main configuration file |
+| `~/.openclaw/openclaw-weixin/accounts/` | Weixin account credentials |
+| `~/.openclaw/npm/node_modules/@tencent-weixin/openclaw-weixin/` | Plugin code |
+| `~/.openclaw/backups/` | Scheduled backups |
 
 ## Related Issues
 
