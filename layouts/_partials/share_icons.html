@@ -168,15 +168,9 @@
     color: var(--primary) !important;
     background: none !important;
 }
-/* Chinese platform icons: outer = currentColor, inner = bg color for knockout */
+/* Chinese platform icons: outer = currentColor (link color), inner = page bg for knockout */
 .share-cn svg path.share-cn-outer { fill: currentColor; }
-.dark-theme .share-cn svg path.share-cn-icon,
-[data-theme="dark"] .share-cn svg path.share-cn-icon {
-    fill: #1a1a2e;
-}
-body:not(.dark-theme):not([data-theme="dark"]) .share-cn svg path.share-cn-icon {
-    fill: #ffffff;
-}
+.share-cn svg path.share-cn-icon { fill: var(--entry); }
 </style>
 
 {{- if (cond ($custom) (in $ShareButtons "weixin") (true)) }}
