@@ -1,3 +1,16 @@
+---
+title: "How to Set Up Google OAuth 2.0 for Company Internal Tools — Full Guide with Real Problems & Fixes"
+date: 2026-05-09T17:37:00+08:00
+draft: false
+tags:
+  - tech
+  - google
+  - oauth2
+  - automation
+summary: "A complete guide to setting up Google OAuth 2.0 for internal tools, covering Google Cloud project creation, OAuth consent, credentials setup, and solutions to 8 real-world problems."
+description: "Step-by-step guide to Google OAuth 2.0 for company internal tools. Covers Google Cloud Console setup, OAuth consent screen, credentials, code examples, and fixes for common errors like redirect_uri_mismatch and app verification blocks."
+---
+
 # How to Set Up Google OAuth 2.0 for Company Internal Tools — Full Guide with Real Problems & Fixes
 
 ## 🔐 Introduction
