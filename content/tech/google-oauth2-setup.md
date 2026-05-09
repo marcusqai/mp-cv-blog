@@ -1,16 +1,3 @@
----
-title: "How to Set Up Google OAuth 2.0 for Company Internal Tools — Full Guide with Real Problems & Fixes"
-date: 2026-05-09T17:37:00+08:00
-draft: false
-tags:
-  - tech
-  - google
-  - oauth2
-  - automation
-summary: "A complete guide to setting up Google OAuth 2.0 for internal tools, covering Google Cloud project creation, OAuth consent, credentials setup, and solutions to 8 real-world problems."
-description: "Step-by-step guide to Google OAuth 2.0 for company internal tools. Covers Google Cloud Console setup, OAuth consent screen, credentials, code examples, and fixes for common errors like redirect_uri_mismatch and app verification blocks."
----
-
 # How to Set Up Google OAuth 2.0 for Company Internal Tools — Full Guide with Real Problems & Fixes
 
 ## 🔐 Introduction
@@ -146,73 +133,96 @@ Save these securely — you'll need them in your application.
 
 ## Part 4: Implement OAuth Flow in Your Application
 
-### Option A: Node.js Implementation
+### Node.js Complete Implementation (Recommended)
+
+
+This is a complete, working OAuth server with HTML landing page:
 
 ```javascript
-const { google } = require('googleapis');
 const http = require('http');
+const url = require('url');
 const fs = require('fs');
+const { google } = require('googleapis');
 
-// Your credentials
+// ── Credentials ────────────────────────────────────────────────
 const CLIENT_ID = 'YOUR_CLIENT_ID.apps.googleusercontent.com';
 const CLIENT_SECRET = 'YOUR_CLIENT_SECRET';
-const REDIRECT_URL = 'http://localhost:8889/callback';
+const REDIRECT_URL = 'http://your-public-domain.com:8899/callback';
+const PORT = 8899;
 const TOKEN_FILE = './credentials/google-tokens.json';
 
+// ── Scopes ─────────────────────────────────────────────────────
 const SCOPES = [
   'https://www.googleapis.com/auth/gmail.readonly',
   'https://www.googleapis.com/auth/gmail.send',
   'https://www.googleapis.com/auth/calendar',
-  'https://www.googleapis.com/auth/drive'
+  'https://www.googleapis.com/auth/drive',
+  'https://www.googleapis.com/auth/tasks'
 ];
 
 const oauth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URL);
-
-// Generate auth URL
 const authUrl = oauth2Client.generateAuthUrl({
   access_type: 'offline',
   scope: SCOPES,
-  prompt: 'consent'  // Force to get refresh token
+  prompt: 'consent'
 });
 
-console.log('Open this URL in browser:');
-console.log(authUrl);
+// ── HTML Landing Page ───────────────────────────────────────────
+const HTML_PAGE = `<!DOCTYPE html>
+<html>
+<head>
+<title>Google OAuth</title>
+<style>
+  body { font-family: sans-serif; max-width: 560px; margin: 80px auto; padding: 20px; text-align: center; }
+  .card { background: white; border-radius: 12px; padding: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  h1 { color: #1a73e8; }
+  p { color: #666; margin-bottom: 30px; }
+  .btn { display: inline-block; background: #1a73e8; color: white; padding: 14px 32px; border-radius: 8px;
+         text-decoration: none; font-size: 16px; }
+  .btn:hover { background: #1557b0; }
+  .note { margin-top: 16px; font-size: 13px; color: #999; }
+</style>
+</head>
+<body><div class="card">
+  <h1>🔐 Google OAuth</h1>
+  <p>Click below to authorize access to Google services</p>
+  <a href="${authUrl}" class="btn">Login with Google</a>
+  <div class="note">Scopes: Gmail, Calendar, Drive, Tasks</div>
+</div></body></html>`;
 
-// Simple HTTP server to catch callback
+// ── Server ──────────────────────────────────────────────────────
 const server = http.createServer((req, res) => {
-  const url = new URL(req.url, `http://${req.headers.host}`);
-  
-  if (url.pathname === '/callback') {
-    const code = url.searchParams.get('code');
-    
+  const parsed = url.parse(req.url, true);
+
+  if (parsed.pathname === '/callback') {
+    const code = parsed.query.code;
     if (code) {
-      res.writeHead(200);
-      res.end('<html><body><h1>Authorization Complete!</h1><p>You can close this window.</p></body></html>');
-      
-      // Exchange code for tokens
+      res.writeHead(200, { 'Content-Type': 'text/html' });
+      res.end('<html><body style="text-align:center;padding:60px;font-family:sans-serif">'
+        + '<h1 style="color:#34a853">✅ Done!</h1>'
+        + '<p>Authorization complete. You can close this window.</p></body></html>');
       oauth2Client.getToken(code).then(({ tokens }) => {
         fs.mkdirSync('./credentials', { recursive: true });
         fs.writeFileSync(TOKEN_FILE, JSON.stringify(tokens, null, 2));
-        console.log('Tokens saved!');
-        console.log('Access Token:', tokens.access_token.substring(0, 20) + '...');
-        console.log('Refresh Token:', tokens.refresh_token);
-        
-        // Test API
-        const gmail = google.gmail({ version: 'v1', auth: oauth2Client });
-        gmail.users.labels.list({ userId: 'me' }).then(r => {
-          console.log('Gmail connected! Labels:', r.data.labels.length);
-        });
-        
-        server.close();
+        console.log('[SUCCESS] Tokens saved to', TOKEN_FILE);
         process.exit(0);
-      });
+      }).catch(e => { console.error('[ERROR]', e.message); process.exit(1); });
     }
+  } else {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.end(HTML_PAGE);
   }
 });
 
-server.listen(8889, '127.0.0.1', () => {
-  console.log('Server listening on http://localhost:8889');
+server.listen(PORT, '0.0.0.0', () => {
+  console.log('[READY] http://0.0.0.0:' + PORT + '/  — open in browser');
 });
+```
+
+**Run:**
+```bash
+node oauth-server.js
+# Then open http://your-public-domain.com:8899/ in browser
 ```
 
 ### Option B: Python Implementation
@@ -396,22 +406,30 @@ Device id and device name are required for private IP
 
 **Fix:**
 
-**Option A — Use a Public URL:**
-1. Set up a public domain (or use ngrok for testing):
+**Option A — Use a Public Domain (Recommended):**
+Set up a public domain (e.g., `your-server.example.com`) and configure DNS to point to your server. Add to Google Cloud Console:
+```
+http://your-server.example.com:8899/callback
+```
+
+**Option B — Use ngrok for Testing:**
 ```bash
-ngrok http 8889
+ngrok http 8899
 # You'll get a public URL like https://abc123.ngrok.io
 ```
 
-2. Add to Google Cloud Console:
+Add to Google Cloud Console:
 ```
 https://abc123.ngrok.io/callback
 ```
+
 
 3. Update your code:
 ```javascript
 const REDIRECT_URL = 'https://abc123.ngrok.io/callback';
 ```
+
+**Important:** Your OAuth callback server must serve a proper HTML page (not just a blank response) at the root URL, otherwise browsers may show 404. See Part 4 for a complete server implementation.
 
 **Option B — Use Google OAuth Playground:**
 1. Go to https://developers.google.com/oauthplayground/
@@ -522,49 +540,143 @@ The redirect-based OAuth flow requires a server-side component to securely handl
 
 ---
 
-### Problem 8: Token Expires During Long Operations
+### Problem 8: Token Expired After a Few Hours — "invalid_client"
 
 **Symptom:**
 ```
-401 Unauthorized
-{
-  "error": "invalid_token",
-  "error_description": "Access token no longer valid"
-}
+[FATAL] invalid_client
+# OR after a while:
+"Request had invalid authentication credentials"
 ```
 
-**Cause:** Access tokens expire after 1 hour. Long-running operations may exceed this.
+**Cause:** Access tokens expire after 1 hour. If your refresh token is expired or was never issued, you cannot get a new access token.
 
 **Fix:**
 
-1. Ensure refresh token is saved:
+**Option A — Re-run OAuth Flow (Quick Fix):**
+1. Delete the old token file:
+```bash
+rm /root/automation/credentials/google-tokens.json
+```
+2. Visit your OAuth authorization URL again:
+```bash
+node oauth-server.js
+# Open http://your-server.example.com:8899/
+```
+3. Click "Login with Google" and authorize again
+4. New tokens (including fresh refresh token) will be saved
+
+
+**Prevention — Always request a refresh token:**
 ```javascript
-oauth2Client.on('tokens', (tokens) => {
-  if (tokens.refresh_token) {
-    // Save it
+const authUrl = oauth2Client.generateAuthUrl({
+  access_type: 'offline',   // <-- This is critical!
+  scope: SCOPES,
+  prompt: 'consent'          // <-- Force to always show consent screen
+});
+```
+The `access_type: 'offline'` parameter is essential — it tells Google to issue a refresh token. Without it, you only get a short-lived access token with no way to refresh it.
+
+**Note:** Google may not issue a new refresh token if you've already authorized the app before. If `refresh_token` is `undefined` in your token file, revoke access at https://myaccount.google.com/permissions and re-run the flow.
+
+---
+
+### Problem 9: OAuth Server Shows "Not found" or 404 at Root URL
+
+**Symptom:**
+```
+curl http://your-server.example.com:8899/
+Not found
+```
+
+**Cause:** The callback server only handles `/callback` but returns 404 for the root URL. Browsers may show a confusing 404 page, making it unclear how to start the OAuth flow.
+
+
+**Fix:**
+
+Serve a proper HTML landing page at the root URL:
+
+```javascript
+const HTML_PAGE = `
+<!DOCTYPE html>
+<html>
+<head><title>Google OAuth</title></head>
+<body style="font-family:sans-serif;text-align:center;padding:60px">
+  <h1>🔐 Google OAuth</h1>
+  <p>Click below to authorize access to Google services</p>
+  <a href="${authUrl}" style="background:#1a73e8;color:white;padding:14px 32px;border-radius:8px;text-decoration:none;font-size:16px">
+    Login with Google
+  </a>
+</body>
+</html>`;
+
+
+const server = http.createServer((req, res) => {
+  const parsed = url.parse(req.url, true);
+
+  if (parsed.pathname === '/callback') {
+    // Handle OAuth callback
+    const code = parsed.query.code;
+    if (code) {
+      res.writeHead(200, { 'Content-Type': 'text/html' });
+      res.end('<html><body><h1>✅ Done!</h1><p>You can close this window.</p></body></html>');
+      // Exchange code for tokens...
+      oauth2Client.getToken(code).then(({ tokens }) => {
+        fs.writeFileSync(TOKEN_FILE, JSON.stringify(tokens));
+        console.log('[SUCCESS] Tokens saved!');
+        process.exit(0);
+      });
+    }
+  } else {
+    // Serve landing page at root
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.end(HTML_PAGE);
   }
 });
-```
 
-2. Set up auto-refresh:
-```javascript
-oauth2Client.setCredentials({
-  access_token: savedAccessToken,
-  refresh_token: savedRefreshToken,
-  expiry_date: savedExpiryDate
+server.listen(PORT, '0.0.0.0', () => {
+  console.log('[READY] http://0.0.0.0:' + PORT + '/');
 });
-
-// API calls will auto-refresh when needed
 ```
 
-3. Check expiry before operations:
+With this fix, users just open the server URL and see a clear "Login with Google" button — no need to know the auth URL in advance.
+
+---
+
+
+### Problem 10: "invalid_client" Even with Correct Credentials
+
+**Symptom:**
+```
+[FATAL] invalid_client
+```
+
+**Cause:** The Client Secret in your code doesn't match the one in Google Cloud Console. Common causes:
+- Typo in Client Secret string
+- Extra or missing characters (e.g., `GOCSPX…Vla_` vs `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`)
+- Client Secret changed after app verification
+
+**Fix:**
+1. Go to Google Cloud Console → Credentials → Your OAuth Client
+2. Copy the Client Secret **exactly** (click the copy icon, don't type manually)
+3. Update your code:
 ```javascript
-if (oauth2Client.isTokenExpiring()) {
-  await oauth2Client.refreshAccessToken();
-}
+const CLIENT_SECRET = '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';  // paste exact value
+```
+4. No extra spaces, no trailing quotes mistakes
+
+**Tip:** Use environment variables instead of hardcoding credentials:
+```bash
+export GOOGLE_CLIENT_ID='your-client-id'
+export GOOGLE_CLIENT_SECRET='your-client-secret'
+```
+```javascript
+const CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
+const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 ```
 
 ---
+
 
 ## 📊 Complete OAuth Flow Diagram
 
