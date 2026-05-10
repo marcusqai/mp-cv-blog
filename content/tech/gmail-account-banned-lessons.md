@@ -13,7 +13,7 @@ description: "My Gmail account was suspended after just a few hours of API autom
 
 At approximately 03:24 on the morning of May 10, 2026, my Gmail account — a freshly registered address I had set up specifically to automate Google Tasks synchronization via OAuth — was suspended by Google without warning. No email notification. No appeal prompt. Just a locked door.
 
-The account had existed for less than two weeks. In that time, it had performed exactly what I designed it to do: sync tasks from a NocoDB database to Google Tasks every 15 to 30 minutes through authorized API calls. Nothing malicious. No spam. No bulk emailing.
+The account had existed for less than two weeks. In that time, it had performed exactly what I designed it to do: sync tasks from a project management database to Google Tasks every 15 to 30 minutes through authorized API calls. Nothing malicious. No spam. No bulk emailing.
 
 And yet, Google's automated systems flagged it as a bot-generated account and shut it down.
 
@@ -23,16 +23,16 @@ This post is a thorough post-mortem of what happened, why it happened, and what 
 
 Here is exactly what I built:
 
-1. **Registered a new Gmail account** (`qaimarcus@gmail.com`) for automation purposes
+1. **Registered a new Gmail account** (`a newly registered address`) for automation purposes
 2. **Created a Google Cloud Project** with OAuth 2.0 credentials
 3. **Authorized the account** with scopes for `gmail.readonly`, `gmail.modify`, and full Google Tasks access
 4. **Connected it to OpenClaw**, an open-source local AI agent framework
 5. **Configured two cron jobs:**
-   - FT Google Tasks Sync: every 15 minutes
-   - WB Google Tasks Sync: every 30 minutes
+   - Task Sync Job A: every 15 minutes
+   - Task Sync Job B: every 30 minutes
 6. **OpenClaw Heartbeat** was also waking every 30 minutes
 
-The system worked beautifully for its first night. It synced 14 Family Tasks and 151 Work Board tasks across 9 people's Google Tasks lists. Everything was running smoothly.
+The system worked beautifully for its first night. It synced tasks across multiple shared Google Tasks lists for a team of people. Everything was running smoothly.
 
 And then the account was gone.
 
@@ -180,7 +180,7 @@ Track token consumption and request frequency. Set automatic throttling when thr
 
 **9. Consider local-only alternatives**
 
-For the FT/WB task synchronization use case, a NocoDB-to-NocoDB sync or a local dashboard would eliminate the Google dependency entirely.
+For the FT/WB task synchronization use case, a direct database sync or a local dashboard would eliminate the Google dependency entirely.
 
 ## The Broader Lesson
 
