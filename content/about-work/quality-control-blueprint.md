@@ -13,7 +13,7 @@ TocOpen: true
 
 The Quality Control Blueprint serves as a standardized guide to understanding **Acceptable Quality Limit (AQL)**, sampling plans, and random inspection processes for consumer products. This framework provides a mathematically rigorous approach to ensuring product quality across manufacturing and sourcing operations.
 
-{{< youtube VIDEO_ID >}}
+{{< video src="/videos/quality-control-blueprint-slides.mp4" >}}
 
 ![AQL Overview](/images/quality-control-blueprint/aql-overview.png)
 
