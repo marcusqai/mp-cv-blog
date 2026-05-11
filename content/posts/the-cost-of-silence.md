@@ -5,7 +5,6 @@ draft: false
 tags:
   - leadership
   - organizational-culture
-  - quality
 summary: "How Alan Mulally's traffic light system at Ford Motor Company reveals the power of psychological safety in building honest quality cultures."
 description: "How Alan Mulally's traffic light system at Ford Motor Company reveals the power of psychological safety in building honest quality cultures."
 ---

@@ -4,6 +4,7 @@ date: 2026-05-11T09:40:00+08:00
 draft: false
 tags:
   - leadership
+  - management
   - focus
   - decision-making
 summary: "In 1997, Steve Jobs saved Apple from bankruptcy by cutting 70% of its products down to a simple 2×2 grid. Sometimes the hardest decisions are about what not to do."

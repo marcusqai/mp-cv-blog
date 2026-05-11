@@ -4,7 +4,7 @@ date: 2026-05-06T23:38:00+08:00
 draft: false
 tags:
   - quality
-  - manufacturing
+  - manufacturing-process
   - supply-chain
 summary: "A bilingual journey through the evolution of quality management — from craftsmanship to global supply chain collaboration."
 description: "A bilingual journey through the evolution of quality management — from craftsmanship to global supply chain collaboration."
