@@ -3,7 +3,7 @@ title: "Building Sustainable Supplier Management Systems"
 date: 2026-05-05T09:00:00+02:00
 draft: false
 tags:
-  - quality
+  - supplier
   - supplier-management
   - apac
 summary: "A structured approach to establishing supplier management systems that deliver consistent, long-term quality excellence across diverse manufacturing regions."

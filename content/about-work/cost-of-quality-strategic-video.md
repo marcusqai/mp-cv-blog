@@ -6,7 +6,6 @@ tags:
   - quality
   - paf-model
   - supplier-development
-  - leadership
 summary: "A bilingual video presentation on the Cost of Quality — exploring Prevention, Appraisal, and Failure costs, and the 1:10:100 Quality Leverage Effect for supply chain leaders."
 description: "Watch a bilingual executive video on Cost of Quality covering the PAF framework, the 1:10:100 leverage effect, and supply chain transformation from police to coach — with English and Chinese narration."
 ---
