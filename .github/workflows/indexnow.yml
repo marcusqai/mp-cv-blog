@@ -1,0 +1,92 @@
+name: IndexNow Notification
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/posts/**'
+      - 'content/about-work/**'
+      - 'content/tech/**'
+
+jobs:
+  notify-bing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Bing via IndexNow
+        run: |
+          # Get all published post URLs (non-draft)
+          python3 << 'PYEOF'
+          import os
+          import re
+          import urllib.request
+          import json
+          import urllib.parse
+
+          site = "https://about.marcuspoon.eu.org"
+          api_key = os.environ.get('INDEXNOW_API_KEY', '')
+          
+          if not api_key:
+              print("ERROR: INDEXNOW_API_KEY secret not set")
+              exit(1)
+
+          urls = []
+          
+          # Walk through content directories
+          for section in ['posts', 'about-work', 'tech']:
+              content_dir = f'content/{section}'
+              if not os.path.exists(content_dir):
+                  continue
+              for root, dirs, files in os.walk(content_dir):
+                  for f in files:
+                      if not f.endswith('.md'):
+                          continue
+                      path = os.path.join(root, f)
+                      
+                      # Skip drafts
+                      with open(path, 'r', encoding='utf-8', errors='ignore') as fp:
+                          content = fp.read(2000)
+                          if 'draft: true' in content.lower():
+                              continue
+                      
+                      # Build URL
+                      rel_path = path.replace('content/', '').replace('.md', '/')
+                      url = f"{site}/{rel_path}"
+                      urls.append(url)
+
+          if not urls:
+              print("No published URLs found")
+              exit(0)
+
+          print(f"Notifying IndexNow for {len(urls)} URLs...")
+
+          payload = json.dumps({
+              "host": "about.marcuspoon.eu.org",
+              "key": api_key,
+              "keyLocation": f"https://about.marcuspoon.eu.org/{api_key}.txt",
+              "urlList": urls
+          }).encode('utf-8')
+
+          req = urllib.request.Request(
+              "https://www.bing.com/indexnow",
+              data=payload,
+              headers={
+                  "Content-Type": "application/json",
+                  "User-Agent": "OpenClaw-Blog/1.0"
+              },
+              method="POST"
+          )
+
+          try:
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  print(f"Response: {resp.status} {resp.reason}")
+                  print(resp.read().decode())
+          except Exception as e:
+              print(f"IndexNow notification failed: {e}")
+              # Don't fail the build - indexing is non-critical
+              print("Continuing despite IndexNow error...")
+
+          print(f"Successfully notified Bing for {len(urls)} URLs")
+          PYEOF
+        env:
+          INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
