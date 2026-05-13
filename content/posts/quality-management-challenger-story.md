@@ -7,8 +7,8 @@ tags:
   - leadership
   - organizational-culture
   - root-cause
-summary: "The 1986 Challenger disaster reveals four timeless lessons about quality management — with an embedded English learning video."
-description: "A quality management story about the Challenger disaster, featuring an embedded English learning video for listening practice. Learn about normalization of deviance, boundary condition failures, and why quality is a culture, not a department."
+summary: "The 1986 Challenger disaster reveals four timeless lessons about quality management that every organization should heed — with embedded English learning video."
+description: "Learn quality management through the Challenger disaster story. Includes an embedded English learning video with subtitles for listening practice."
 ---
 
 On January 28, 1986, the Space Shuttle Challenger exploded 73 seconds after liftoff, killing all seven crew members. The accident investigation revealed that the catastrophe was not caused by a complex computer system failure or a design flaw in the advanced engines. It was caused by a component so small and inexpensive that most people would never notice it — an O-ring seal.
