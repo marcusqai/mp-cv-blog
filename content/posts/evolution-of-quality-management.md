@@ -10,14 +10,6 @@ summary: "A bilingual journey through the evolution of quality management — fr
 description: "A bilingual journey through the evolution of quality management — from craftsmanship to global supply chain collaboration."
 ---
 
-## 🎬 Watch the Video | 觀看影片
-
-<video width="100%" controls style="max-width: 100%; border-radius: 8px;">
-  <source src="/videos/quality-evolution-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
----
 
 ## 中文版 | Chinese Version
 

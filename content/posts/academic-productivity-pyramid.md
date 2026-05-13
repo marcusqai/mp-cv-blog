@@ -10,20 +10,6 @@ summary: "A pyramid infographic reveals how much real writing survives the week 
 description: "An academic productivity pyramid reveals the brutal reality of how much focused writing time survives each week. From the inbox avalanche at the bottom to the protected writing block at the top."
 ---
 
-![Academic Productivity Ranking pyramid infographic](/images/productivity-pyramid.jpg)
-
-## The Abyss — Where Time Goes to Die
-
-Look at the bottom of the pyramid. Zero minutes of real writing.
-
-The character on the right — wild hair, wide eyes, smoke rising from his head — puts it best: *"Must be a typo? People with protected writing time actually exist??"*
-
-Below him lies the **"Semester from Hell: 0 Mins."** New prep. Grant deadlines. Program director duties. Caregiver week. Quick meetings that are never quick. And the inbox avalanche — 999+ unread emails burying someone alive.
-
-This is not fiction. This is Tuesday.
-
-Whether you are managing cross-timezone meetings, handling sudden project crises, or drowning in administrative paperwork — time gets sliced into unrecognizable fragments. The core work — system development, specification drafting, real thinking — gets reduced to zero.
-
 ---
 
 ## The Middle — Resistance in the Cracks

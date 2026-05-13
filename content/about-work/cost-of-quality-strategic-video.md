@@ -18,7 +18,6 @@ description: "Watch a bilingual executive video on Cost of Quality covering the 
 ## 🇺🇸 English Version
 
 <div style="text-align:center; margin: 2em 0;">
-{{< video src="/videos/coq_en_v5.mp4" >}}
 <p style="font-style:italic; color:#555;">English Version — Narrated by Mia</p>
 </div>
 
@@ -60,7 +59,6 @@ This presentation is designed for **quality managers, supply chain directors, an
 ## 🇨🇳 中文版
 
 <div style="text-align:center; margin: 2em 0;">
-{{< video src="/videos/coq_zh_v5.mp4" >}}
 <p style="font-style:italic; color:#555;">中文版 — 冰糖配音</p>
 </div>
 

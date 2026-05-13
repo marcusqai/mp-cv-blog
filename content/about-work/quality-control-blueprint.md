@@ -11,8 +11,6 @@ TocOpen: true
 
 ## English Version
 
-{{< video src="/videos/quality-control-blueprint-slides-en.mp4" >}}
-
 ![AQL Overview](/images/quality-control-blueprint/aql-overview.png)
 
 ### 1. Defining the Acceptable Quality Limit (AQL)
@@ -124,8 +122,6 @@ By controlling your inputs and enforcing true random sampling in the field, you 
 <hr>
 
 ## 中文版
-
-{{< video src="/videos/quality-control-blueprint-slides-zh.mp4" >}}
 
 ### 1. 定義可接受品質水平（AQL）
 

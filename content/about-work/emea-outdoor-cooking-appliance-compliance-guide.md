@@ -19,7 +19,6 @@ description: "Essential bilingual compliance roadmap for outdoor charcoal cookin
 ### 🇬🇧 English Version
 
 <div style="text-align:center; margin: 2em 0;">
-{{< video src="/videos/emea_en_v1.mp4" >}}
 <p style="font-style:italic; color:#555;">English Version — EMEA Compliance Blueprint</p>
 </div>
 
@@ -30,7 +29,6 @@ description: "Essential bilingual compliance roadmap for outdoor charcoal cookin
 ### 🇨🇳 中文版
 
 <div style="text-align:center; margin: 2em 0;">
-{{< video src="/videos/emea_zh_v1.mp4" >}}
 <p style="font-style:italic; color:#555;">中文版 — EMEA 合規藍圖</p>
 </div>
 

@@ -12,8 +12,6 @@ description: "Understanding how quality costs break down into Prevention, Apprai
 
 ![PAF Cost of Quality Framework / PAF 品質成本框架](/images/paf-cost-of-quality.jpg)
 
-{{< video src="/videos/paf_quality_cost_en.mp4" >}}
-
 ---
 
 ## 🇺🇸 English Version
