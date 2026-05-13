@@ -7,19 +7,19 @@ tags:
   - leadership
   - organizational-culture
   - root-cause
-summary: "The 1986 Challenger disaster reveals four timeless lessons about quality management that every organization should heed — told as a story with an embedded English learning video."
-description: "A quality management story about the Challenger disaster, its four key lessons, and an embedded English learning video for listening practice."
+summary: "The 1986 Challenger disaster reveals four timeless lessons about quality management — with an embedded English learning video."
+description: "A quality management story about the Challenger disaster, featuring an embedded English learning video for listening practice. Learn about normalization of deviance, boundary condition failures, and why quality is a culture, not a department."
 ---
 
 On January 28, 1986, the Space Shuttle Challenger exploded 73 seconds after liftoff, killing all seven crew members. The accident investigation revealed that the catastrophe was not caused by a complex computer system failure or a design flaw in the advanced engines. It was caused by a component so small and inexpensive that most people would never notice it — an O-ring seal.
 
 In the cold Florida morning, this rubber seal lost its elasticity. Hot gas leaked through the joint, triggering a chain reaction that destroyed a $1.2 billion spacecraft and claimed seven precious lives.
 
+Richard Feynman, the Nobel Prize-winning physicist who served on the Presidential Commission investigating the disaster, performed a simple yet devastating demonstration at the hearings. He immersed a piece of the O-ring material in a glass of ice water, clamped it, and removed it. The material did not spring back. He looked into the camera and said: "That's all there is to it. Nature cannot be fooled. The laws of physics do not care that you are NASA."
+
 {{< video src="/videos/quality_story_en.mp4" >}}
 
-*Above: English Learning Video — Listen and read along to practice your English while learning about quality management.*
-
-Richard Feynman, the Nobel Prize-winning physicist who served on the Presidential Commission investigating the disaster, performed a simple yet devastating demonstration at the hearings. He immersed a piece of the O-ring material in a glass of ice water, clamped it, and removed it. The material did not spring back. He looked into the camera and said: "That's all there is to it. Nature cannot be fooled. The laws of physics do not care that you are NASA."
+*Above: English Learning Video — Listen and read along to practice your English.*
 
 This moment remains one of the most powerful illustrations in the history of quality management. A single component — costing less than one dollar — brought down one of the most sophisticated machines ever built. The lessons from this tragedy extend far beyond aerospace engineering. They apply to every organization, every industry, and every quality professional reading this today.
 
