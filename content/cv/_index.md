@@ -28,7 +28,7 @@ tags:
 
 **APAC Supplier Quality & Operations Leader**
 
-📧 [mail@marcuspoon.eu.org](mailto:mail@marcuspoon.eu.org)
+📧 [mail@marcuspoon.eu.org](mailto:Marcus%20Poon%20%3Cmail@marcuspoon.eu.org%3E)
 
 Over 20 years of management experience in US-headquartered MNC environments, driving supplier quality transformation and manufacturing relocation across the APAC region. Expertise in building sustainable supplier management systems from the ground up, establishing localized testing infrastructure, and elevating partner capabilities through systematic development programs.
 
