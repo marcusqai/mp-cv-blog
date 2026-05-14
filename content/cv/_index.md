@@ -1,13 +1,34 @@
 ---
-title: "Curriculum Vitae"
-description: "APAC Supplier Quality & Operations Leader with expertise in sustainable supplier management, manufacturing transfer, and quality transformation"
+title: "Marcus Poon \u2014 APAC Supplier Quality & Operations Leader"
+description: "APAC Supplier Quality & Operations Leader with 20+ years of experience driving supplier quality transformation, manufacturing relocation, and testing laboratory development across China, Hong Kong, Taiwan, Thailand, Vietnam, Malaysia, and Indonesia."
+tags:
+  - supplier quality manager
+  - APAC quality leader
+  - manufacturing relocation
+  - vendor audit
+  - testing laboratory
+  - ASTM standards
+  - quality transformation
+  - supplier management
+  - APAC
+  - China
+  - Taiwan
+  - Thailand
+  - Malaysia
+  - Vietnam
+  - Indonesia
+  - Hong Kong
+  - gas appliances
+  - reliability testing
+  - supplier quality assurance
+  - MNC quality management
 ---
 
 ## Profile
 
 **APAC Supplier Quality & Operations Leader**
 
-📧 [mail@marcuspoon.eu.org](mailto:Marcus%20Poon%20%3Cmail@marcuspoon.eu.org%3E)
+📧 [mail@marcuspoon.eu.org](mailto:mail@marcuspoon.eu.org)
 
 Over 20 years of management experience in US-headquartered MNC environments, driving supplier quality transformation and manufacturing relocation across the APAC region. Expertise in building sustainable supplier management systems from the ground up, establishing localized testing infrastructure, and elevating partner capabilities through systematic development programs.
 
