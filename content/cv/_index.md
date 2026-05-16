@@ -1,5 +1,5 @@
 ---
-title: "Marcus Poon \u2014 APAC Supplier Quality & Operations Leader"
+title: "CV"
 description: "APAC Supplier Quality & Operations Leader with 20+ years of experience driving supplier quality transformation, manufacturing relocation, and testing laboratory development across China, Hong Kong, Taiwan, Thailand, Vietnam, Malaysia, and Indonesia."
 tags:
   - supplier quality manager
