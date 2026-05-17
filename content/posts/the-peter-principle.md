@@ -81,6 +81,8 @@ Shuyu could not be promoted further. But he also could not return to the world o
 
 ![The Peter Principle: Solving the Hierarchical Trap](/images/peter-principle.jpg)
 
+{{< video src="/videos/peter-principle-presentation.mp4" >}}
+
 The infographic from Investopedia, titled **"Solving the Peter Principle: Breaking the Hierarchical Trap,"** uses dark humor and extreme contrasts to visualize this journey very effectively. It is split into two panels: the left showing the problem, and the right showing the solution.
 
 ### The Left Panel: "Incompetence Rises"
