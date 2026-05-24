@@ -19,6 +19,8 @@ description: "Watch a bilingual executive video on Cost of Quality covering the 
 
 <div style="text-align:center; margin: 2em 0;">
 <p style="font-style:italic; color:#555;">English Version — Narrated by Mia</p>
+
+{{< video src="/videos/coq_en_v5.mp4" >}}
 </div>
 
 ---

@@ -11,6 +11,8 @@ TocOpen: true
 
 ## English Version
 
+{{< video src="/videos/quality-control-blueprint-slides-en.mp4" >}}
+
 ![AQL Overview](/images/quality-control-blueprint/aql-overview.png)
 
 ### 1. Defining the Acceptable Quality Limit (AQL)

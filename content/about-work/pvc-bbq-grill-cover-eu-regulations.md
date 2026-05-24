@@ -9,7 +9,10 @@ tags:
   - pvc
 summary: "How EU REACH restrictions on PVC are reshaping the outdoor cover market."
 description: "A comprehensive analysis of EU regulatory requirements for PVC BBQ grill covers, covering lead and phthalate restrictions, REACH compliance, and the shift toward safer alternative materials."
+
 ---
+
+{{< video src="/videos/pvc-bbq-grill-cover-eu-regulations.mp4" >}}
 
 ## The Problem
 
