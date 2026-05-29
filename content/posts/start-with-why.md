@@ -1,6 +1,6 @@
 ---
 title: "Start with Why: The Golden Circle That Separates Great Leaders from the Rest"
-date: 2026-05-30T14:30:00+08:00
+date: 2026-05-29T19:30:00+08:00
 draft: false
 tags:
   - leadership
