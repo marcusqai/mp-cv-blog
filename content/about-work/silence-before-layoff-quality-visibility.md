@@ -226,3 +226,4 @@ Because the person who is easiest to forget is the person who is easiest to let 
 但有一個建立韌性的公式。它不是關於更努力地工作。而是關於以一種讓你的價值無法被忽視的方式工作。策略性地定位自己。跨越邊界溝通。站在光照到你的地方。每天都這樣做，不僅僅是在你感到威脅的時候。
 
 因為最容易被忘記的人，就是最容易被送走的人。
+
