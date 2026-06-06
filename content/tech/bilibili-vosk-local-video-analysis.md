@@ -1,6 +1,6 @@
 ---
 title: "Self-Hosted Bilibili Video Analysis with Vosk and Local LLMs"
-date: 2026-06-07T07:30:00+08:00
+date: 2026-06-07T06:50:00+08:00
 draft: false
 tags:
   - tech
