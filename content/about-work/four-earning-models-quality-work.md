@@ -11,6 +11,13 @@ summary: "Four earning models for quality work"
 description: "Four money-making models reveal why 90% of quality workers are stuck. Learn how to upgrade from selling time to building value."
 ---
 
+
+🎧 [English Learning Video](/videos/four-earning-models-quality-work.mp4) | 🎧 [中文學習影片](/videos/four-earning-models-quality-work-zh.mp4)
+
+---
+
+
+
 ## The Problem Nobody Talks About
 
 A video by Hong Kong creator Guo Zhao (郭釗) of the Finsight ED channel lays out a framework that hits uncomfortably close to home for anyone in the quality profession. He argues that all money in the world is earned through exactly four models — and that over 90% of people are trapped in the first one without even realizing it.
