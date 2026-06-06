@@ -1,5 +1,5 @@
 ---
-title: The Dopamine Hijack: Why Smart People Lose Their Drive to Earn
+title: "The Dopamine Hijack: Why Smart People Lose Their Drive to Earn"
 date: 2026-06-07T07:30:00+08:00
 draft: false
 tags:
@@ -7,8 +7,8 @@ tags:
   - career
   - focus
   - organizational-culture
-summary: Why modern comfort kills ambition and how to rebuild earning motivation.
-description: How cheap entertainment creates painless poverty, dopamine hijacks reward circuits, and the learned helplessness trap. Practical steps to rebuild motivation and drive.
+summary: "Why modern comfort kills ambition and how to rebuild earning motivation."
+description: "How cheap entertainment creates painless poverty, dopamine hijacks reward circuits, and the learned helplessness trap. Practical steps to rebuild motivation and drive."
 ---
 
 ## The Paradox of Modern Poverty
@@ -25,7 +25,7 @@ Ten dollars buys a meal that fills your stomach. A few hundred dollars rents a r
 
 ## The Dopamine Hijacking Mechanism
 
-When you achieve a Penta Kill in a mobile game, or watch a dramatic underdog story unfold in a 15-second video, your brain releases large quantities of dopamine. This chemical substance was evolutionarily designed to reward difficult, effortful accomplishments — capturing prey, building shelter, earning significant income through sustained work.
+When you achieve a "Penta Kill" in a mobile game, or watch a dramatic underdog story unfold in a 15-second video, your brain releases large quantities of dopamine. This chemical substance was evolutionarily designed to reward difficult, effortful accomplishments — capturing prey, building shelter, earning significant income through sustained work.
 
 But now you can trigger that same reward pathway with a thumb swipe.
 
@@ -57,7 +57,7 @@ Society operates on two parallel rule sets. The first is visible: the moral code
 
 The visible rules domesticate you into a compliant cog. The hidden rules extract your surplus value.
 
-When a person with a poor mindset tries to compete within rules written by the wealthy, the outcome is predetermined. This long-term, systematic sense of defeat is the continuous shock that reshapes your brain. Your brain, to protect you from the psychological devastation of this gap, forcibly cuts off your ambition.
+When a person with a "poor mindset" tries to compete within rules written by the wealthy, the outcome is predetermined. This long-term, systematic sense of defeat is the continuous shock that reshapes your brain. Your brain, to protect you from the psychological devastation of this gap, forcibly cuts off your ambition.
 
 You do not lack the desire to earn money. Your desire has been systematically deactivated.
 
@@ -67,7 +67,7 @@ The wealthy cannot afford to let the masses lose all vitality. They need your la
 
 Many people confuse consumption desire with earning motivation. You think you want financial freedom, but what you actually want is the latest smartphone, limited-edition sneakers, a designer bag, or the social-media-posted lifestyle of premium coffee and weekend brunches.
 
-Capital deploys omnipresent advertising, algorithmic recommendation, and social comparison to reprogram your thinking. You are told life needs ritual, that you should treat yourself, that not buying something means you are shortchanging your own existence.
+Capital deploys omnipresent advertising, algorithmic recommendation, and social comparison to reprogram your thinking. You are told life needs "ritual," that you should "treat yourself," that not buying something means you are shortchanging your own existence.
 
 When you realize you cannot afford a million-dollar house, you develop a compensation mentality: if I cannot make the big purchase, surely I deserve a small reward. So you swipe your credit card, use installment plans, and buy things you do not need and cannot truly afford.
 
@@ -75,7 +75,7 @@ You think you are enjoying life. In reality, you are systematically destroying y
 
 In a capital-driven world, the only weapon ordinary people have to change their fate is their principal — however small. That money should be used to purchase productive assets, to invest, to leverage greater wealth. But refined consumption acts like a precision pump, draining every spare dollar through installment plans and consumerist brainwashing.
 
-A young person with no savings and mounting debt is the perfect, docile worker. They dare not quit, dare not resist unreasonable workplace demands, dare not take any risks. They become a donkey at a mill, led by the carrot called monthly bills, consuming their youth in a cubicle.
+A young person with no savings and mounting debt is the perfect, docile worker. They dare not quit, dare not resist unreasonable workplace demands, dare not take any risks. They become a donkey at a mill, led by the carrot called "monthly bills," consuming their youth in a cubicle.
 
 ## The Attention Economy: The Real Wealth Filter
 
@@ -83,7 +83,7 @@ The invisible wealth filter does not screen by education, intelligence, or backg
 
 When you drag yourself home after an exhausting day to a small rented room, the deep loneliness and anxiety will flood in. To escape this pain, you instinctively pick up your phone. The moment you open a short video app or launch a game, you have entered a carefully constructed digital slum.
 
-This is the core of what some call the pacifier strategy. The top twenty percent of society, to keep the marginalized eighty percent from causing unrest through social dissatisfaction, invented countless pacifiers: short videos, gossip, dramatic plots, games with精心 designed upgrade mechanics and instant rewards, celebrity gossip that never goes out of style.
+This is the core of what some call the "pacifier strategy." The top twenty percent of society, to keep the marginalized eighty percent from causing unrest through social dissatisfaction, invented countless pacifiers: short videos, gossip, dramatic plots, games with carefully designed upgrade mechanics and instant rewards, celebrity gossip that never goes out of style.
 
 These things cost almost nothing to produce, yet they precisely stimulate your brain to release massive amounts of dopamine in minimal time. In this painless virtual world, you forget the three-digit balance in your bank account. You forget the rent due next month. You forget the boss's condescending remarks during the day.
 
@@ -103,7 +103,7 @@ If you recognize yourself in this description, the path forward is not a financi
 
 ### Phase One: Ruthless Detoxification
 
-Uninstall every source of cheap dopamine. Short video apps, addictive games, gossip forums — all of it. Do not keep them for ten minutes of relaxation. As long as the icon remains on your phone, it will wait for your weakest moment to drag you back.
+Uninstall every source of cheap dopamine. Short video apps, addictive games, gossip forums — all of it. Do not keep them "for ten minutes of relaxation." As long as the icon remains on your phone, it will wait for your weakest moment to drag you back.
 
 The first three to seven days will be uncomfortable. You will feel emptiness, restlessness, even panic. Your hand will reach for your phone automatically. Your thumb will perform the upward scroll gesture without conscious thought. Your brain will scream for high-frequency stimulation.
 
@@ -115,7 +115,7 @@ Feel that pain. Sit with it. That pain is the signal you have been numbing.
 
 ### Phase Two: The Micro-Wins Method
 
-Do not set a goal to earn a million this year. Your confidence has been destroyed by life. A target that large will crush you within three days and send you crawling back to the virtual world.
+Do not set a goal to "earn a million this year." Your confidence has been destroyed by life. A target that large will crush you within three days and send you crawling back to the virtual world.
 
 Instead, earn your first dollar. Earn your first piece of real money earned in the real world after stepping off the automated treadmill.
 
@@ -125,25 +125,25 @@ When money hits your account with a notification ding, close your eyes and feel 
 
 Yesterday you earned fifty. Tomorrow you figure out how to earn sixty. Last month your income was five hundred. This month you challenge eight hundred. Each small victory sends a powerful signal to your subconscious: I am capable of finding money in the real world. I can control my own destiny.
 
-As this positive feedback accumulates, your confidence snowballs. Your attention shifts from how to kill time to how to optimize earning efficiency. You begin asking better questions: Why does someone else sell the same product at a higher price? Is my listing description weak? Are my photos unappealing? Why does another person's freelance rate exceed mine? Should I learn video editing or data analysis?
+As this positive feedback accumulates, your confidence snowballs. Your attention shifts from "how to kill time" to "how to optimize earning efficiency." You begin asking better questions: Why does someone else sell the same product at a higher price? Is my listing description weak? Are my photos unappealing? Why does another person's freelance rate exceed mine? Should I learn video editing or data analysis?
 
 The moment you start asking these questions, your deep thinking capacity has been reactivated. You are no longer a passive receiver of garbage information. You are a hunter actively seeking prey.
 
 ### Phase Three: The Hunter Mindset
 
-On this path, you will face obstacles. Difficult clients will humiliate you. Competitors will undercut you. People around you will mock you for being money-obsessed, for losing your authentic self, for becoming too realistic.
+On this path, you will face obstacles. Difficult clients will humiliate you. Competitors will undercut you. People around you will mock you for being money-obsessed, for losing your "authentic self," for becoming too "realistic."
 
 Your response should be a cold inward smile, and then keep your head down and keep working.
 
 Moral perfectionism, glass-hearted sensitivity, and cheap face-saving are the most useless, most pathetic things in the world when your bank account is empty. No one cares about your dignity when you have nothing. Only when you can use money to build an indestructible umbrella for the people you love, only when you have the confidence to say no to everything you do not want to do, do you earn the right to talk about dignity.
 
-Do not listen to the money is not everything speeches. That is what people who already have everything say to sound noble. Think of yourself as a cold, efficient wealth-harvesting machine. Eliminate every emotion that interferes with your earning.
+Do not listen to the "money is not everything" speeches. That is what people who already have everything say to sound noble. Think of yourself as a cold, efficient wealth-harvesting machine. Eliminate every emotion that interferes with your earning.
 
 Treat every failure as valuable data for a system upgrade. Treat every rejection as a step toward filtering for quality clients. From now on, your world has only two categories: things that help me earn money, and things that prevent me from earning money.
 
 ## The Final Truth
 
-The person who was trapped in the digital slum, drifting without desire, at the mercy of others — that version of you dies when you make this transition. What replaces it is a species with a清醒 mind, extreme execution ability, and an insatiable hunger for reality.
+The person who was trapped in the digital slum, drifting without desire, at the mercy of others — that version of you dies when you make this transition. What replaces it is a species with a clear mind, extreme execution ability, and an insatiable hunger for reality.
 
 You are no longer the contemporary leek, waiting to be harvested. You have crossed the class barrier and picked up your own scythe.
 
