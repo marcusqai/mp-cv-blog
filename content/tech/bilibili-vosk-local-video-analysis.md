@@ -1,14 +1,14 @@
 ---
-title: "Self-Hosted Bilibili Video Analysis with Vosk and Local LLMs"
+title: "Self-Hosted Bilibili Video Analysis with Vosk and AI Assistant"
 date: 2026-06-07T06:50:00+08:00
 draft: false
 tags:
   - tech
   - vosk
   - asr
-  - llm
+  - ai
 summary: "Local Chinese video analysis pipeline."
-description: "A self-hosted pipeline: download, transcribe with Vosk cn-0.22, analyze with LLMs, output PDF reports."
+description: "A self-hosted pipeline: download, transcribe with Vosk cn-0.22, analyze with an AI assistant, output PDF reports."
 ---
 
 ## The Problem
@@ -40,7 +40,7 @@ Bilibili URL
     ↓
 [5] Subtitle cleanup
     ↓
-[6] Local LLM analysis (markdown)
+[6] AI assistant analysis (markdown)
     ↓
 [7] Markdown → HTML (Python)
     ↓
@@ -56,7 +56,7 @@ Each stage is independent and can be run separately. Total wall-clock time for a
 | 3. ffmpeg | `audio_16k.wav` | 35 MB |
 | 4. Vosk | `transcript_raw` | 37 KB |
 | 5. Cleanup | `transcript_clean.txt` | 17 KB |
-| 6. LLM | `analysis.md` | 32 KB |
+| 6. AI analysis | `analysis.md` | 32 KB |
 | 7. HTML | `analysis.html` | 48 KB |
 | 8. PDF | `analysis.pdf` | 1.5 MB |
 
@@ -68,8 +68,10 @@ Each stage is independent and can be run separately. Total wall-clock time for a
 - `ffmpeg` (any recent build)
 - Python 3.10+ with `vosk`, `weasyprint`, and `Pillow`
 - Vosk `cn-0.22` Mandarin model (1.3 GB download)
-- A local LLM endpoint (Ollama, LM Studio, vLLM, or compatible)
+- An AI assistant capable of reading the cleaned transcript and producing structured analysis
 - ~3 GB of free disk space for the working set
+
+The AI assistant stage is intentionally decoupled from the rest of the pipeline. The transcript is a plain text file, so any tool that reads text can be plugged in here. The rest of the pipeline is fully offline.
 
 ---
 
@@ -161,9 +163,9 @@ The cleanup also strips Vosk's internal formatting tags, normalizes whitespace, 
 
 ---
 
-## Stage 5: LLM Analysis
+## Stage 5: AI Assistant Analysis
 
-The cleaned transcript is sent to a local LLM with a structured prompt. The prompt template asks for:
+The cleaned transcript is sent to an AI assistant with a structured prompt. The prompt template asks for:
 
 - A short executive summary at the top
 - Sectioned analysis (overview, chapter structure, key insights)
@@ -171,23 +173,11 @@ The cleaned transcript is sent to a local LLM with a structured prompt. The prom
 - A practical recommendations section
 - Plain-text references rather than URLs
 
-```python
-import requests
+A typical prompt for an 18-minute video produces around 5,000 words of analysis. The AI assistant reads the cleaned transcript, applies the requested structure, and returns the analysis as markdown. The output is saved directly as `analysis.md`, which becomes the source for the next stage.
 
-def analyze(transcript, model="qwen2.5-14b"):
-    response = requests.post(
-        "http://localhost:11434/api/generate",
-        json={
-            "model": model,
-            "prompt": f"Analyze this Chinese transcript...\n\n{transcript}",
-            "stream": False,
-        },
-        timeout=600,
-    )
-    return response.json()["response"]
-```
+The analysis stage benefits from context window: an 18-minute Chinese video compresses to about 5,000 characters after cleanup, which fits comfortably in any modern AI context. For longer videos, the transcript can be split into chapters and analyzed in sequence, with the AI producing a final synthesis at the end.
 
-A typical prompt for an 18-minute video produces around 5,000 words of analysis in 90 seconds on a mid-range GPU. The output is saved directly as markdown, which becomes the source for the next stage.
+This stage is the one place where the pipeline touches an external service, but the transcript has already been produced locally and the analysis output stays local. The cost is one round trip with the assistant, not a per-minute metered API.
 
 ---
 
@@ -255,7 +245,7 @@ The print stylesheet also controls page breaks: `h1`, `h2`, `h3` use `page-break
 4. **Decentralized workflows avoid single points of failure.** Each stage of the pipeline is a separate file with a separate output. If stage 6 fails, stage 5's markdown is still usable on its own.
 5. **The handoff between stages is the most fragile part.** Errors propagate. A robust pipeline validates each stage's output (file exists, expected size, valid format) before moving on.
 6. **A self-hosted pipeline is only as good as its error messages.** When a stage fails silently, you lose hours. Logging the start, end, and size of each stage is non-negotiable.
-7. **The choice between local and cloud LLMs is about throughput, not intelligence.** For batch analysis, local models are faster and cheaper. For interactive use, a cloud endpoint wins on latency.
+7. **Keep the AI analysis stage decoupled.** The transcript is a plain text file. Any tool that reads text can be plugged in here. Avoid hard-coding a specific LLM endpoint in the pipeline; treat the assistant as a black box that takes text in and produces markdown out.
 
 ---
 
@@ -268,14 +258,14 @@ The print stylesheet also controls page breaks: `h1`, `h2`, `h3` use `page-break
 | 3. ffmpeg resample | 8 s |
 | 4. Vosk ASR | 600 s |
 | 5. Subtitle cleanup | 5 s |
-| 6. LLM analysis | 360 s |
+| 6. AI analysis | 90-360 s |
 | 7. Markdown to HTML | 2 s |
 | 8. WeasyPrint to PDF | 4 s |
-| **Total** | **~1,081 s (~18 min)** |
+| **Total** | **~811-1,081 s (~13-18 min)** |
 
 The bottleneck is Vosk's CPU-bound ASR. A GPU build of Vosk would cut stage 4 from 600 s to roughly 90 s, dropping total pipeline time to about 8 minutes.
 
-The second bottleneck is the LLM analysis stage. Local 14B models on consumer GPUs run at about 30 tokens per second, so 5,000 words of analysis takes around 6 minutes. Smaller models (7B) cut this in half at the cost of structural quality in the output.
+The second bottleneck is the AI analysis stage. A 5,000-character transcript takes about 90 seconds to analyze with a single round trip. For longer videos, splitting into chapters and running sequential analyses can add up to 6 minutes.
 
 ---
 
