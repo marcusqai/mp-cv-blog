@@ -43,7 +43,7 @@ description: "Complete breakdown of 20 habits for life improvement with fact che
 
 ### 🎯 Practical Application at Work
 
-1. **Turn off all non-urgent notifications** — Keep only Telegram (boss's messages) and system alerts
+1. **Turn off all non-urgent notifications** — Keep only critical work notifications and system alerts
 2. **Set "Deep Work Hours"** — 08:00-10:00 for writing reports, no non-urgent replies
 3. **Information source grading:**
    - 🟢 Must-read: Boss messages, Supplier reports, Cron errors
@@ -74,14 +74,14 @@ description: "Complete breakdown of 20 habits for life improvement with fact che
 
 | Work Type | Wrong Approach | Result-Oriented Approach |
 |:---|:---|:---|
-| **Supplier Quality Reports** | "Send a report every day" | "Help the boss understand the Top 3 Supplier issues this week" |
+| **Supplier Quality Reports** | "Send a report every day" | "Help stakeholders understand the Top 3 Supplier issues this week" |
 | **Blog Publishing** | "Publish an article every week" | "What impact should this article have?" → Reverse-engineer |
-| **Cron Management** | "Run crons" | "What automation should this cron achieve?" → Reverse-engineer |
+| **Cron Management** | "Run automated tasks" | "What automation should this task achieve?" → Reverse-engineer |
 
 **Concrete Actions:**
 1. Set 1-3 core results per week (not task lists)
 2. Reverse-engineer daily actions — To achieve this result, what must I do today?
-3. Cut work that doesn't lead to results — Ask: Who uses this cron's output?
+3. Cut work that doesn't lead to results — Ask: Who uses this automated output?
 
 ---
 
@@ -106,7 +106,7 @@ description: "Complete breakdown of 20 habits for life improvement with fact che
 | Time Period | Energy Level | Best For |
 |:---|:---:|:---|
 | **08:00-10:00** | 🟢 Peak | Writing reports, deep analysis, Blog articles |
-| **10:00-12:00** | 🟡 High | Replying to boss, handling supplier issues |
+| **10:00-12:00** | 🟡 High | Handling priority communications and supplier issues |
 | **14:00-16:00** | 🟢 Peak (2nd wave) | Daily Evolution, Self-Improvement |
 | **16:00-18:00** | 🟡 High | Cron debugging, Skill development |
 | **20:00-22:00** | 🔴 Low | Memory organisation, document updates, routine checks |
@@ -157,9 +157,9 @@ description: "Complete breakdown of 20 habits for life improvement with fact che
 
 | Idea | MVP Approach | Perfectionist Approach (Avoid) |
 |:---|:---|:---|
-| **New Report Format** | Send a simple table first, ask boss for feedback | Design a perfect template, take 2 weeks |
+| **New Report Format** | Send a simple table first, ask stakeholders for feedback | Design a perfect template, take 2 weeks |
 | **Cron Automation** | Run manually once to verify logic, then automate | Write full automation directly, rewrite on failure |
-| **Blog Article** | Write draft, show boss, then polish | Revise for a month before publishing |
+| **Blog Article** | Write draft, share for review, then polish | Revise for a month before publishing |
 
 **Concrete Action:** "24-Hour Rule" — Any new idea, produce a testable version within 24 hours.
 
@@ -375,7 +375,7 @@ description: "Complete breakdown of 20 habits for life improvement with fact che
 |:---|:---|
 | **🔴 Absolute isolation** | Short video apps, entertainment gossip |
 | **🟡 Time-limited** | News (15 min/day), industry forums (30 min) |
-| **🟢 Free access** | Professional literature, boss messages |
+| **🟢 Free access** | Professional literature, priority communications |
 
 ---
 
@@ -551,10 +551,10 @@ Feedback: Boss feedback → Self-Improvement → Error Logging → MEMORY.md
 
 ### 🎯 應用於你的工作
 
-1. **關閉所有非緊急通知** — 只保留 Telegram（主人消息）和系統告警
+1. **關閉所有非緊急通知** — 只保留關鍵工作通知和系統告警
 2. **設定「深度工作時段」** — 08:00-10:00 寫報告，不回非緊急消息
 3. **信息源分級：**
-   - 🟢 必讀：主人消息、Supplier 報告、Cron 錯誤
+   - 🟢 必讀：關鍵通知、Supplier 報告、系統錯誤
    - 🟡 可選：Industry news、Blog 評論
    - 🔴 不看：娛樂八卦、無意義社交媒體
 4. **Telegram 群組管理** — Mute 非關鍵群組，只保留 Direct Message
@@ -581,14 +581,14 @@ Feedback: Boss feedback → Self-Improvement → Error Logging → MEMORY.md
 
 | 工作類型 | 錯誤做法 | 結果導向做法 |
 |:---|:---|:---|
-| **Supplier Quality Reports** | 「每天發報告」 | 「本週讓主人了解 Top 3 Supplier 問題」 |
+| **Supplier Quality Reports** | 「每天發報告」 | 「本週讓團隊了解 Top 3 Supplier 問題」 |
 | **Blog 發布** | 「每周發文章」 | 「文章要帶來什麼影響？」→ 逆向推導 |
-| **Cron 管理** | 「跑 cron」 | 「cron 要實現什麼？」→ 逆向推導 |
+| **Cron 管理** | 「跑自動化任務」 | 「自動化要實現什麼？」→ 逆向推導 |
 
 **具體行動：**
 1. 每週 1-3 個核心結果（非任務清單）
 2. 逆向推導：要實現結果，今天做什麼？
-3. 砍掉無結果工作：誰用這個 cron 的輸出？
+3. 砍掉無結果工作：誰用這個自動化輸出？
 
 ---
 
@@ -610,7 +610,7 @@ Feedback: Boss feedback → Self-Improvement → Error Logging → MEMORY.md
 | 時段 | 精力 | 適合做 |
 |:---|:---:|:---|
 | **08:00-10:00** | 🟢 巔峰 | 寫報告、深度分析、Blog |
-| **10:00-12:00** | 🟡 高 | 回覆主人、Supplier 問題 |
+| **10:00-12:00** | 🟡 高 | 處理優先溝通、Supplier 問題 |
 | **14:00-16:00** | 🟢 巔峰 | Daily Evolution、Self-Improvement |
 | **16:00-18:00** | 🟡 高 | Cron 調試、Skill 開發 |
 | **20:00-22:00** | 🔴 低谷 | 記憶整理、例行檢查 |
@@ -658,7 +658,7 @@ Feedback: Boss feedback → Self-Improvement → Error Logging → MEMORY.md
 |:---|:---|:---|
 | **新報告格式** | 簡單表格先發，問意見 | 設計完美模板花兩週 |
 | **Cron 自動化** | 先手動驗證，再自動化 | 直接寫完整腳本 |
-| **Blog 文章** | 草稿給主人看，再潤色 | 修改一個月才發 |
+| **Blog 文章** | 草稿分享給團隊審閱，再潤色 | 修改一個月才發 |
 
 ---
 
@@ -858,7 +858,7 @@ Feedback: Boss feedback → Self-Improvement → Error Logging → MEMORY.md
 |:---|:---|
 | **🔴 絕對隔離** | 短視頻、八卦、無意義社交 |
 | **🟡 限時** | 新聞 15 分鐘/天，論壇 30 分鐘 |
-| **🟢 自由** | 專業文獻、主人消息 |
+| **🟢 自由** | 專業文獻、優先通知 |
 
 ---
 
@@ -963,7 +963,7 @@ Feedback: Boss feedback → Self-Improvement → Error Logging → MEMORY.md
 ### 🎯 應用於你的工作
 
 ```
-輸入：主人指令 → Cron → Heartbeat → 外部數據
+輸入：工作指令 → 自動化任務 → 定期檢查 → 外部數據
   ↓
 處理：任務分類 → 技能路由 → 記憶檢索 → 決策引擎
   ↓
