@@ -206,7 +206,7 @@ Command output automatically loaded into conversation.
 ### 4.4 Two Main Agent Modes
 
 | Mode | Shortcut | Description |
-|---|---|:---|
+|---|---|---|
 | **Build** | Tab to switch | Default agent, full tool access |
 | **Plan** | Tab to switch | Read-only agent, no edits or commands |
 
@@ -225,7 +225,7 @@ Drag and drop images directly into terminal. OpenCode will scan images and add t
 ### 5.1 Built-in Slash Commands
 
 | Command | Shortcut | Function |
-|---|---|:---|
+|---|---|---|
 | `/connect` | — | Add model provider and API key |
 | `/init` | — | Initialize project, create AGENTS.md |
 | `/new` | Ctrl+X N | Start new session |
@@ -297,7 +297,7 @@ Select provider → Enter API Key → Done.
 ### 7.2 Supported Model Providers
 
 | Provider | Models | Use Case |
-|---|---|:---|
+|---|---|---|
 | **Anthropic** | Claude Sonnet 4.5, Opus 4.6, Haiku 4.5 | Code generation, reasoning |
 | **OpenAI** | GPT-5.1 Codex, GPT-5 Codex | Programming-specific |
 | **Google** | Gemini 3.1 Pro | Multimodal |
@@ -355,7 +355,7 @@ Select provider → Enter API Key → Done.
 ### 8.1 Configuration Priority (Low to High)
 
 | Priority | Source | Description |
-|---|---|:---|
+|---|---|---|
 | 1 | Remote config | Organization defaults (.well-known/opencode) |
 | 2 | Global config | `~/.config/opencode/opencode.json` |
 | 3 | Custom config | `OPENCODE_CONFIG` environment variable |
@@ -431,7 +431,7 @@ opencode run "Hello world"
 ### 9.1 Built-in Agents
 
 | Agent | Type | Description |
-|---|---|:---|
+|---|---|---|
 | **Build** | Primary | Default, all tools available, full development permissions |
 | **Plan** | Primary | Read-only, no edits or commands, perfect for analysis and planning |
 | **General** | Subagent | General research, multi-step tasks, can execute in parallel |
@@ -887,7 +887,7 @@ OpenCode supports Git Worktrees as isolation strategy, letting AI work on indepe
 ## 18. Comparison with Claude Code / Codex
 
 | Feature | OpenCode | Claude Code | Codex |
-|---|---|:---|:---|
+|---|---|---|---|
 | **Model Support** | 75+ providers | Claude only | OpenAI only |
 | **License** | MIT (open-source) | Proprietary | Proprietary |
 | **Local Models** | Yes (Ollama) | No | No |
