@@ -104,7 +104,7 @@ OpenCode is an open-source AI coding agent that can compete with Claude Code, Co
 
 ```bash
 curl -fsSL https://opencode.ai/install | bash
-```bash
+```
 
 ### 3.2 Platform-Specific Methods
 
@@ -152,7 +152,7 @@ opencode
 
 # Or specify directory
 opencode /path/to/project
-```bash
+```
 
 ### 3.6 First-Time Setup
 
@@ -177,7 +177,7 @@ After launch, run `/init`. OpenCode will analyze project structure and create `A
 │                                 │
 │  [Build]  [Tab to switch]       │
 └─────────────────────────────────┘
-```bash
+```
 
 ### 4.2 File References
 
@@ -185,7 +185,7 @@ Use `@` symbol to reference files:
 
 ```
 How is authentication handled in @packages/functions/src/api/index.ts?
-```bash
+```
 
 - Supports fuzzy search
 - File content automatically loaded into conversation
@@ -199,7 +199,7 @@ Messages starting with `!` execute Shell commands directly:
 !ls -la
 !git status
 !npm test
-```bash
+```
 
 Command output automatically loaded into conversation.
 
@@ -260,7 +260,7 @@ opencode run "Explain the functionality of src/index.ts"
 
 # Specify directory
 opencode run "Help me refactor this code" /path/to/project
-```bash
+```
 
 ### 6.2 Server Mode
 
@@ -270,7 +270,7 @@ opencode serve
 
 # Start Web interface
 opencode web
-```bash
+```
 
 ### 6.3 Custom Install Path
 
@@ -280,7 +280,7 @@ OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bas
 
 # XDG standard path
 XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
-```bash
+```
 
 ---
 
@@ -290,7 +290,7 @@ XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 
 ```
 /connect
-```bash
+```
 
 Select provider → Enter API Key → Done.
 
@@ -323,7 +323,7 @@ Select provider → Enter API Key → Done.
     }
   }
 }
-```bash
+```
 
 **small_model**: Used for lightweight tasks (title generation, etc.), automatically uses cheaper model.
 
@@ -346,7 +346,7 @@ Select provider → Enter API Key → Done.
     }
   }
 }
-```bash
+```
 
 ---
 
@@ -368,7 +368,7 @@ Select provider → Enter API Key → Done.
 
 ### 8.2 Global Configuration
 
-```json
+```bash
 // ~/.config/opencode/opencode.json
 {
   "$schema": "https://opencode.ai/config.json",
@@ -378,11 +378,11 @@ Select provider → Enter API Key → Done.
     "port": 4096
   }
 }
-```bash
+```
 
 ### 8.3 Project Configuration
 
-```json
+```bash
 // Project root opencode.json
 {
   "$schema": "https://opencode.ai/config.json",
@@ -392,13 +392,13 @@ Select provider → Enter API Key → Done.
     "bash": "ask"
   }
 }
-```bash
+```
 
 ✅ **Safe to commit to Git**
 
 ### 8.4 TUI Configuration
 
-```json
+```bash
 // ~/.config/opencode/tui.json
 {
   "$schema": "https://opencode.ai/tui.json",
@@ -415,14 +415,14 @@ Select provider → Enter API Key → Done.
     "volume": 0.4
   }
 }
-```bash
+```
 
 ### 8.5 Custom Configuration Path
 
 ```bash
 export OPENCODE_CONFIG=/path/to/my/custom-config.json
 opencode run "Hello world"
-```bash
+```
 
 ---
 
@@ -453,7 +453,7 @@ opencode run "Hello world"
 @general help me search for this function
 @explore find all authentication-related files
 @scout check the source code implementation of this library
-```bash
+```
 
 ### 9.4 Subagent Session Navigation
 
@@ -483,7 +483,7 @@ opencode run "Hello world"
     }
   }
 }
-```bash
+```
 
 ### 9.6 Custom Agents (Markdown Configuration)
 
@@ -507,7 +507,7 @@ You are in code review mode. Focus on:
 - Security considerations
 
 Provide constructive feedback without making direct changes.
-```bash
+```
 
 Filename is agent name (review.md → `@review`)
 
@@ -541,7 +541,7 @@ model: anthropic/claude-3-5-sonnet-20241022
 
 Run the full test suite with coverage report and show any failures.
 Focus on the failing tests and suggest fixes.
-```bash
+```
 
 Use: `/test`
 
@@ -559,7 +559,7 @@ Use: `/test`
     }
   }
 }
-```bash
+```
 
 ### 10.3 Command Arguments
 
@@ -572,7 +572,7 @@ description: Create a new component
 
 Create a new React component named $ARGUMENTS with TypeScript support.
 Include proper typing and basic structure.
-```text
+```
 
 Use: `/component Button` → `$ARGUMENTS` replaced with `Button`
 
@@ -583,7 +583,7 @@ description: Create a new file with content
 
 Create a file named $1 in the directory $2
 with the following content: $3
-```bash
+```
 
 Use: `/create-file config.json src '{ "key": "value" }'`
 
@@ -591,7 +591,7 @@ Use: `/create-file config.json src '{ "key": "value" }'`
 
 Use `!command` to inject Shell command output:
 
-```markdown
+```bash
 ---
 description: Review recent changes
 ---
@@ -601,7 +601,7 @@ Recent git commits:
 !`git log --oneline -10`
 
 Review these changes and suggest any improvements.
-```bash
+```
 
 ### 10.5 Command Embedded Files
 
@@ -614,7 +614,7 @@ description: Review component
 
 Review the component in @src/components/Button.tsx.
 Check for performance issues and suggest improvements.
-```bash
+```
 
 ### 10.6 Command Options
 
@@ -638,7 +638,7 @@ Skills are reusable knowledge files (`SKILL.md`) containing specialized instruct
 
 ```
 skill tool automatically loads SKILL.md file content into conversation
-```bash
+```
 
 ### 11.3 Skills Storage Location
 
@@ -651,13 +651,13 @@ skill tool automatically loads SKILL.md file content into conversation
 
 Each Skill is a directory containing `SKILL.md`:
 
-```
+```bash
 .opencode/skills/
 ├── my-skill/
 │   └── SKILL.md
 └── another-skill/
     └── SKILL.md
-```bash
+```
 
 ---
 
@@ -739,7 +739,7 @@ Custom tools allow you to define your own functions for LLM to call and execute 
     "webfetch": "deny"
   }
 }
-```bash
+```
 
 ### 13.4 Wildcard Control
 
@@ -749,7 +749,7 @@ Custom tools allow you to define your own functions for LLM to call and execute 
     "mymcp_*": "ask"
   }
 }
-```bash
+```
 
 ### 13.5 Independent Permissions Per Agent
 
@@ -766,7 +766,7 @@ Custom tools allow you to define your own functions for LLM to call and execute 
     }
   }
 }
-```bash
+```
 
 ### 13.6 Markdown Agent Permissions
 
@@ -781,7 +781,7 @@ permission:
     "git diff": allow
     "git log*": allow
 ---
-```bash
+```
 
 ---
 
@@ -804,7 +804,7 @@ MCP (Model Context Protocol) servers allow integration with external tools and s
     }
   }
 }
-```bash
+```
 
 ### 14.3 Remote MCP
 
@@ -823,13 +823,13 @@ Organizations can provide default MCP servers via `.well-known/opencode` endpoin
 
 OpenCode supports plugin extensions. Plugins stored in `.opencode/` directory:
 
-```
+```bash
 .opencode/
 ├── agents/     # Custom agents
 ├── commands/   # Custom commands
 ├── skills/     # Custom skills
 └── plugins/    # Plugins
-```bash
+```
 
 ---
 
@@ -846,7 +846,7 @@ OpenCode supports plugin extensions. Plugins stored in `.opencode/` directory:
 
 ```
 /share
-```bash
+```
 
 Creates share link for current conversation, copies to clipboard.
 
@@ -949,7 +949,7 @@ Plan          # Read-only
 @explore      # Codebase exploration
 @general      # General research
 @scout        # External docs research
-```bash
+```
 
 ---
 
@@ -995,10 +995,10 @@ OpenCode 是一個開源的 AI 編程代理工具（AI Coding Agent），可以�
 
 ### 3.1 一鍵安裝（推薦）
 
-```
+```bash
 curl -fsSL https://opencode.ai/install | bash
 
-```bash
+```
 
 ### 3.2 各平台安裝方法
 
@@ -1015,7 +1015,7 @@ macOS 安裝：brew install --cask opencode-desktopWindows 安裝：scoop bucket
 
 ### 3.5 啟動
 
-```
+```bash
 # 進入項目目錄
 cd /path/to/project
 
@@ -1025,7 +1025,7 @@ opencode
 # 或指定目錄
 opencode /path/to/project
 
-```bash
+```
 
 ### 3.6 首次配置
 
@@ -1051,7 +1051,7 @@ opencode /path/to/project
 │  [Build]  [Tab 切換代理]         │
 └─────────────────────────────────┘
 
-```bash
+```
 
 ### 4.2 文件引用
 
@@ -1060,19 +1060,19 @@ opencode /path/to/project
 ```
 How is authentication handled in @packages/functions/src/api/index.ts?
 
-```bash
+```
 - 支持模糊搜索- 文件內容自動載入對話- 支持別名引用（@docs/README.md）
 
 ### 4.3 Bash 命令注入
 
 消息以!開頭直接執行 Shell 命令：
 
-```
+```bash
 !ls -la
 !git status
 !npm test
 
-```bash
+```
 
 命令輸出自動載入對話。
 
@@ -1102,36 +1102,36 @@ How is authentication handled in @packages/functions/src/api/index.ts?
 
 ### 6.1 非交互模式
 
-```
+```bash
 # 直接發送消息（不進入 TUI）
 opencode run "幫我解釋 src/index.ts 的功能"
 
 # 指定目錄
 opencode run "幫我重構這段代碼" /path/to/project
 
-```bash
+```
 
 ### 6.2 服務器模式
 
-```
+```bash
 # 啟動 HTTP 服務器
 opencode serve
 
 # 啟動 Web 界面
 opencode web
 
-```bash
+```
 
 ### 6.3 自定義安裝路徑
 
-```
+```bash
 # 指定安裝目錄
 OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
 
 # XDG 標準路徑
 XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 
-```bash
+```
 
 ---
 
@@ -1142,7 +1142,7 @@ XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 ```
 /connect
 
-```bash
+```
 
 選擇提供商 → 輸入 API Key → 完成。
 
@@ -1152,7 +1152,7 @@ XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 
 ### 7.3 模型配置格式
 
-```
+```json
 {
   "$schema": "https://opencode.ai/config.json",
   "model": "anthropic/claude-sonnet-4-20250514",
@@ -1168,7 +1168,7 @@ XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
   }
 }
 
-```bash
+```
 
 small_model：用於輕量任務（標題生成等），自動使用更便宜的模型。
 
@@ -1177,7 +1177,7 @@ small_model：用於輕量任務（標題生成等），自動使用更便宜的
 
 ### 7.5 不同任務用不同模型
 
-```
+```json
 {
   "agent": {
     "build": {
@@ -1189,7 +1189,7 @@ small_model：用於輕量任務（標題生成等），自動使用更便宜的
   }
 }
 
-```bash
+```
 
 ---
 
@@ -1203,7 +1203,7 @@ small_model：用於輕量任務（標題生成等），自動使用更便宜的
 
 ### 8.2 全局配置
 
-```
+```bash
 // ~/.config/opencode/opencode.json
 {
   "$schema": "https://opencode.ai/config.json",
@@ -1214,11 +1214,11 @@ small_model：用於輕量任務（標題生成等），自動使用更便宜的
   }
 }
 
-```bash
+```
 
 ### 8.3 項目配置
 
-```
+```bash
 // 項目根目錄 opencode.json
 {
   "$schema": "https://opencode.ai/config.json",
@@ -1229,13 +1229,13 @@ small_model：用於輕量任務（標題生成等），自動使用更便宜的
   }
 }
 
-```bash
+```
 
 ✅可以安全提交到 Git
 
 ### 8.4 TUI 配置
 
-```
+```bash
 // ~/.config/opencode/tui.json
 {
   "$schema": "https://opencode.ai/tui.json",
@@ -1253,15 +1253,15 @@ small_model：用於輕量任務（標題生成等），自動使用更便宜的
   }
 }
 
-```bash
+```
 
 ### 8.5 自定義配置路徑
 
-```
+```bash
 export OPENCODE_CONFIG=/path/to/my/custom-config.json
 opencode run "Hello world"
 
-```bash
+```
 
 ---
 
@@ -1277,13 +1277,13 @@ opencode run "Hello world"
 
 ### 9.3 使用子代理
 
-```
+```bash
 # 在消息中 @ 提及
 @general help me search for this function
 @explore 幫我找出所有與認證相關的文件
 @scout 幫我查看這個庫的源代碼實現
 
-```bash
+```
 
 ### 9.4 子代理會話導航
 
@@ -1291,7 +1291,7 @@ opencode run "Hello world"
 
 ### 9.5 自定義代理（JSON 配置）
 
-```
+```json
 {
   "$schema": "https://opencode.ai/config.json",
   "agent": {
@@ -1309,13 +1309,13 @@ opencode run "Hello world"
   }
 }
 
-```bash
+```
 
 ### 9.6 自定義代理（Markdown 配置）
 
 創建文件~/.config/opencode/agents/review.md：
 
-```
+```markdown
 ---
 description: Reviews code for quality and best practices
 mode: subagent
@@ -1334,7 +1334,7 @@ You are in code review mode. Focus on:
 
 Provide constructive feedback without making direct changes.
 
-```bash
+```
 
 文件名即代理名稱（review.md →@review）
 
@@ -1350,7 +1350,7 @@ Provide constructive feedback without making direct changes.
 
 創建.opencode/commands/test.md：
 
-```
+```markdown
 ---
 description: Run tests with coverage
 agent: build
@@ -1360,13 +1360,13 @@ model: anthropic/claude-3-5-sonnet-20241022
 Run the full test suite with coverage report and show any failures.
 Focus on the failing tests and suggest fixes.
 
-```bash
+```
 
 使用：/test
 
 ### 10.2 創建命令（JSON）
 
-```
+```json
 {
   "$schema": "https://opencode.ai/config.json",
   "command": {
@@ -1379,13 +1379,13 @@ Focus on the failing tests and suggest fixes.
   }
 }
 
-```bash
+```
 
 ### 10.3 命令參數
 
 使用$ARGUMENTS或$1,$2,$3：
 
-```
+```markdown
 ---
 description: Create a new component
 ---
@@ -1393,11 +1393,11 @@ description: Create a new component
 Create a new React component named $ARGUMENTS with TypeScript support.
 Include proper typing and basic structure.
 
-```text
+```
 
 使用：/component Button→$ARGUMENTS替換為Button
 
-```
+```markdown
 ---
 description: Create a new file with content
 ---
@@ -1405,7 +1405,7 @@ description: Create a new file with content
 Create a file named $1 in the directory $2
 with the following content: $3
 
-```bash
+```
 
 使用：/create-file config.json src '{ "key": "value" }'
 
@@ -1413,7 +1413,7 @@ with the following content: $3
 
 使用!command注入 Shell 命令輸出：
 
-```
+```bash
 ---
 description: Review recent changes
 ---
@@ -1424,13 +1424,13 @@ Recent git commits:
 
 Review these changes and suggest any improvements.
 
-```bash
+```
 
 ### 10.5 命令嵌入文件
 
 使用@filename引用文件：
 
-```
+```markdown
 ---
 description: Review component
 ---
@@ -1438,7 +1438,7 @@ description: Review component
 Review the component in @src/components/Button.tsx.
 Check for performance issues and suggest improvements.
 
-```bash
+```
 
 ### 10.6 命令選項
 
@@ -1457,7 +1457,7 @@ Skills 是可重用的知識文件（SKILL.md），包含特定領域的專業�
 ```
 skill tool 自動加載 SKILL.md 文件內容到對話中
 
-```bash
+```
 
 ### 11.3 Skills 存放位置
 
@@ -1467,14 +1467,14 @@ skill tool 自動加載 SKILL.md 文件內容到對話中
 
 每個 Skill 是一個目錄，包含SKILL.md：
 
-```
+```bash
 .opencode/skills/
 ├── my-skill/
 │   └── SKILL.md
 └── another-skill/
     └── SKILL.md
 
-```bash
+```
 
 ---
 
@@ -1504,7 +1504,7 @@ skill tool 自動加載 SKILL.md 文件內容到對話中
 
 ### 13.3 精細控制（Glob 模式）
 
-```
+```json
 {
   "permission": {
     "edit": "deny",
@@ -1519,22 +1519,22 @@ skill tool 自動加載 SKILL.md 文件內容到對話中
   }
 }
 
-```bash
+```
 
 ### 13.4 通配符控制
 
-```
+```json
 {
   "permission": {
     "mymcp_*": "ask"
   }
 }
 
-```bash
+```
 
 ### 13.5 每個代理獨立權限
 
-```
+```json
 {
   "permission": {
     "edit": "deny"
@@ -1548,11 +1548,11 @@ skill tool 自動加載 SKILL.md 文件內容到對話中
   }
 }
 
-```bash
+```
 
 ### 13.6 Markdown 代理權限
 
-```
+```markdown
 ---
 description: Code review without edits
 mode: subagent
@@ -1564,7 +1564,7 @@ permission:
     "git log*": allow
 ---
 
-```bash
+```
 
 ---
 
@@ -1576,7 +1576,7 @@ MCP（Model Context Protocol）服務器允許集成外部工具和服務，包�
 
 ### 14.2 MCP 配置
 
-```
+```json
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
@@ -1588,7 +1588,7 @@ MCP（Model Context Protocol）服務器允許集成外部工具和服務，包�
   }
 }
 
-```bash
+```
 
 ### 14.3 遠程 MCP
 
@@ -1602,14 +1602,14 @@ MCP（Model Context Protocol）服務器允許集成外部工具和服務，包�
 
 OpenCode 支持插件擴展功能。插件存放在.opencode/目錄下：
 
-```
+```bash
 .opencode/
 ├── agents/     # 自定義代理
 ├── commands/   # 自定義命令
 ├── skills/     # 自定義技能
 └── plugins/    # 插件
 
-```bash
+```
 
 ---
 
@@ -1623,7 +1623,7 @@ OpenCode 支持插件擴展功能。插件存放在.opencode/目錄下：
 ```
 /share
 
-```bash
+```
 
 創建當前對話的分享鏈接，複製到剪貼板。
 
@@ -1675,7 +1675,7 @@ OpenCode 支持 Git Worktrees 作為隔離策略，讓 AI 在獨立分支工作�
 
 ### 19.1 日常開發流程
 
-```
+```bash
 1. cd /path/to/project
 2. opencode                              # 啟動 TUI
 3. /init                                  # 初始化項目（首次）
@@ -1687,20 +1687,20 @@ OpenCode 支持 Git Worktrees 作為隔離策略，讓 AI 在獨立分支工作�
 9. 調整提示詞，重試                         # 迭代
 10. /share                                # 分享給團隊
 
-```bash
+```
 
 ### 19.2 代碼審查流程
 
-```
+```bash
 1. @explore 幫我找出所有與認證相關的文件    # 快速探索
 2. @code-reviewer 檢查這段代碼的質量        # 使用自定義代理
 3. @general 幫我搜索這個庫的最佳實踐        # 外部研究
 
-```bash
+```
 
 ### 19.3 成本優化配置
 
-```
+```json
 {
   "$schema": "https://opencode.ai/config.json",
   "model": "anthropic/claude-sonnet-4-20250514",
@@ -1723,7 +1723,7 @@ OpenCode 支持 Git Worktrees 作為隔離策略，讓 AI 在獨立分支工作�
   }
 }
 
-```bash
+```
 
 ---
 
@@ -1731,17 +1731,17 @@ OpenCode 支持 Git Worktrees 作為隔離策略，讓 AI 在獨立分支工作�
 
 ### 20.1 安裝
 
-```
+```bash
 curl -fsSL https://opencode.ai/install | bash
 
-```bash
+```
 
 ### 20.2 啟動
 
-```
+```bash
 cd /path/to/project && opencode
 
-```bash
+```
 
 ### 20.3 常用快捷鍵
 
