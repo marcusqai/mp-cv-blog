@@ -1,5 +1,5 @@
 ---
-title: "99% of Learning Is Self-Deception — Lessons from 'Learn How to Learn'"
+title: "99% of Learning Is Self-Deception - Lessons from 'Learn How to Learn'"
 date: 2026-06-09T07:30:00+08:00
 draft: false
 tags:
@@ -8,14 +8,99 @@ tags:
   - deliberate-practice
   - Feynman-technique
 summary: "Why 16 years of schooling may have taught you nothing real."
-description: "A deep analysis of the book 'Learn How to Learn' by Liu Lan — why 99% of conventional learning is self-deception, and what actually works."
+description: "A deep analysis of the book 'Learn How to Learn' by Liu Lan - why 99% of conventional learning is self-deception, and what actually works."
 ---
 
 ## The Uncomfortable Truth: Your "Hard Work" May Be an Illusion
 
-You spent 6 years in elementary school, 3 in middle school, 3 in high school, 4 in university — 16 years total. After work, you bought courses, read books, bookmarked countless "practical" articles. But if I ask you: how much of what you learned actually became your ability? Your problem-solving skill? Your bank balance? You might be silent for a long time.
+You spent 6 years in elementary school, 3 in middle school, 3 in high school, 4 in university - 16 years total. After work, you bought courses, read books, bookmarked countless "practical" articles. But if I ask you: how much of what you learned actually became your ability? Your problem-solving skill? Your bank balance? You might be silent for a long time.
 
 This is the most piercing insight from *Learn How to Learn* by Liu Lan: what you thought was "diligence" may have been a carefully crafted **learning illusion** manufactured by your brain. Reading feels comfortable. Listening to lectures feels comfortable. Taking notes feels comfortable. But comfort is precisely the signal that you have learned nothing.
+
+---
+
+## The Swimming Coach Paradox: "Knowing" vs "Doing"
+
+The world's best swimming coach cannot swim. Some top-level coaches have produced Olympic champions yet sink the moment they enter the water. How is this possible? Because the coach knows every technical detail - hand stroke, leg kick, breathing rhythm - and can explain them perfectly, but has never internalized them through physical practice.
+
+**Knowing and doing are two completely different things.** After 16 years of education, ask yourself: do you mostly *know* things, or can you mostly *do* things? The uncomfortable answer for most people is: you only know how to take exams. Once the exam is over, the knowledge is flushed.
+
+---
+
+## The Critical Distinction: Information vs Skills
+
+| Dimension | Information | Skill |
+|:---|:---|:---|
+| **Definition** | Data stored in your brain | Something your body can execute |
+| **Examples** | Water boils at 100C; Capital of the US is Washington | Swimming, driving, public speaking, negotiation |
+| **Learning Method** | Read once and memorize | Must practice repeatedly to master |
+| **What Schools Teach** | Almost exclusively | Almost never |
+| **What Life Requires** | About 1% | About 99% |
+
+Using information-learning methods to acquire skills is like trying to learn swimming by reading textbooks in a library - no matter how well you memorize, you will sink the moment you hit the water.
+
+---
+
+## The 10,000 Surgeries Experiment: Why Repetition Alone Is Worthless
+
+Researchers tracked a group of surgeons and observed how their surgical performance changed over time. The result: some doctors performed 10,000 surgeries and became top experts. Others performed the same 10,000 surgeries, yet 20 years later their skill level was identical to when they first started.
+
+The difference? After each surgery, the first group reflected: *What went well? What went poorly? How can I improve next time?* The second group simply finished and moved on - mechanical repetition without reflection.
+
+**The key is not how many times you do something, but whether each time includes deliberate reflection.**
+
+---
+
+## The Three Hard Conditions of Deliberate Practice
+
+### 1. Clear, Specific Goals
+Not "I want to learn English" but "I want to nail my self-introduction fluency." Vague goals produce vague results.
+
+### 2. Immediate Feedback
+You must know whether you did it right or wrong - in real time. Without feedback, practice is blind guessing. The best option is a coach; the second best is recording yourself.
+
+### 3. Embrace Discomfort
+Ordinary practice means doing what you already know in a comfortable way. Deliberate practice means tackling what you cannot yet do in an uncomfortable way. **When you feel comfortable, you are not learning.**
+
+> "The essence of learning is breaking old neural connections and building new ones. This process requires energy, struggle, and failure - just like building muscle requires tearing muscle fibers first. No tearing, no growth."
+
+---
+
+## The Learning Loop: Why You Are a "Leaky Bucket"
+
+The only valid learning process follows this cycle:
+
+**Information - Action - Feedback - Correction - Action Again**
+
+Without this complete loop, you are a leaky bucket - no matter how much water you pour in, none of it stays. Reading a book is just the starting point (information). If you never convert that information into action, seek feedback, and adjust, you have not learned anything.
+
+**The only standard for learning is simple: Have you changed?** If your behavior has not changed, you have not learned - no matter how many books you read or courses you completed.
+
+---
+
+## The Feynman Technique: Teaching Is the Ultimate Test
+
+The most efficient way to learn anything is to teach it to someone else. When you teach, you are forced to organize your logic, expose your blind spots, and fill gaps in your understanding. Reading ten times is inferior to teaching once.
+
+This is not just theory - educational psychology calls it the **Protege Effect**: students who prepare to teach others demonstrate significantly deeper understanding and better retention than those who study for themselves.
+
+---
+
+## Key Takeaways
+
+| # | Insight | Application |
+|:---:|:---|:---|
+| 1 | Comfort = Not learning | If your study session feels easy, you wasted your time |
+| 2 | Information is not Skill | Stop memorizing; start doing |
+| 3 | Repetition is not Mastery | Mindless repetition produces zero growth |
+| 4 | Feedback is non-negotiable | No feedback = no learning, period |
+| 5 | The only test: Did you change? | If behavior is unchanged, nothing was learned |
+| 6 | Teach to learn | Explaining to others is the fastest path to mastery |
+| 7 | Environment beats Willpower | Design your surroundings to force growth |
+
+---
+
+*When was the last time something you learned actually changed what you did?*
 
 ---
 
@@ -27,33 +112,11 @@ This is the most piercing insight from *Learn How to Learn* by Liu Lan: what you
 
 ---
 
-## The Swimming Coach Paradox: "Knowing" vs "Doing"
-
-The world's best swimming coach cannot swim. Some top-level coaches have produced Olympic champions yet sink the moment they enter the water. How is this possible? Because the coach knows every technical detail — hand stroke, leg kick, breathing rhythm — and can explain them perfectly, but has never internalized them through physical practice.
-
-**Knowing and doing are two completely different things.** After 16 years of education, ask yourself: do you mostly *know* things, or can you mostly *do* things? The uncomfortable answer for most people is: you only know how to take exams. Once the exam is over, the knowledge is flushed.
-
----
-
 ## 游泳教練悖論：「知道」與「會做」是兩碼事
 
 世界上最好的游泳教練自己不會游泳。有些頂級教練培養出了奧運冠軍，但自己下水就沉。為什麼？因為教練知道所有技術要點 — 手怎麼劃、腿怎麼蹬、呼吸怎麼配合 — 講得清清楚楚，但從未通過身體練習將其內化。
 
 **知道和會做完全是兩碼事。** 讀了16年書，捫心自問：你是「知道」的多，還是「會做」的多？對大多數人來說，殘酷的答案是：你只會考試。考試一結束，知識就全部清空了。
-
----
-
-## The Critical Distinction: Information vs Skills
-
-| Dimension | Information | Skill |
-|:---|:---|:---|
-| **Definition** | Data stored in your brain | Something your body can execute |
-| **Examples** | Water boils at 100°C; Capital of the US is Washington | Swimming, driving, public speaking, negotiation |
-| **Learning Method** | Read once and memorize | Must practice repeatedly to master |
-| **What Schools Teach** | ✅ Almost exclusively | ❌ Almost never |
-| **What Life Requires** | ~1% | ~99% |
-
-Using information-learning methods to acquire skills is like trying to learn swimming by reading textbooks in a library — no matter how well you memorize, you will sink the moment you hit the water.
 
 ---
 
@@ -64,20 +127,10 @@ Using information-learning methods to acquire skills is like trying to learn swi
 | **定義** | 腦子裡的數據 | 身體能做到的事 |
 | **例子** | 水的沸點是100°C；美國首都是華盛頓 | 游泳、開車、演講、談判 |
 | **學習方法** | 讀一遍就能記住 | 必須反覆練習才能掌握 |
-| **學校教的** | ✅ 幾乎全部 | ❌ 幾乎沒有 |
-| **生活需要的** | ~1% | ~99% |
+| **學校教的** | 幾乎全部 | 幾乎沒有 |
+| **生活需要的** | 約1% | 約99% |
 
 用學信息的方式去學技能，就像想學游泳卻天天在圖書館背教材 — 背得再熟，下水還是會沉。
-
----
-
-## The 10,000 Surgeries Experiment: Why Repetition Alone Is Worthless
-
-Researchers tracked a group of surgeons and observed how their surgical performance changed over time. The result: some doctors performed 10,000 surgeries and became top experts. Others performed the same 10,000 surgeries, yet 20 years later their skill level was identical to when they first started.
-
-The difference? After each surgery, the first group reflected: *What went well? What went poorly? How can I improve next time?* The second group simply finished and moved on — mechanical repetition without reflection.
-
-**The key is not how many times you do something, but whether each time includes deliberate reflection.**
 
 ---
 
@@ -88,21 +141,6 @@ The difference? After each surgery, the first group reflected: *What went well? 
 區別在哪？第一種醫生每次手術後都會復盤：*這次什麼做得好？什麼做得不好？下次怎麼改進？* 第二種醫生做完就做完 — 機械重複，從不反思。
 
 **關鍵不是做了多少次，而是每次有沒有刻意反思。**
-
----
-
-## The Three Hard Conditions of Deliberate Practice
-
-### 1. Clear, Specific Goals
-Not "I want to learn English" but "I want to nail my self-introduction fluency." Vague goals produce vague results.
-
-### 2. Immediate Feedback
-You must know whether you did it right or wrong — in real time. Without feedback, practice is blind guessing. The best option is a coach; the second best is recording yourself.
-
-### 3. Embrace Discomfort
-Ordinary practice means doing what you already know in a comfortable way. Deliberate practice means tackling what you cannot yet do in an uncomfortable way. **When you feel comfortable, you are not learning.**
-
-> "The essence of learning is breaking old neural connections and building new ones. This process requires energy, struggle, and failure — just like building muscle requires tearing muscle fibers first. No tearing, no growth."
 
 ---
 
@@ -121,18 +159,6 @@ Ordinary practice means doing what you already know in a comfortable way. Delibe
 
 ---
 
-## The Learning Loop: Why You Are a "Leaky Bucket"
-
-The only valid learning process follows this cycle:
-
-**Information → Action → Feedback → Correction → Action Again**
-
-Without this complete loop, you are a leaky bucket — no matter how much water you pour in, none of it stays. Reading a book is just the starting point (information). If you never convert that information into action, seek feedback, and adjust, you have not learned anything.
-
-**The only standard for learning is simple: Have you changed?** If your behavior has not changed, you have not learned — no matter how many books you read or courses you completed.
-
----
-
 ## 學習閉環：為什麼你是個「漏水的桶」
 
 唯一有效的學習流程遵循這個循環：
@@ -145,33 +171,11 @@ Without this complete loop, you are a leaky bucket — no matter how much water 
 
 ---
 
-## The Feynman Technique: Teaching Is the Ultimate Test
-
-The most efficient way to learn anything is to teach it to someone else. When you teach, you are forced to organize your logic, expose your blind spots, and fill gaps in your understanding. Reading ten times is inferior to teaching once.
-
-This is not just theory — educational psychology calls it the **Protégé Effect**: students who prepare to teach others demonstrate significantly deeper understanding and better retention than those who study for themselves.
-
----
-
 ## 費曼學習法：教別人才是終極考驗
 
 學會任何東西最高效的方法，就是教別人。當你教的時候，你被迫理清邏輯、暴露盲點、填補理解的漏洞。讀十遍不如教一遍。
 
 這不只是理論 — 教育心理學稱之為**「 protégé 效應」**：準備教別人的學生，其理解深度和記憶保持度顯著優於只為自己學習的人。
-
----
-
-## Key Takeaways
-
-| # | Insight | Application |
-|:---:|:---|:---|
-| 1 | Comfort = Not learning | If your study session feels easy, you wasted your time |
-| 2 | Information ≠ Skill | Stop memorizing; start doing |
-| 3 | Repetition ≠ Mastery | Mindless repetition produces zero growth |
-| 4 | Feedback is non-negotiable | No feedback = no learning, period |
-| 5 | The only test: Did you change? | If behavior is unchanged, nothing was learned |
-| 6 | Teach to learn | Explaining to others is the fastest path to mastery |
-| 7 | Environment > Willpower | Design your surroundings to force growth |
 
 ---
 
@@ -189,4 +193,4 @@ This is not just theory — educational psychology calls it the **Protégé Effe
 
 ---
 
-*When was the last time something you learned actually changed what you did?*
+*你上一次學到的東西，真正改變了你的什麼行為？*
