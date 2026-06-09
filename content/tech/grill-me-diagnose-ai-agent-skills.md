@@ -36,7 +36,7 @@ The concept of a "decision tree" comes from Frederick Brooks' *The Design of Des
 
 ### How I Enhanced It for My System
 
-The original skill is beautifully minimal. But for my OpenClaw setup, I needed more guardrails. Here is what I added:
+The original skill is beautifully minimal. But for my setup, I needed more guardrails. Here is what I added:
 
 **Three Iron Rules:**
 
@@ -67,7 +67,7 @@ The session output must be written to a file. Without a persistent artifact, age
 ### Real Example
 
 ```
-Human: "I want to build a supplier quality tracking system"
+Human: "I want to build a project tracking dashboard"
 
 Agent: Grill-Me activated.
        I am now in interrogator mode.
@@ -76,11 +76,11 @@ Agent: Grill-Me activated.
        Q1: Target Users
        Who are the primary users of this system?
 
-       My suggestion: Supplier quality team
-       Reason: Your daily work interfaces with suppliers
+       My suggestion: Engineering team leads
+       Reason: They need visibility across multiple projects
        Alternative: Entire company (but scope too broad)
 
-Human: "Supplier quality team"
+Human: "Engineering team leads"
 
 Agent: Q2: Success Criteria
        What does "done" look like for this system?
@@ -143,9 +143,9 @@ Remove all debug instrumentation. Answer three questions:
 
 Write it all down. Future you will thank present you.
 
-### Real Example: Active Memory Failure
+### Real Example: Memory Search Failure
 
-Here is a real case I debugged yesterday:
+Here is a real case I debugged recently:
 
 ```
 Diagnose activated
@@ -165,22 +165,20 @@ Phase 2: Reproduce
 Phase 3: Hypotheses
   #1 Index metadata lost -> Predict: rebuild fixes it
   #2 Embedding API unstable -> Predict: curl test fails (ruled out)
-  #3 SQLite corruption -> Predict: integrity check fails
+  #3 Database corruption -> Predict: integrity check fails
 
 Phase 4: Verify
   Test hypothesis #1: rebuild index
   Result: Matches prediction
 
 Phase 5: Fix
-  openclaw memory index --force --agent main
-  openclaw memory index --force --agent ckc
-  openclaw memory index --force --agent reportor
+  openclaw memory index --force
   Verify: search works
 
 Phase 6: Post-mortem
   Root cause: Index metadata lost after update
-  Prevention: Add health check to heartbeat
-  Learning: active-memory depends on memory index
+  Prevention: Add health check to monitoring
+  Learning: memory search depends on index metadata
 ```
 
 Total time: 3 minutes. Zero guessing.
