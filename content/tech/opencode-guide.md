@@ -959,8 +959,6 @@ Plan          # Read-only
 
 ## 中文版
 
-
-
 > 基於影片「不得不裝的 AI 代理工具｜GitHub 萬星項目｜OPENCODE」（Rick Hau, 2026-06-05）影片連結：https://www.youtube.com/watch?v=__bcJHoTE08分析時間：2026-06-09版本：OpenCode v0.1.x+（GitHub 17 萬+ Stars）
 
 ---
@@ -973,11 +971,24 @@ Plan          # Read-only
 
 OpenCode 是一個開源的 AI 編程代理工具（AI Coding Agent），可以與 Claude Code、Codex 等並駕齊驅。
 
-| 項目 | 詳情 ||---|---|| GitHub | https://github.com/anomalyco/opencode || 官網 | https://opencode.ai || 文檔 | https://opencode.ai/docs || Stars | 17 萬+ || 授權 | MIT（完全開源） || 開發語言 | Go（TUI，基於 Bubble Tea）+ JavaScript/Bun（HTTP 服務器，基於 Hono） || 架構 | Client-Server（支持終端 TUI、桌面應用、IDE 擴展、HTTP 客戶端） || 核心賣點 | 模型無關（Model-Agnostic）：支持 75+ 模型提供商，零供應商鎖定 |
+| 項目 | 詳情 |
+|---|---|
+| GitHub | https://github.com/anomalyco/opencode |
+| 官網 | https://opencode.ai |
+| 文檔 | https://opencode.ai/docs |
+| Stars | 17 萬+ |
+| 授權 | MIT（完全開源） |
+| 開發語言 | Go（TUI，基於 Bubble Tea）+ JavaScript/Bun（HTTP 服務器，基於 Hono） |
+| 架構 | Client-Server（支持終端 TUI、桌面應用、IDE 擴展、HTTP 客戶端） |
+| 核心賣點 | 模型無關（Model-Agnostic）：支持 75+ 模型提供商，零供應商鎖定 |
 
 ### 與其他工具的本質區別
 
-| 工具 | 核心策略 ||---|---|| Claude Code | 單一模型家族（Claude），深度優化，追求速度 || Codex | OpenAI 生態系（ChatGPT 綁定），追求集成深度 || OpenCode | 模型無關 + 開源 + 零鎖定，追求靈活性與隱私 |
+| 工具 | 核心策略 |
+|---|---|
+| Claude Code | 單一模型家族（Claude），深度優化，追求速度 |
+| Codex | OpenAI 生態系（ChatGPT 綁定），追求集成深度 |
+| OpenCode | 模型無關 + 開源 + 零鎖定，追求靈活性與隱私 |
 
 ---
 
@@ -985,7 +996,18 @@ OpenCode 是一個開源的 AI 編程代理工具（AI Coding Agent），可以�
 
 ### 2.1 核心優勢
 
-| 優勢 | 說明 ||---|---|| 🆓完全免費 | MIT 授權，自己帶 API Key 即可，工具本身零費用 || 🌐75+ 模型提供商 | Anthropic、OpenAI、Google、DeepSeek、Groq、Ollama（本地模型） || 🔒零供應商鎖定 | 隨時切換模型，不怕任何一家漲價或降質 || 💻LSP 集成 | 業界唯一支持 Language Server Protocol 的 AI 編程代理 || 🤖多代理系統 | Build、Plan、General、Explore、Scout 五大內建代理 || 🔧高度可定制 | Agents、Commands、Skills、Tools、MCP 全部可自定義 || 📱多表面支持 | TUI（終端）、Desktop App、VS Code 擴展、HTTP API || 🛡️安全控制 | Git 快照 + /undo + /redo + 精細權限控制 || 🏠完全本地隱私 | 支持 Ollama 本地模型，代碼不上傳 || 🌍20+ 語言 | 包含繁體中文（README.zht.md） |
+| 優勢 | 說明 |
+|---|---|
+| 🆓完全免費 | MIT 授權，自己帶 API Key 即可，工具本身零費用 |
+| 🌐75+ 模型提供商 | Anthropic、OpenAI、Google、DeepSeek、Groq、Ollama（本地模型） |
+| 🔒零供應商鎖定 | 隨時切換模型，不怕任何一家漲價或降質 |
+| 💻LSP 集成 | 業界唯一支持 Language Server Protocol 的 AI 編程代理 |
+| 🤖多代理系統 | Build、Plan、General、Explore、Scout 五大內建代理 |
+| 🔧高度可定制 | Agents、Commands、Skills、Tools、MCP 全部可自定義 |
+| 📱多表面支持 | TUI（終端）、Desktop App、VS Code 擴展、HTTP API |
+| 🛡️安全控制 | Git 快照 + /undo + /redo + 精細權限控制 |
+| 🏠完全本地隱私 | 支持 Ollama 本地模型，代碼不上傳 |
+| 🌍20+ 語言 | 包含繁體中文（README.zht.md） |
 
 ### 2.2 適合誰用
 - ✅不想被鎖定的開發者：不想只綁定 Anthropic 或 OpenAI- ✅成本敏感者：可以用便宜的模型做簡單任務，貴的模型做複雜任務- ✅隱私要求高：代碼不能上傳到雲端 → 用 Ollama 本地模型- ✅多語言項目：需要不同模型處理不同語言- ✅企業用戶：需要精細權限控制 + MCP 集成
@@ -1002,11 +1024,29 @@ curl -fsSL https://opencode.ai/install | bash
 
 ### 3.2 各平台安裝方法
 
-| 平台 | 命令 ||---|---|| npm | npm install -g opencode-ai || Bun | bun install -g opencode-ai || pnpm | pnpm install -g opencode-ai || Yarn | yarn global add opencode-ai || Homebrew（macOS/Linux） | brew install anomalyco/tap/opencode || Arch Linux（穩定） | sudo pacman -S opencode || Arch Linux（最新） | paru -S opencode-bin || Windows（Chocolatey） | choco install opencode || Windows（Scoop） | scoop install opencode || Mise（任意 OS） | mise use -g github:anomalyco/opencode || Docker | docker run -it --rm ghcr.io/anomalyco/opencode || Nix | nix run nixpkgs#opencode |
+| 平台 | 命令 |
+|---|---|
+| npm | npm install -g opencode-ai |
+| Bun | bun install -g opencode-ai |
+| pnpm | pnpm install -g opencode-ai |
+| Yarn | yarn global add opencode-ai |
+| Homebrew（macOS/Linux） | brew install anomalyco/tap/opencode |
+| Arch Linux（穩定） | sudo pacman -S opencode |
+| Arch Linux（最新） | paru -S opencode-bin |
+| Windows（Chocolatey） | choco install opencode |
+| Windows（Scoop） | scoop install opencode |
+| Mise（任意 OS） | mise use -g github:anomalyco/opencode |
+| Docker | docker run -it --rm ghcr.io/anomalyco/opencode |
+| Nix | nix run nixpkgs#opencode |
 
 ### 3.3 桌面應用
 
-| 平台 | 下載 ||---|---|| macOS（Apple Silicon） | opencode-desktop-mac-arm64.dmg || macOS（Intel） | opencode-desktop-mac-x64.dmg || Windows | opencode-desktop-windows-x64.exe || Linux | .deb / .rpm / .AppImage |
+| 平台 | 下載 |
+|---|---|
+| macOS（Apple Silicon） | opencode-desktop-mac-arm64.dmg |
+| macOS（Intel） | opencode-desktop-mac-x64.dmg |
+| Windows | opencode-desktop-windows-x64.exe |
+| Linux | .deb / .rpm / .AppImage |
 
 macOS 安裝：brew install --cask opencode-desktopWindows 安裝：scoop bucket add extras; scoop install extras/opencode-desktop
 
@@ -1078,7 +1118,10 @@ How is authentication handled in @packages/functions/src/api/index.ts?
 
 ### 4.4 兩種主要代理模式
 
-| 模式 | 快捷鍵 | 說明 ||---|---|---|| Build | Tab 切換 | 默認代理，完整工具訪問權限 || Plan | Tab 切換 | 只讀代理，禁止編輯和執行命令 |
+| 模式 | 快捷鍵 | 說明 |
+|---|---|---|
+| Build | Tab 切換 | 默認代理，完整工具訪問權限 |
+| Plan | Tab 切換 | 只讀代理，禁止編輯和執行命令 |
 
 工作流程建議：1. 用Plan模式分析和規劃2. 用Build模式執行和構建
 
@@ -1092,7 +1135,24 @@ How is authentication handled in @packages/functions/src/api/index.ts?
 
 ### 5.1 內建斜線命令
 
-| 命令 | 快捷鍵 | 功能 ||---|---|---|| /connect | — | 添加模型提供商和 API Key || /init | — | 初始化項目，創建 AGENTS.md || /new | Ctrl+X N | 開始新會話 || /compact | Ctrl+X C | 壓縮/總結當前會話 || /undo | Ctrl+X U | 撤銷上次消息（需要 Git） || /redo | Ctrl+X R | 重做已撤銷的消息 || /share | — | 分享當前會話（生成鏈接） || /help | — | 顯示幫助 || /models | Ctrl+X M | 列出可用模型 || /sessions | Ctrl+X L | 列出/切換會話 || /themes | Ctrl+X T | 列出可用主題 || /editor | Ctrl+X E | 打開外部編輯器 || /export | Ctrl+X X | 導出會話為 Markdown || /details | — | 切換工具執行詳情顯示 || /thinking | — | 切換模型推理過程可見性 || /quit//q | Ctrl+X Q | 退出 OpenCode |
+| 命令 | 快捷鍵 | 功能 |
+|---|---|---|
+| /connect | — | 添加模型提供商和 API Key |
+| /init | — | 初始化項目，創建 AGENTS.md |
+| /new | Ctrl+X N | 開始新會話 |
+| /compact | Ctrl+X C | 壓縮/總結當前會話 |
+| /undo | Ctrl+X U | 撤銷上次消息（需要 Git） |
+| /redo | Ctrl+X R | 重做已撤銷的消息 |
+| /share | — | 分享當前會話（生成鏈接） |
+| /help | — | 顯示幫助 |
+| /models | Ctrl+X M | 列出可用模型 |
+| /sessions | Ctrl+X L | 列出/切換會話 |
+| /themes | Ctrl+X T | 列出可用主題 |
+| /editor | Ctrl+X E | 打開外部編輯器 |
+| /export | Ctrl+X X | 導出會話為 Markdown |
+| /details | — | 切換工具執行詳情顯示 |
+| /thinking | — | 切換模型推理過程可見性 |
+| /quit//q | Ctrl+X Q | 退出 OpenCode |
 
 ### 5.2 對話模式切換
 - Tab 鍵：在 Build 和 Plan 代理間切換- 右下角指示器：顯示當前代理模式
@@ -1148,7 +1208,15 @@ XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 
 ### 7.2 支持的主要模型提供商
 
-| 提供商 | 模型 | 用途 ||---|---|---|| Anthropic | Claude Sonnet 4.5, Opus 4.6, Haiku 4.5 | 代碼生成、推理 || OpenAI | GPT-5.1 Codex, GPT-5 Codex | 編程專用 || Google | Gemini 3.1 Pro | 多模態 || DeepSeek | DeepSeek-V3 | 性價比高 || Groq | 各種開源模型 | 高速推理 || Ollama | 本地模型 | 隱私優先 || LM Studio | 本地模型 | 隱私優先 |
+| 提供商 | 模型 | 用途 |
+|---|---|---|
+| Anthropic | Claude Sonnet 4.5, Opus 4.6, Haiku 4.5 | 代碼生成、推理 |
+| OpenAI | GPT-5.1 Codex, GPT-5 Codex | 編程專用 |
+| Google | Gemini 3.1 Pro | 多模態 |
+| DeepSeek | DeepSeek-V3 | 性價比高 |
+| Groq | 各種開源模型 | 高速推理 |
+| Ollama | 本地模型 | 隱私優先 |
+| LM Studio | 本地模型 | 隱私優先 |
 
 ### 7.3 模型配置格式
 
@@ -1197,7 +1265,15 @@ small_model：用於輕量任務（標題生成等），自動使用更便宜的
 
 ### 8.1 配置優先級（從低到高）
 
-| 優先級 | 來源 | 說明 ||---|---|---|| 1 | Remote config | 組織默認值（.well-known/opencode） || 2 | Global config | ~/.config/opencode/opencode.json || 3 | Custom config | OPENCODE_CONFIG環境變數 || 4 | Project config | 項目根目錄opencode.json || 5 | .opencode 目錄 | agents、commands、plugins || 6 | Inline config | OPENCODE_CONFIG_CONTENT環境變數 || 7 | Managed config | 管理員配置（最高優先級） |
+| 優先級 | 來源 | 說明 |
+|---|---|---|
+| 1 | Remote config | 組織默認值（.well-known/opencode） |
+| 2 | Global config | ~/.config/opencode/opencode.json |
+| 3 | Custom config | OPENCODE_CONFIG環境變數 |
+| 4 | Project config | 項目根目錄opencode.json |
+| 5 | .opencode 目錄 | agents、commands、plugins |
+| 6 | Inline config | OPENCODE_CONFIG_CONTENT環境變數 |
+| 7 | Managed config | 管理員配置（最高優先級） |
 
 重要：配置文件是合併的，不是替換。不同來源的非衝突設置都會保留。
 
@@ -1269,11 +1345,21 @@ opencode run "Hello world"
 
 ### 9.1 內建代理
 
-| 代理 | 類型 | 說明 ||---|---|---|| Build | 主代理 | 默認，所有工具可用，完整開發權限 || Plan | 主代理 | 只讀，禁止編輯和執行命令，適合分析和規劃 || General | 子代理 | 通用研究，多步任務，可並行執行 || Explore | 子代理 | 快速只讀代碼庫探索，不可修改文件 || Scout | 子代理 | 外部文檔和依賴研究，克隆依賴倉庫到緩存 |
+| 代理 | 類型 | 說明 |
+|---|---|---|
+| Build | 主代理 | 默認，所有工具可用，完整開發權限 |
+| Plan | 主代理 | 只讀，禁止編輯和執行命令，適合分析和規劃 |
+| General | 子代理 | 通用研究，多步任務，可並行執行 |
+| Explore | 子代理 | 快速只讀代碼庫探索，不可修改文件 |
+| Scout | 子代理 | 外部文檔和依賴研究，克隆依賴倉庫到緩存 |
 
 ### 9.2 隱藏系統代理
 
-| 代理 | 功能 ||---|---|| Compaction | 自動壓縮長上下文 || Title | 自動生成會話標題 || Summary | 自動創建會話摘要 |
+| 代理 | 功能 |
+|---|---|
+| Compaction | 自動壓縮長上下文 |
+| Title | 自動生成會話標題 |
+| Summary | 自動創建會話摘要 |
 
 ### 9.3 使用子代理
 
@@ -1287,7 +1373,12 @@ opencode run "Hello world"
 
 ### 9.4 子代理會話導航
 
-| 操作 | 快捷鍵 ||---|---|| 進入子會話 | Ctrl+Down（或+Down） || 切換到下一個子會話 | Right || 切換到上一個子會話 | Left || 返回父會話 | Up |
+| 操作 | 快捷鍵 |
+|---|---|
+| 進入子會話 | Ctrl+Down（或+Down） |
+| 切換到下一個子會話 | Right |
+| 切換到上一個子會話 | Left |
+| 返回父會話 | Up |
 
 ### 9.5 自定義代理（JSON 配置）
 
@@ -1340,7 +1431,16 @@ Provide constructive feedback without making direct changes.
 
 ### 9.7 代理配置選項
 
-| 選項 | 說明 ||---|---|| description | 代理描述（必填） || mode | primary或subagent || model | 覆蓋默認模型 || temperature | 0.0-1.0（0=確定性，1=創造性） || prompt | 自定義系統提示詞文件路徑 || permission | 權限控制 || steps | 最大代理步驟數（控制成本） || disable | true禁用代理 |
+| 選項 | 說明 |
+|---|---|
+| description | 代理描述（必填） |
+| mode | primary或subagent |
+| model | 覆蓋默認模型 |
+| temperature | 0.0-1.0（0=確定性，1=創造性） |
+| prompt | 自定義系統提示詞文件路徑 |
+| permission | 權限控制 |
+| steps | 最大代理步驟數（控制成本） |
+| disable | true禁用代理 |
 
 ---
 
@@ -1442,7 +1542,13 @@ Check for performance issues and suggest improvements.
 
 ### 10.6 命令選項
 
-| 選項 | 說明 ||---|---|| template | 提示詞模板（必填） || description | TUI 中顯示的描述 || agent | 指定執行代理 || subtask | true強制作為子代理執行 || model | 覆蓋默認模型 |
+| 選項 | 說明 |
+|---|---|
+| template | 提示詞模板（必填） |
+| description | TUI 中顯示的描述 |
+| agent | 指定執行代理 |
+| subtask | true強制作為子代理執行 |
+| model | 覆蓋默認模型 |
 
 ---
 
@@ -1461,7 +1567,10 @@ skill tool 自動加載 SKILL.md 文件內容到對話中
 
 ### 11.3 Skills 存放位置
 
-| 範圍 | 路徑 ||---|---|| 全局 | ~/.config/opencode/skills/ || 項目 | .opencode/skills/ |
+| 範圍 | 路徑 |
+|---|---|
+| 全局 | ~/.config/opencode/skills/ |
+| 項目 | .opencode/skills/ |
 
 ### 11.4 創建 Skill
 
@@ -1486,7 +1595,21 @@ skill tool 自動加載 SKILL.md 文件內容到對話中
 
 ### 12.2 內建工具列表
 
-| 工具 | 說明 ||---|---|| bash | 執行 Shell 命令 || edit | 修改現有文件 || write | 創建新文件或覆蓋現有文件 || read | 讀取文件內容 || grep | 正則表達式搜索文件內容 || glob | 模式匹配查找文件 || lsp | 語言服務器協議（定義跳轉、引用查找等） || apply_patch | 應用補丁文件 || skill | 加載 SKILL.md 文件 || todowrite | 管理待辦列表 || webfetch | 獲取網頁內容 || websearch | 使用 Exa AI 搜索網路 || question | 向用戶提問 |
+| 工具 | 說明 |
+|---|---|
+| bash | 執行 Shell 命令 |
+| edit | 修改現有文件 |
+| write | 創建新文件或覆蓋現有文件 |
+| read | 讀取文件內容 |
+| grep | 正則表達式搜索文件內容 |
+| glob | 模式匹配查找文件 |
+| lsp | 語言服務器協議（定義跳轉、引用查找等） |
+| apply_patch | 應用補丁文件 |
+| skill | 加載 SKILL.md 文件 |
+| todowrite | 管理待辦列表 |
+| webfetch | 獲取網頁內容 |
+| websearch | 使用 Exa AI 搜索網路 |
+| question | 向用戶提問 |
 
 ### 12.3 底層技術
 - grep和glob使用ripgrep（rg）- 默認遵守.gitignore規則- 可使用.ignore文件覆蓋忽略規則
@@ -1496,11 +1619,31 @@ skill tool 自動加載 SKILL.md 文件內容到對話中
 
 ### 13.1 權限級別
 
-| 級別 | 說明 ||---|---|| allow | 允許所有操作，無需批准 || ask | 執行前需要用戶批准 || deny | 禁用該工具 |
+| 級別 | 說明 |
+|---|---|
+| allow | 允許所有操作，無需批准 |
+| ask | 執行前需要用戶批准 |
+| deny | 禁用該工具 |
 
 ### 13.2 權限鍵
 
-| 鍵 | 控制的工具 ||---|---|| read | read || edit | write, edit, apply_patch || glob | glob || grep | grep || list | list || bash | bash || task | task || external_directory | 訪問項目目錄外的文件 || todowrite | writetodo, readtodo || webfetch | webfetch || websearch | websearch || lsp | lsp || skill | skill || question | question || doom_loop | 代理卡住時的恢復提示 |
+| 鍵 | 控制的工具 |
+|---|---|
+| read | read |
+| edit | write, edit, apply_patch |
+| glob | glob |
+| grep | grep |
+| list | list |
+| bash | bash |
+| task | task |
+| external_directory | 訪問項目目錄外的文件 |
+| todowrite | writetodo, readtodo |
+| webfetch | webfetch |
+| websearch | websearch |
+| lsp | lsp |
+| skill | skill |
+| question | question |
+| doom_loop | 代理卡住時的恢復提示 |
 
 ### 13.3 精細控制（Glob 模式）
 
@@ -1639,15 +1782,34 @@ OpenCode 支持 Git Worktrees 作為隔離策略，讓 AI 在獨立分支工作�
 
 ### 17.1 ⚠️ 重要提醒
 
-| 項目 | 說明 ||---|---|| 版本清理 | 安裝前移除 0.1.x 之前的舊版本 || Git 依賴 | /undo 和 /redo 需要項目是 Git 倉庫 || API Key 安全 | 妥善保管 API Key，不要提交到公共倉庫 || 模型選擇 | 根據任務複雜度選擇合適的模型，平衡成本和質量 || 權限設置 | 生產環境建議設置bash: "ask"防止意外命令執行 || 上下文管理 | 長對話使用/compact壓縮上下文以節省 token || 命名衝突 | 如果創建與 OpenCode 相關的項目，名稱中必須包含註釋說明非官方 |
+| 項目 | 說明 |
+|---|---|
+| 版本清理 | 安裝前移除 0.1.x 之前的舊版本 |
+| Git 依賴 | /undo 和 /redo 需要項目是 Git 倉庫 |
+| API Key 安全 | 妥善保管 API Key，不要提交到公共倉庫 |
+| 模型選擇 | 根據任務複雜度選擇合適的模型，平衡成本和質量 |
+| 權限設置 | 生產環境建議設置bash: "ask"防止意外命令執行 |
+| 上下文管理 | 長對話使用/compact壓縮上下文以節省 token |
+| 命名衝突 | 如果創建與 OpenCode 相關的項目，名稱中必須包含註釋說明非官方 |
 
 ### 17.2 成本優化建議
 
-| 策略 | 說明 ||---|---|| 分層模型 | 簡單任務用便宜模型（Haiku），複雜任務用貴模型（Sonnet/Opus） || small_model | 配置 small_model 用於標題生成等輕量任務 || temperature | 降低 temperature 減少不必要的多樣性輸出 || steps 限制 | 設置最大步驟數控制成本 || 本地模型 | 使用 Ollama 完全免費 |
+| 策略 | 說明 |
+|---|---|
+| 分層模型 | 簡單任務用便宜模型（Haiku），複雜任務用貴模型（Sonnet/Opus） |
+| small_model | 配置 small_model 用於標題生成等輕量任務 |
+| temperature | 降低 temperature 減少不必要的多樣性輸出 |
+| steps 限制 | 設置最大步驟數控制成本 |
+| 本地模型 | 使用 Ollama 完全免費 |
 
 ### 17.3 安全最佳實踐
 
-| 實踐 | 配置 ||---|---|| 禁止危險命令 | "bash": { "rm -rf *": "deny" } || 編輯需批准 | "edit": "ask" || 外部目錄禁止 | "external_directory": "deny" || Web 訪問控制 | "webfetch": "deny"或"ask" |
+| 實踐 | 配置 |
+|---|---|
+| 禁止危險命令 | "bash": { "rm -rf *": "deny" } |
+| 編輯需批准 | "edit": "ask" |
+| 外部目錄禁止 | "external_directory": "deny" |
+| Web 訪問控制 | "webfetch": "deny"或"ask" |
 
 ---
 
@@ -1655,19 +1817,42 @@ OpenCode 支持 Git Worktrees 作為隔離策略，讓 AI 在獨立分支工作�
 
 ### 18.1 架構對比
 
-| 維度 | Claude Code | Codex | OpenCode ||---|---|---|---|| 運行時 | 本地終端 / 雲端 VM | 本地 CLI/應用/IDE（+ 雲端） | 本地 Client-Server || 語言 | TypeScript/Node.js | Rust（CLI） | Go（TUI）+ Bun/JS（服務器） || 模型鎖定 | 僅 Claude | 僅 GPT-Codex | 75+ 提供商 + 本地 || LSP 集成 | ❌ | ❌ | ✅（獨有功能） || 代理協調 | Teams 2-16 個代理 | 多任務並行 | 子代理 || 開源 | ❌ | 部分（CLI Apache 2.0） | ✅ MIT |
+| 維度 | Claude Code | Codex | OpenCode |
+|---|---|---|---|
+| 運行時 | 本地終端 / 雲端 VM | 本地 CLI/應用/IDE（+ 雲端） | 本地 Client-Server |
+| 語言 | TypeScript/Node.js | Rust（CLI） | Go（TUI）+ Bun/JS（服務器） |
+| 模型鎖定 | 僅 Claude | 僅 GPT-Codex | 75+ 提供商 + 本地 |
+| LSP 集成 | ❌ | ❌ | ✅（獨有功能） |
+| 代理協調 | Teams 2-16 個代理 | 多任務並行 | 子代理 |
+| 開源 | ❌ | 部分（CLI Apache 2.0） | ✅ MIT |
 
 ### 18.2 基準測試
 
-| 測試 | Claude Code | Codex | OpenCode ||---|---|---|---|| SWE-bench Pro | Opus 4.6: 57.5% | GPT-5-Codex: 57.0% | 取決於使用的模型 || Terminal-Bench 2.0 | Sonnet 4.6: 53.0% | GPT-5 Codex: 53.0% | 取決於使用的模型 || 速度（相同模型） | 基準 | 相近 | 慢 78%，但更徹底 |
+| 測試 | Claude Code | Codex | OpenCode |
+|---|---|---|---|
+| SWE-bench Pro | Opus 4.6: 57.5% | GPT-5-Codex: 57.0% | 取決於使用的模型 |
+| Terminal-Bench 2.0 | Sonnet 4.6: 53.0% | GPT-5 Codex: 53.0% | 取決於使用的模型 |
+| 速度（相同模型） | 基準 | 相近 | 慢 78%，但更徹底 |
 
 ### 18.3 價格對比
 
-| 工具 | 最便宜 | 中等 | 高端 ||---|---|---|---|| OpenCode | $0（Ollama 本地） | API 費用 | $200/月（Black） || Claude Code | $20/月（Pro） | $100/月（Max 5x） | $200/月（Max 20x） || Codex | $0（免費/Go） | $20/月（Plus） | $200/月（Pro） |
+| 工具 | 最便宜 | 中等 | 高端 |
+|---|---|---|---|
+| OpenCode | $0（Ollama 本地） | API 費用 | $200/月（Black） |
+| Claude Code | $20/月（Pro） | $100/月（Max 5x） | $200/月（Max 20x） |
+| Codex | $0（免費/Go） | $20/月（Plus） | $200/月（Pro） |
 
 ### 18.4 選擇建議
 
-| 需求 | 推薦 ||---|---|| 模型靈活性 + 零鎖定 | OpenCode || 本地隱私 | OpenCode + Ollama || 開源代碼可 fork | OpenCode || LSP 智能代碼分析 | OpenCode || 最快上手 + 最簡單 | Codex（ChatGPT 自帶） || 最高代碼質量 | Claude Code || GitHub PR 自動創建 | Codex |
+| 需求 | 推薦 |
+|---|---|
+| 模型靈活性 + 零鎖定 | OpenCode |
+| 本地隱私 | OpenCode + Ollama |
+| 開源代碼可 fork | OpenCode |
+| LSP 智能代碼分析 | OpenCode |
+| 最快上手 + 最簡單 | Codex（ChatGPT 自帶） |
+| 最高代碼質量 | Claude Code |
+| GitHub PR 自動創建 | Codex |
 
 ---
 
@@ -1745,11 +1930,30 @@ cd /path/to/project && opencode
 
 ### 20.3 常用快捷鍵
 
-| 快捷鍵 | 功能 ||---|---|| Tab | 切換代理（Build ↔ Plan） || Ctrl+X | 前導鍵（Leader Key） || Ctrl+X N | 新會話 || Ctrl+X U | 撤銷 || Ctrl+X R | 重做 || Ctrl+X C | 壓縮會話 || Ctrl+X M | 列出模型 || Ctrl+X T | 列出主題 || Ctrl+X L | 列出會話 || Ctrl+X P | 命令面板 |
+| 快捷鍵 | 功能 |
+|---|---|
+| Tab | 切換代理（Build ↔ Plan） |
+| Ctrl+X | 前導鍵（Leader Key） |
+| Ctrl+X N | 新會話 |
+| Ctrl+X U | 撤銷 |
+| Ctrl+X R | 重做 |
+| Ctrl+X C | 壓縮會話 |
+| Ctrl+X M | 列出模型 |
+| Ctrl+X T | 列出主題 |
+| Ctrl+X L | 列出會話 |
+| Ctrl+X P | 命令面板 |
 
 ### 20.4 常用命令
 
-| 命令 | 說明 ||---|---|| /connect | 添加 API Key || /init | 初始化項目 || /new | 新會話 || /undo | 撤銷 || /redo | 重做 || /compact | 壓縮上下文 || /share | 分享會話 |
+| 命令 | 說明 |
+|---|---|
+| /connect | 添加 API Key |
+| /init | 初始化項目 |
+| /new | 新會話 |
+| /undo | 撤銷 |
+| /redo | 重做 |
+| /compact | 壓縮上下文 |
+| /share | 分享會話 |
 
 ### 20.5 文件引用格式
 
@@ -1763,7 +1967,20 @@ $1, $2, $3       → 定位參數
 
 ### 20.6 關鍵資源
 
-| 資源 | 連結 ||---|---|| GitHub | https://github.com/anomalyco/opencode || 官網 | https://opencode.ai || 文檔 | https://opencode.ai/docs || Discord | https://discord.gg/opencode || X.com | https://x.com/opencode || 安裝指南 | https://opencode.ai/docs#install || 配置指南 | https://opencode.ai/docs/config || 代理文檔 | https://opencode.ai/docs/agents || 命令文檔 | https://opencode.ai/docs/commands || 工具文檔 | https://opencode.ai/docs/tools || TUI 文檔 | https://opencode.ai/docs/tui || 影片教程 | https://www.youtube.com/watch?v=__bcJHoTE08 |
+| 資源 | 連結 |
+|---|---|
+| GitHub | https://github.com/anomalyco/opencode |
+| 官網 | https://opencode.ai |
+| 文檔 | https://opencode.ai/docs |
+| Discord | https://discord.gg/opencode |
+| X.com | https://x.com/opencode |
+| 安裝指南 | https://opencode.ai/docs#install |
+| 配置指南 | https://opencode.ai/docs/config |
+| 代理文檔 | https://opencode.ai/docs/agents |
+| 命令文檔 | https://opencode.ai/docs/commands |
+| 工具文檔 | https://opencode.ai/docs/tools |
+| TUI 文檔 | https://opencode.ai/docs/tui |
+| 影片教程 | https://www.youtube.com/watch?v=__bcJHoTE08 |
 
 ---
 
