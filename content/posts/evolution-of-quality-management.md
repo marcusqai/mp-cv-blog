@@ -1,23 +1,58 @@
 ---
-title: "The Evolution of Quality Management | 品質管理的演進"
+title: "The Evolution of Quality Management - From Craftsmanship to Global Supply Chain"
 date: 2026-05-06T23:38:00+08:00
 draft: false
 tags:
   - quality
   - manufacturing-process
   - supply-chain
-summary: "A bilingual journey through the evolution of quality management — from craftsmanship to global supply chain collaboration."
-description: "A bilingual journey through the evolution of quality management — from craftsmanship to global supply chain collaboration."
+summary: "A journey through the evolution of quality management - from craftsmanship to global supply chain collaboration."
+description: "A bilingual journey through the evolution of quality management - from craftsmanship to global supply chain collaboration."
 ---
 
+## English Version
 
-## 中文版 | Chinese Version
+### The Evolution of Quality Management: From Craftsmanship to Global Supply Chain
+
+Time flows like a tranquil river, and the evolution of quality management is a gentle epic of humanity's pursuit of excellence in the industrial era.
+
+![Quality Management Triptych: Craftsmanship Era - Inspection Era - Data Era](/images/quality-evolution-triptych.jpg)
+
+### The Craftsmanship Era: Quality from the Warmth of Fingertips
+
+In the distant era of craftsmen, quality came from the warmth of fingertips and reverence for every object. There were no complex processes - only devotion poured into each creation.
+
+### The Inspection Era: Catching Errors at the End of the Waterfall
+
+When the wheels of the Industrial Revolution turned, mass production brought abundance but also the loss of standards. Early quality management emerged - the era of inspection.
+
+People built walls at the end of production lines, trying to intercept defects before reaching the market. But our first lesson was clear: **fixing problems afterward never compares to preventing them beforehand.** Catching errors at the end of the assembly line is like trying to reverse a waterfall - exhausting and costly.
+
+### The Data Era: Quality as a Gentle Resonance of an Ecosystem
+
+In the mid-twentieth century, the light of statistics illuminated the factory floor. Shewhart and Deming brought control charts and continuous improvement cycles. We learned to listen to the whispers of data - DPPM was no longer a cold metric, but the real pulse of the production line.
+
+In the modern era, quality transcended single factories, extending into global supply chain networks. Through PPAP we confirm the stability of every process, through NCR and SCAR we engage in cross-regional dialogue.
+
+The most profound lesson this history teaches us: **quality was never a solitary battle of one department, but a gentle resonance of an entire ecosystem.** It is built on transparent communication, mutual trust, and an uncompromising commitment to detail.
+
+### Conclusion
+
+From the art of fingertips to the science of data, to the philosophy of supply chains, quality management has always taught us to face every flaw with reverence and to drive collective progress with inclusiveness.
+
+---
+
+*Looking back at this evolution from simple inspection to global supply chain collaboration, which era's philosophy resonates most with your current work in quality management?*
+
+---
+
+## 中文版
 
 ### 品質管理的演進：從工匠時代到全球供應鏈
 
 歲月如一條靜謐的長河，品質管理的演進，便是一部人類在工業洪流中追求卓越的溫柔史詩。
 
-![品質管理三聯畫：工匠時代 → 檢驗時代 → 數據時代](/images/quality-evolution-triptych.jpg)
+![品質管理三聯畫：工匠時代 - 檢驗時代 - 數據時代](/images/quality-evolution-triptych.jpg)
 
 ### 工匠時代：品質源於指尖的溫度
 
@@ -44,39 +79,3 @@ description: "A bilingual journey through the evolution of quality management �
 ---
 
 *回首這段從單純檢驗到全球供應鏈協同的演進歷史，在您處理繁瑣的品質專案時，哪一個階段的理念最能與您當下的工作心境產生共鳴呢？*
-
----
-
-## English Version
-
-### The Evolution of Quality Management: From Craftsmanship to Global Supply Chain
-
-Time flows like a tranquil river, and the evolution of quality management is a gentle epic of humanity's pursuit of excellence in the industrial era.
-
-![Quality Management Triptych: Craftsmanship Era → Inspection Era → Data Era](/images/quality-evolution-triptych.jpg)
-
-### The Craftsmanship Era: Quality from the Warmth of Fingertips
-
-In the distant era of craftsmen, quality came from the warmth of fingertips and reverence for every object. There were no complex processes — only devotion poured into each creation.
-
-### The Inspection Era: Catching Errors at the End of the Waterfall
-
-When the wheels of the Industrial Revolution turned, mass production brought abundance but also the loss of standards. Early quality management emerged — the era of inspection.
-
-People built walls at the end of production lines, trying to intercept defects before reaching the market. But our first lesson was clear: **fixing problems afterward never compares to preventing them beforehand.** Catching errors at the end of the assembly line is like trying to reverse a waterfall — exhausting and costly.
-
-### The Data Era: Quality as a Gentle Resonance of an Ecosystem
-
-In the mid-twentieth century, the light of statistics illuminated the factory floor. Shewhart and Deming brought control charts and continuous improvement cycles. We learned to listen to the whispers of data — DPPM was no longer a cold metric, but the real pulse of the production line.
-
-In the modern era, quality transcended single factories, extending into global supply chain networks. Through PPAP we confirm the stability of every process, through NCR and SCAR we engage in cross-regional dialogue.
-
-The most profound lesson this history teaches us: **quality was never a solitary battle of one department, but a gentle resonance of an entire ecosystem.** It is built on transparent communication, mutual trust, and an uncompromising commitment to detail.
-
-### Conclusion
-
-From the art of fingertips to the science of data, to the philosophy of supply chains, quality management has always taught us to face every flaw with reverence and to drive collective progress with包容.
-
----
-
-*Looking back at this evolution from simple inspection to global supply chain collaboration, which era's philosophy resonates most with your current work in quality management?*
