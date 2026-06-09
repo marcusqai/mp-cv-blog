@@ -51,7 +51,7 @@ description: "Comprehensive guide covering installation, configuration, custom a
 OpenCode is an open-source AI coding agent that can compete with Claude Code, Codex, and similar tools.
 
 | Item | Details |
-|:---|:---|
+|---|---|
 | **GitHub** | https://github.com/anomalyco/opencode |
 | **Website** | https://opencode.ai |
 | **Documentation** | https://opencode.ai/docs |
@@ -64,7 +64,7 @@ OpenCode is an open-source AI coding agent that can compete with Claude Code, Co
 ### Essential Difference from Other Tools
 
 | Tool | Core Strategy |
-|:---|:---|
+|---|---|
 | **Claude Code** | Single model family (Claude), deep optimization, pursuing speed |
 | **Codex** | OpenAI ecosystem (ChatGPT binding), pursuing integration depth |
 | **OpenCode** | Model-agnostic + open-source + zero lock-in, pursuing flexibility and privacy |
@@ -76,7 +76,7 @@ OpenCode is an open-source AI coding agent that can compete with Claude Code, Co
 ### 2.1 Core Advantages
 
 | Advantage | Description |
-|:---|:---|
+|---|---|
 | 🆓 **Completely Free** | MIT license, bring your own API key, zero cost for the tool itself |
 | 🌐 **75+ Model Providers** | Anthropic, OpenAI, Google, DeepSeek, Groq, Ollama (local models) |
 | 🔒 **Zero Vendor Lock-In** | Switch models anytime, immune to price hikes or quality drops |
@@ -109,7 +109,7 @@ curl -fsSL https://opencode.ai/install | bash
 ### 3.2 Platform-Specific Methods
 
 | Platform | Command |
-|:---|:---|
+|---|---|
 | **npm** | `npm install -g opencode-ai` |
 | **Bun** | `bun install -g opencode-ai` |
 | **pnpm** | `pnpm install -g opencode-ai` |
@@ -126,7 +126,7 @@ curl -fsSL https://opencode.ai/install | bash
 ### 3.3 Desktop Applications
 
 | Platform | Download |
-|:---|:---|
+|---|---|
 | **macOS (Apple Silicon)** | opencode-desktop-mac-arm64.dmg |
 | **macOS (Intel)** | opencode-desktop-mac-x64.dmg |
 | **Windows** | opencode-desktop-windows-x64.exe |
@@ -206,7 +206,7 @@ Command output automatically loaded into conversation.
 ### 4.4 Two Main Agent Modes
 
 | Mode | Shortcut | Description |
-|:---|:---|:---|
+|---|---|:---|
 | **Build** | Tab to switch | Default agent, full tool access |
 | **Plan** | Tab to switch | Read-only agent, no edits or commands |
 
@@ -225,7 +225,7 @@ Drag and drop images directly into terminal. OpenCode will scan images and add t
 ### 5.1 Built-in Slash Commands
 
 | Command | Shortcut | Function |
-|:---|:---|:---|
+|---|---|:---|
 | `/connect` | — | Add model provider and API key |
 | `/init` | — | Initialize project, create AGENTS.md |
 | `/new` | Ctrl+X N | Start new session |
@@ -297,7 +297,7 @@ Select provider → Enter API Key → Done.
 ### 7.2 Supported Model Providers
 
 | Provider | Models | Use Case |
-|:---|:---|:---|
+|---|---|:---|
 | **Anthropic** | Claude Sonnet 4.5, Opus 4.6, Haiku 4.5 | Code generation, reasoning |
 | **OpenAI** | GPT-5.1 Codex, GPT-5 Codex | Programming-specific |
 | **Google** | Gemini 3.1 Pro | Multimodal |
@@ -355,7 +355,7 @@ Select provider → Enter API Key → Done.
 ### 8.1 Configuration Priority (Low to High)
 
 | Priority | Source | Description |
-|:---|:---|:---|
+|---|---|:---|
 | 1 | Remote config | Organization defaults (.well-known/opencode) |
 | 2 | Global config | `~/.config/opencode/opencode.json` |
 | 3 | Custom config | `OPENCODE_CONFIG` environment variable |
@@ -431,7 +431,7 @@ opencode run "Hello world"
 ### 9.1 Built-in Agents
 
 | Agent | Type | Description |
-|:---|:---|:---|
+|---|---|:---|
 | **Build** | Primary | Default, all tools available, full development permissions |
 | **Plan** | Primary | Read-only, no edits or commands, perfect for analysis and planning |
 | **General** | Subagent | General research, multi-step tasks, can execute in parallel |
@@ -441,7 +441,7 @@ opencode run "Hello world"
 ### 9.2 Hidden System Agents
 
 | Agent | Function |
-|:---|:---|
+|---|---|
 | **Compaction** | Automatically compresses long context |
 | **Title** | Automatically generates session titles |
 | **Summary** | Automatically creates session summaries |
@@ -458,7 +458,7 @@ opencode run "Hello world"
 ### 9.4 Subagent Session Navigation
 
 | Action | Shortcut |
-|:---|:---|
+|---|---|
 | Enter sub-session | `Ctrl+Down` (or `+Down`) |
 | Switch to next sub-session | `Right` |
 | Switch to previous sub-session | `Left` |
@@ -514,7 +514,7 @@ Filename is agent name (review.md → `@review`)
 ### 9.7 Agent Configuration Options
 
 | Option | Description |
-|:---|:---|
+|---|---|
 | `description` | Agent description (required) |
 | `mode` | `primary` or `subagent` |
 | `model` | Override default model |
@@ -619,7 +619,7 @@ Check for performance issues and suggest improvements.
 ### 10.6 Command Options
 
 | Option | Description |
-|:---|:---|
+|---|---|
 | `template` | Prompt template (required) |
 | `description` | Description shown in TUI |
 | `agent` | Specify execution agent |
@@ -643,7 +643,7 @@ skill tool automatically loads SKILL.md file content into conversation
 ### 11.3 Skills Storage Location
 
 | Scope | Path |
-|:---|:---|
+|---|---|
 | **Global** | `~/.config/opencode/skills/` |
 | **Project** | `.opencode/skills/` |
 
@@ -670,7 +670,7 @@ Custom tools allow you to define your own functions for LLM to call and execute 
 ### 12.2 Built-in Tools List
 
 | Tool | Description |
-|:---|:---|
+|---|---|
 | `bash` | Execute Shell commands |
 | `edit` | Modify existing files |
 | `write` | Create new files or overwrite existing files |
@@ -698,7 +698,7 @@ Custom tools allow you to define your own functions for LLM to call and execute 
 ### 13.1 Permission Levels
 
 | Level | Description |
-|:---|:---|
+|---|---|
 | `allow` | Allow all operations, no approval needed |
 | `ask` | Requires user approval before execution |
 | `deny` | Disable the tool |
@@ -706,7 +706,7 @@ Custom tools allow you to define your own functions for LLM to call and execute 
 ### 13.2 Permission Keys
 
 | Key | Controlled Tools |
-|:---|:---|
+|---|---|
 | `read` | read |
 | `edit` | write, edit, apply_patch |
 | `glob` | glob |
@@ -863,7 +863,7 @@ OpenCode supports Git Worktrees as isolation strategy, letting AI work on indepe
 ### 17.1 ⚠️ Critical Reminders
 
 | Item | Description |
-|:---|:---|
+|---|---|
 | **Version cleanup** | Remove versions before 0.1.x before installing |
 | **Git dependency** | /undo and /redo require project to be Git repository |
 | **API Key security** | Keep API keys safe, don't commit to public repositories |
@@ -875,7 +875,7 @@ OpenCode supports Git Worktrees as isolation strategy, letting AI work on indepe
 ### 17.2 Cost Optimization Suggestions
 
 | Strategy | Description |
-|:---|:---|
+|---|---|
 | **Tiered models** | Use cheap models (Haiku) for simple tasks, expensive models (Sonnet/Opus) for complex tasks |
 | **small_model** | Configure small_model for lightweight tasks like title generation |
 | **temperature** | Lower temperature to reduce unnecessary diverse output |
@@ -887,7 +887,7 @@ OpenCode supports Git Worktrees as isolation strategy, letting AI work on indepe
 ## 18. Comparison with Claude Code / Codex
 
 | Feature | OpenCode | Claude Code | Codex |
-|:---|:---|:---|:---|
+|---|---|:---|:---|
 | **Model Support** | 75+ providers | Claude only | OpenAI only |
 | **License** | MIT (open-source) | Proprietary | Proprietary |
 | **Local Models** | Yes (Ollama) | No | No |
