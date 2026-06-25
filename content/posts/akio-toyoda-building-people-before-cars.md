@@ -1,6 +1,6 @@
 ---
 title: "Akio Toyoda: Building People Before Building Cars"
-date: 2026-06-25T08:25:00+08:00
+date: 2026-06-25T07:00:00+08:00
 draft: false
 tags:
   - leadership
