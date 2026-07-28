@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://about.marcuspoon.eu.org/sitemap.xml
