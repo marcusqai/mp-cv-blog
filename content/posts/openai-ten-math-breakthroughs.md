@@ -8,7 +8,7 @@ tags:
   - research
   - openai
 summary: "AI solves 10 long-open math problems."
-description: "OpenAIs Astra model solves 10 open problems in mathematics and theoretical computer science, from sphere packing to Ramsey numbers.
+description: "OpenAI Astra model solves 10 open problems in mathematics and theoretical computer science, from sphere packing to Ramsey numbers."
 ---
 
 ## When AI Does Math
@@ -26,11 +26,11 @@ OpenAI recently announced results from their internal version of Astra, their ne
 | High-dimensional sphere packing | Geometry | New upper bounds on sphere-packing density |
 | Binary and spherical codes | Coding theory | Exponentially improved bounds |
 | Non-sofic groups | Group theory | Construction establishing existence |
-| Connes's rigidity conjecture | Operator algebras | Disproof of longstanding conjecture |
+| Connes rigidity conjecture | Operator algebras | Disproof of longstanding conjecture |
 | Arithmetic circuit complexity | Complexity theory | New lower bounds for computing permanent |
 | Quantum parallel repetition | Quantum complexity | Exponential parallel repetition theorem |
 | Closest vector problem | Lattice cryptography | Polynomial-factor hardness of approximation |
-| Ehrhart's volume conjecture | Convex geometry | Determined maximum volume in every dimension |
+| Ehrhart volume conjecture | Convex geometry | Determined maximum volume in every dimension |
 | Multicolor Ramsey numbers | Extremal combinatorics | Superexponential lower bound |
 | Extremal number conjectures | Graph theory | Results on compactness and degeneracy |
 
@@ -38,9 +38,9 @@ The problems span high-dimensional geometry, coding theory, arithmetic circuit c
 
 ## The Cost of Discovery
 
-Here is a number worth noting: the total computational cost to find solutions to all ten problems would be roughly **,000** at API rates. For context, some of these problems have been open for over fifty years. The human effort spent on them—by some of the brightest mathematicians alive—cannot be calculated in dollars, but it spans careers.
+Here is a number worth noting: the total computational cost to find solutions to all ten problems would be roughly **$2,000** at API rates. For context, some of these problems have been open for over fifty years. The human effort spent on them—by some of the brightest mathematicians alive—cannot be calculated in dollars, but it spans careers.
 
-This is not to diminish human mathematicians. The model's arguments were prepared into manuscripts by humans, and the model formalized each argument in Lean—a proof assistant that mechanically verifies mathematical reasoning. The collaboration between AI and human verification is what makes these results trustworthy.
+This is not to diminish human mathematicians. The model arguments were prepared into manuscripts by humans, and the model formalized each argument in Lean—a proof assistant that mechanically verifies mathematical reasoning. The collaboration between AI and human verification is what makes these results trustworthy.
 
 ## What This Means
 
@@ -48,7 +48,7 @@ For the mathematical community, these results are both exciting and unsettling. 
 
 OpenAI addresses this directly in their announcement:
 
-> We believe attribution should honestly reflect how a result was produced: claiming human authorship for a proof generated entirely by an AI system would misrepresent both the systems contribution and the nature of genuine human intellectual work."
+> "We believe attribution should honestly reflect how a result was produced: claiming human authorship for a proof generated entirely by an AI system would misrepresent both the system contribution and the nature of genuine human intellectual work."
 
 This is a refreshing honesty. The company generated the mathematical arguments, helped prepare the manuscripts, and formalized the proofs. They take responsibility for correctness while being transparent about the source.
 
