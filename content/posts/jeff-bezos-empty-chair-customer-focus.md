@@ -6,7 +6,7 @@ tags:
   - leadership
   - customer-service
   - decision-making
-summary: "An empty chair can make customer impact visible in everyday decisions."
+summary: "Customer needs belong in every decision."
 description: "How the empty-chair practice makes customer focus tangible, improves cross-functional decisions, and helps teams verify whether experiences truly improve."
 ---
 
