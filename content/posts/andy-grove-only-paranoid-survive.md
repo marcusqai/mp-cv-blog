@@ -13,7 +13,10 @@ tags:
   - 轉型
 description: "英特爾從記憶體轉向微處理器的關鍵決策，以及葛洛夫的管理哲學"
 slug: "andy-grove-only-paranoid-survive"
+video: "/videos/andy-grove-only-paranoid-survive.mp4"
 ---
+
+{{< video "/videos/andy-grove-only-paranoid-survive.mp4" >}}
 
 ## 管理故事：安迪・葛洛夫與「只有偏執狂才能生存」
 
