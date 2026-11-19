@@ -1,6 +1,6 @@
 ---
 title: "Ralph Bunche: First, Agree on Something Real"
-date: 2026-11-19T13:45:00+08:00
+date: 2026-11-19T12:30:00+08:00
 draft: false
 tags:
   - negotiation
