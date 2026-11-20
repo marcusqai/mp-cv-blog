@@ -1,6 +1,6 @@
 ---
 title: "Terry Fox: The Man Who Stopped, and the People Who Carried On"
-date: 2026-11-20T12:30:00+08:00
+date: 2026-11-20T11:50:00+08:00
 draft: false
 tags:
   - terry-fox
