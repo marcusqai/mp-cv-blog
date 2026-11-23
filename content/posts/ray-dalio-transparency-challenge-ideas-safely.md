@@ -8,7 +8,7 @@ tags:
   - management
   - psychological-safety
 summary: "Make disagreement safe, not personal."
-description: "Ray Dalio's extreme transparency at Bridgewater only works with respect, confidentiality boundaries, evidence-based judgement, and leaders who answer dissent."
+description: "Ray Dalio's extreme transparency at Bridgewater only works with respect, confidentiality boundaries, evidence, and leaders who answer dissent."
 slug: "ray-dalio-transparency-challenge-ideas-safely"
 video: "/videos/ray-dalio-transparency-challenge-ideas-safely.mp4"
 ---
